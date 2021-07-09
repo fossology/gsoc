@@ -24,7 +24,7 @@ Following are the links to their projects
 | [Aman Dwivedi](https://github.com/Aman-Codes) | [React UI](/docs/2021/ui) |
 | [Avinal Kumar](https://github.com/avinal) | [New Build System](/docs/2021/buildsystem) |
 | [Kaushlendra Pratap Singh](https://github.com/Kaushl2208) | [Copyright False Positive detection](/docs/2021/copyrights) |
-| [Omar AbdelSamea](https://github.com/OmarAbdelSamea) | [New Build System](/docs/2021/microservice) |
+| [Omar AbdelSamea](https://github.com/OmarAbdelSamea) | [Microservice Architecture](/docs/2021/microservice) |
 | [Sarita Singh](https://github.com/itssingh) | [ScanCode Integration](/docs/2021/scancode) |
 | [Shreya Singh](https://github.com/SinghShreya05) | [Minerva](/docs/2021/minerva) |
 | [Shruti Agarwal](https://github.com/shruti3004) | [React UI](/docs/2021/ui) |
