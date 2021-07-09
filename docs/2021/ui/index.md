@@ -10,7 +10,21 @@ SPDX-FileCopyrightText: 2021 Aman Dwivedi <aman.dwivedi5@gmail.com>
 SPDX-FileCopyrightText: 2021 Shruti Agarwal <mail2shruti.ag@gmail.com>
 -->
 
-A brief introduction about the project, what is the aim and what is the
-proposed plan.
+
+## Migration of UI @ <a href="https://github.com/fossology">FOSSology</a>
+
+### Project Overview
+
+The UI Migration project is an effort focused on generating the new component-based architecture with the integration of the APIs. To make the project more efficient and easily accessible, an entire code base shift from Symfony-Twig to React.js is proposed. React.js features an incrementally adaptable architecture that focuses on declarative rendering and component composition. React.js component system will enable us to organize the current working APIs appropriately.
+
+**Mentors**: [Michael](https://github.com/mcjaeger), [Gaurav Mishra](https://github.com/GMishx), [Vivek](https://github.com/viv9k), [Sahil Jha](https://github.com/sjha2048), [Shaheem Azmal](https://github.com/shaheemazmalmmd)
+### Objectives
+
+- Working on good interactive design, with a modern look.
+- Integrating the APIs to the new component-based UI structure.
+- Seamless routing and page transitions.
+- Giving the power of the node engine to our UI. Making all NPM accessible.
+- Writing detailed ​ documentation of the project, to make the
+  codebase simpler for other contributors.
 
 Check out the [installation steps](installation) for the project.
