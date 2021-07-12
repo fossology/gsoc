@@ -1,15 +1,11 @@
-## Description
+## Project
 
-Please describe the changes in your pull request in few words here.
+Name of the project
 
 ### Changes
 
-List the changes done to fix a bug or introducing a new feature.
+What was updated (new pages, weekly update, etc.)
 
-## How to test
+### Notes
 
-Describe the steps required to test the changes proposed in the pull request.
-
-Please consider using the closing keyword if the pull request is proposed to
-fix an issue already created in the repository
-(https://help.github.com/articles/closing-issues-using-keywords/)
+If there are any further notes.
