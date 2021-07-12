@@ -41,7 +41,7 @@ were generated during the Google Summer of Code.
 * [Michael Jaeger](https://github.com/mcjaeger)
 * [Vivek Kumar](https://github.com/viv9k)
 * [Nicolas Toussaint](https://github.com/NicolasToussaint)
-* [Sashil Jha](https://github.com/sjha2048)
+* [Sahil Jha](https://github.com/sjha2048)
 * [Ayush Bhardwaj](https://github.com/hastagAB)
 * [Vasudev Maduri](https://github.com/vasudevmaduri)
 * Klaus Gmeinwieser
