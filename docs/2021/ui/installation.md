@@ -19,7 +19,7 @@ SPDX-FileCopyrightText: 2021 Shruti Agarwal <mail2shruti.ag@gmail.com>
 - Look out for "Allowed origins for REST API"
 - Set the value to "http://localhost:3000"
 
-![image](https://user-images.githubusercontent.com/54680709/124949150-f183db80-e02e-11eb-8c5f-757a7a321d88.png)
+![image](/img/reactUI/installation/CorsSetup.png)
 
 ## Installation Steps :walking:
 
@@ -27,7 +27,7 @@ SPDX-FileCopyrightText: 2021 Shruti Agarwal <mail2shruti.ag@gmail.com>
 
 You can get your own fork/copy of [FOSSologyUI](https://github.com/fossology/FOSSologyUI) by using the <kbd><b>Fork</b></kbd> button.
 
-[![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)](https://github.com/fossology/FOSSologyUI)
+[![Fork Button](/img/reactUI/installation/forkButton.jpg)](https://github.com/fossology/FOSSologyUI)
 
 ### 2. Clone it :busts_in_silhouette:
 
