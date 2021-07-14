@@ -10,11 +10,11 @@ SPDX-FileCopyrightText: 2021 Shruti Agarwal <mail2shruti.ag@gmail.com>
 -->
 ## Requirements :scroll:
 
-1. Your machine should have [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable) (preferable) or [Npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed.
+1. Your machine should have [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable) (preferable) or [Npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) or [Docker](https://docs.docker.com/get-docker/) installed.
 
 2. A working [FOSSology](https://github.com/fossology/fossology#installation) setup.
 
-3. Setup CORS in FOSSology 
+3. Setup CORS in FOSSology
 - Open FOSSology and go to Admin > Customize.
 - Look out for "Allowed origins for REST API"
 - Set the value to "http://localhost:3000"
@@ -87,7 +87,7 @@ yarn install
 yarn start
 ```
 
-**OR** 
+**OR**
 
 using NPM
 ```sh
@@ -99,3 +99,26 @@ npm start
 ```
 The React application will start on port 3000.
 Go to: http://localhost:3000
+
+**OR**
+
+using Docker
+
+FOSSology comes with a Dockerfile allowing the containerized execution.
+
+Run the following commands inside the project directory.
+
+```sh
+docker build \
+-t fossologyui:react1.0 \
+--build-arg REACT_APP_SERVER_URL="localhost/repo/api/v1" \
+--build-arg REACT_APP_HTTPS="false" .
+```
+
+```sh
+docker run -p 3000:3000 fossologyui:react1.0
+```
+
+The UI can then be accessed at http://IP_OF_DOCKER_HOST:3000/, user fossy password fossy.
+
+
