@@ -63,7 +63,7 @@ SPDX-FileCopyrightText: 2021 Sarita Singh <saritasingh.0425@gmail.com>
 - Fetch [feat/newagent/scancode-toolkit](https://github.com/itssingh/fossology/tree/feat/newagent%2Fscancode-toolkit) branch to your local.
 - [Install Fossology from source](https://github.com/fossology/fossology/wiki/Install-from-Source) 
 
-**Note** Incase facing problem in scancode installation, Install scancode manually with pip(checkout installation page for scancode).
+**Note** Incase facing problem in scancode installation, Install scancode manually with pip(checkout [installation page](installation) for scancode).
 
 ### Work in progress
 - Adding scancode copyright to UI
