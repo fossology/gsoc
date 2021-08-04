@@ -1,4 +1,4 @@
-# GSoC @ FOSSology
+![GSoC @ FOSSology](/static/img/gsocHeader.png)
 
 This repository is created to hold every documentation generated during GSoC seasons for FOSSology project.
 
