@@ -1,5 +1,6 @@
 ---
-title: Week 4.1
+sidebar_position: 4
+title: Copyright UI 
 author: Sarita
 ---
 <!--
@@ -8,7 +9,6 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 SPDX-FileCopyrightText: 2021 Sarita Singh <saritasingh.0425@gmail.com>
 -->
 
-## Coding Week 4 Meeting 1
 `Date:2021-06-28`
 
 ### Attendees
