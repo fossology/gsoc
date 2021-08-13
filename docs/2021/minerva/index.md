@@ -30,7 +30,7 @@ Why do we need to create OSS Dataset -
 So, the idea is to generate SPDX OSS license dataset using FOSSOLOGY NOMOS AGENT STRINGS.in REGEX and latest SPDX released Licenses. We can use an existing file as a baseline model for further manipulating and generating texts from those files.
 
 ## What is that I am doing right now?
-![image](/static/img/minerva/project_overview.png)
+![image](/img/minerva/project_overview.png)
 
 Till now, I have been able to fully automate the scripts to generate licenses using NLP algorithms and got them validated using Nomos. I have used "intxeger" for regex to text conversion and markov and n-gram algorithms for regex expansion and for initial splitting used Sliding window approach. Nomos can be used as a baseline to validate the generated texts. 
 
