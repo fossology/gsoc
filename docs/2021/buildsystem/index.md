@@ -9,6 +9,15 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 SPDX-FileCopyrightText: 2021 Avinal Kumar <avinal.xlvii@gmail.com>
 -->
 
+## Author
+
+[Avinal Kumar](https://github.com/avinal)
+
+## Contact info
+
+- [Email](mailto:avinal.xlvii@gmail.com)
+- [LinkedIn](https://linkedin.com/in/avinal)
+- [Blog](https://gsoc.avinal.space)
 
 ## Build System
 
