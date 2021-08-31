@@ -96,7 +96,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} FOSSology project. Built with Docusaurus.`,
+      copyright: `Copyright © 2021 - ${new Date().getFullYear()} FOSSology project. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -118,7 +118,9 @@ module.exports = {
             'https://github.com/fossology/gsoc-2021/edit/master/blog/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('./src/css/custom.css')
+          ],
         },
       },
     ],

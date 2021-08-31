@@ -1,0 +1,17 @@
+/**
+ * SPDX-License-Identifier: MIT
+ *
+ * SPDX-FileCopyrightText: 2021 Gaurav Mishra <mishra.gaurav@siemens.com>
+ * SPDX-FileCopyrightText: 2021 Siemens AG
+ */
+
+.imageCarousel {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
