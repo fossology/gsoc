@@ -11,7 +11,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-// import HomepageFeatures from '../components/HomepageFeatures';
+import ParticipantImages from '../components/ParticipantImages';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -42,9 +42,9 @@ export default function Home() {
       title={`${siteConfig.title}`}
       description="Updates about GSoC projects at FOSSology.">
       <HomepageHeader />
-      {/* {<main>
-        <HomepageFeatures />
-      </main>} */}
+      {<main>
+        <ParticipantImages />
+      </main>}
     </Layout>
   );
 }
