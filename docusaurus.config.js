@@ -110,12 +110,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/fossology/gsoc-2021/edit/master/docs/',
+            'https://github.com/fossology/gsoc/edit/main/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/fossology/gsoc-2021/edit/master/blog/',
+            'https://github.com/fossology/gsoc/edit/main/',
         },
         theme: {
           customCss: [

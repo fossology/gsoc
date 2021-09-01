@@ -154,17 +154,17 @@ as below.
 ├── build                           # temporary directory for build artifacts
 ├── cmake                           # CMake modules for FOSSology
 │   ├── FoPackaging.cmake           # CMake Packaging configurations
-│   ├── FoUtilities.cmake           # Custom CMake utilities 
-│   ├── FoVersionFile.cmake         # VERSION version.php CMake template file   
-│   ├── SetDefaults.cmake           # CMake defaults for this project   
+│   ├── FoUtilities.cmake           # Custom CMake utilities
+│   ├── FoVersionFile.cmake         # VERSION version.php CMake template file
+│   ├── SetDefaults.cmake           # CMake defaults for this project
 │   ├── TestInstall.make.in         # Template makefile for install during tests
 │   └── VERSION.in                  # VERSION file template
-├── src                             
+├── src
 │   ├── agent-1                     # Agent sub-project
 │   │   ├── agent                   # Agent's source code directory
 │   │   │   ├── agent-source-code
 │   │   │   └── CMakeLists.txt
-│   │   ├── agent_tests             # Agent's test directory    
+│   │   ├── agent_tests             # Agent's test directory
 │   │   │   ├── Unit
 │   │   │   ├── Functional
 │   │   │   └── CMakeLists.txt
@@ -179,7 +179,7 @@ as below.
 :
 ├── other directories and files
 :
-└── CMakeLists.txt                  # FOSSology Top-level CMake configuration 
+└── CMakeLists.txt                  # FOSSology Top-level CMake configuration
 ```
 
 The `cmake` directory contains customized CMake modules and
@@ -213,14 +213,14 @@ to use it as described below.
 
 | CMake Flags            | Description                  | Default     |
 | --- | --- | --- |
-| **-DCMAKE_INSTALL_PREFIX=\<path\>** | Sets the install prefix. | `/usr/local` |
-| **-DAGENTS=\"agent1;agent2...\"** | Only configure these agents. | ALL AGENTS  |
-| **-DOFFLINE=\<ON/OFF\>** | Controls vendor generation, ON=NO  | **OFF**     |
-| **-DCMAKE_BUILD_TYPE=\<type\>** | -   `Debug`, `Release`, `RelWithDebInfo`,`MinSizeRel`     | `Debug` |
-| **-DTESTING=\<ON/OFF\>** | Controls testing config generation    | > **OFF**   |
-| **-DMONOPACK=\<ON/OFF\>** | Package adj2nest and ununpack seperately        | **OFF**     |
+| **-DCMAKE_INSTALL_PREFIX=<path\>** | Sets the install prefix. | `/usr/local` |
+| **-DAGENTS="agent1;agent2..."** | Only configure these agents. | ALL AGENTS  |
+| **-DOFFLINE=<ON/OFF\>** | Controls vendor generation, ON=NO  | **OFF**     |
+| **-DCMAKE_BUILD_TYPE=<type\>** | -   `Debug`, `Release`, `RelWithDebInfo`,`MinSizeRel`     | `Debug` |
+| **-DTESTING=<ON/OFF\>** | Controls testing config generation    | **OFF**   |
+| **-DMONOPACK=<ON/OFF\>** | Package adj2nest and ununpack seperately        | **OFF**     |
 | **-GNinja**            | Use Ninja instead of Unix Makefiles   | *Unix MakeFiles*      |
-        
+
 There are lots of inbuilt CMake command-line options you can see them in the official [documentation](https://cmake.org/cmake/help/v3.10/manual/cmake.1.html). Once you have chosen your flags we can now configure the project using the following commands.
 
 ```bash
@@ -231,7 +231,7 @@ cmake <flags> ..
 4 .  The next step is to build the project. You can use parallel jobs to build faster. For more options you can type `cmake --help` or `make --help` or `ninja --help`.
 
 ```bash
-# Common build command for all generators, 
+# Common build command for all generators,
 # Default number of parallel builds depends on generator used
 cmake --build . --parallel <no-of-processes>
 
@@ -250,7 +250,7 @@ ninja -j <no-of-processes>
     ```bash
     # For Unix Makefiles
     make install
-    
+
     # For Ninja
     ninja install
     ```
@@ -264,10 +264,10 @@ ninja -j <no-of-processes>
     ```bash
     # Common testing command
     ctest --parallel <no-of-processes>
-    
+
     # For Unix Makefiles
     make test
-    
+
     # For Ninja
     ninja test
     ```
@@ -282,10 +282,10 @@ ninja -j <no-of-processes>
     ```bash
     # Common testing command
     cpack
-    
+
     # For Unix Makefiles
     make package
-    
+
     # For Ninja
     ninja package
     ```
@@ -312,8 +312,8 @@ time of writing.
     artifacts inside source folders.
 -   There is no easy way to install a particular agent from the
     FOSSology root directory.
--   Packages don\'t contain copyright, readme, and license files. CMake
-    doesn\'t provide a way to include these files. This is being tracked
+-   Packages don't contain copyright, readme, and license files. CMake
+    doesn't provide a way to include these files. This is being tracked
     by issue
     [#21832](https://gitlab.kitware.com/cmake/cmake/-/issues/21832).
 -   While packaging the symbolic links may or may not be dereferenced
@@ -325,7 +325,7 @@ time of writing.
     working. I have added an issue
     [#2084](https://github.com/fossology/fossology/issues/2084) to
     track the progress on fixing these tests.
--   CMake doesn\'t generates uninstall targets. The closest thing to
+-   CMake doesn't generates uninstall targets. The closest thing to
     uninstall is [this
     snippet](https://gitlab.kitware.com/cmake/community/-/wikis/FAQ#can-i-do-make-uninstall-with-cmake).
     This will be later added to the FOSSology.
@@ -343,7 +343,7 @@ mentors, I was able to overcome this challenge with flying colors.
 The other challenge was to understand the old build system, how they are
 all connected and what is the flow. The complexity can be imagined by
 the fact that the most of code and configurations were written in the
-decade before the last decade and haven\'t changed much since then.
+decade before the last decade and haven't changed much since then.
 
 The most challenging task was to make tests work with the new build
 system. Since tests were mostly hardcoded and the new build system

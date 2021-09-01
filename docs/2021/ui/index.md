@@ -11,7 +11,7 @@ SPDX-FileCopyrightText: 2021 Shruti Agarwal <mail2shruti.ag@gmail.com>
 -->
 
 
-## Migration of UI @ <a href="https://github.com/fossology">FOSSology</a>
+## Migration of UI @ [FOSSology](https://github.com/fossology)
 
 ### Project Overview
 

@@ -9,6 +9,15 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 SPDX-FileCopyrightText: 2021 Kaushlendra Pratap <kaushlendrapratap.9837@gmail.com>
 -->
 
+## Author
+
+[Kaushlendra Pratap](https://github.com/Kaushl2208)
+
+## Contact info
+
+- [Email](mailto:kaushlendrapratap.9837@gmail.com)
+- [LinkedIn](https://linkedin.com/in/kaushl2208)
+
 ## What's the project about?
 
 Fossology's copyright detection agent uses a rule-based approach to detect copyright statements but like all the rule based approaches the edge cases in the stock of copyrights statements are increasing day by day thus the agent is showing a lot of False Positives result. 

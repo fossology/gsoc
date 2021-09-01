@@ -10,14 +10,16 @@ SPDX-FileCopyrightText: 2021 Gaurav Mishra <mishra.gaurav@siemens.com>
 SPDX-FileCopyrightText: 2021 Siemens AG
 -->
 
-2021 is the 4th time FOSSology has participated in
+2021 was the 4th year FOSSology participated in
 [Google Summer of Code](https://summerofcode.withgoogle.com/organizations/6095425418821632/).
 
-This year, we have 7 amazing students working with us and spending their summer
-contributing to the Open Souce.
+This year, we had 7 amazing students working with us and spending their summer
+contributing to the Open Souce. The contributions made to the project are
+superb and will help FOSSology to grow as a richer tool and ecosystem.
 
 ### Projects
-Following are the links to their projects
+Following are the important links to projects done in GSoC - 2021 in FOSSology
+org.
 
 | Student | Project | Final Reports |
 | :--- | :--- | :--- |
@@ -47,4 +49,10 @@ were generated during the Google Summer of Code.
 * Klaus Gmeinwieser
 
 ### Photo
+Due to tough situations this year, we could not meet anyone in person despite
+being in same place sometimes. But with the help of technology, we managed to
+capture this screenshot of our concluding call with every student and mentor.
+
 ![group photo](/img/gsoc21participants.png)
+
+Thanks for being part of the community. 💚

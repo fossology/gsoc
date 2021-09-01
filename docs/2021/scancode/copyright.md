@@ -29,7 +29,7 @@ SPDX-FileCopyrightText: 2021 Sarita Singh <saritasingh.0425@gmail.com>
     - In template there is `DataTables` plug-in used which add some advanced feature to HTML tables like Pagination, Instant search, sorting, Use almost any data source.
     - ajax-copyright-hist has collection of functions for different task like update, delete, undo and depending upon the call, function returns `JsonResponse`.
     - When there is an API call(GET/POST request), JavaScript functions in the template folder calls ajax and depending upon type of action, ajax fetch data from database and return in JSON response. These JSON responses are rendered on UI.
-    - Like c/cpp main function, FOSSology has <a href= "https://github.com/fossology/fossology/blob/master/src/copyright/ui/HistogramBase.php#L187-L287"> Output function</a> which defines the entry point. We check in this function that what is the thing that user wants to do.
+    - Like c/cpp main function, FOSSology has [Output function](https://github.com/fossology/fossology/blob/master/src/copyright/ui/HistogramBase.php#L187-L287) which defines the entry point. We check in this function that what is the thing that user wants to do.
 - About Copyright and Author table for ScanCode
     - Two separate tables would be good.
     - Number of agent scanning copyright is increasing.

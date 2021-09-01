@@ -40,14 +40,14 @@ Install CMake if you haven't already (minimum 3.10 required)
 
 | CMake Flags            | Description                  | Default     |
 | --- | --- | --- |
-| **-DCMAKE_INSTALL_PREFIX=\<path\>** | Sets the install prefix. | `/usr/local` |
-| **-DAGENTS=\"agent1;agent2...\"** | Only configure these agents. | ALL AGENTS  |
-| **-DOFFLINE=\<ON/OFF\>** | Controls vendor generation, ON=NO  | **OFF**     |
-| **-DCMAKE_BUILD_TYPE=\<type\>** | -   `Debug`, `Release`, `RelWithDebInfo`,`MinSizeRel`     | `Debug` |
-| **-DTESTING=\<ON/OFF\>** | Controls testing config generation    | > **OFF**   |
-| **-DMONOPACK=\<ON/OFF\>** | Package adj2nest and ununpack seperately        | **OFF**     |
+| **-DCMAKE_INSTALL_PREFIX=<path\>** | Sets the install prefix. | `/usr/local` |
+| **-DAGENTS="agent1;agent2..."** | Only configure these agents. | ALL AGENTS  |
+| **-DOFFLINE=<ON/OFF\>** | Controls vendor generation, ON=NO  | **OFF**     |
+| **-DCMAKE_BUILD_TYPE=<type\>** | -   `Debug`, `Release`, `RelWithDebInfo`,`MinSizeRel`     | `Debug` |
+| **-DTESTING=<ON/OFF\>** | Controls testing config generation    | **OFF**   |
+| **-DMONOPACK=<ON/OFF\>** | Package adj2nest and ununpack seperately        | **OFF**     |
 | **-GNinja**            | Use Ninja instead of Unix Makefiles   | *Unix MakeFiles*      |
-        
+
 There are lots of inbuilt CMake command-line options you can see them in the official [documentation](https://cmake.org/cmake/help/v3.10/manual/cmake.1.html). Once you have chosen your flags we can now configure the project using the following commands.
 
 ```bash
@@ -59,7 +59,7 @@ cmake <flags> ..
 4 .  The next step is to build the project. You can use parallel jobs to build faster. For more options you can type `cmake --help` or `make --help` or `ninja --help`.
 
 ```bash
-# Common build command for all generators, 
+# Common build command for all generators,
 # Default number of parallel builds depends on generator used
 cmake --build . --parallel <no-of-processes>
 
@@ -78,7 +78,7 @@ ninja -j <no-of-processes>
     ```bash
     # For Unix Makefiles
     make install
-    
+
     # For Ninja
     ninja install
     ```
@@ -92,10 +92,10 @@ ninja -j <no-of-processes>
     ```bash
     # Common testing command
     ctest --parallel <no-of-processes>
-    
+
     # For Unix Makefiles
     make test
-    
+
     # For Ninja
     ninja test
     ```
@@ -110,14 +110,13 @@ ninja -j <no-of-processes>
     ```bash
     # Common testing command
     cpack
-    
+
     # For Unix Makefiles
     make package
-    
+
     # For Ninja
     ninja package
     ```
-8. Some targets are not built by default, you can manually trigger their build by running `make ,target-name>` or `ninja <target-name>`. You can list all the targets by running `make help` or `ninja -t targets`.  
+8. Some targets are not built by default, you can manually trigger their build by running `make ,target-name>` or `ninja <target-name>`. You can list all the targets by running `make help` or `ninja -t targets`.
 
 9. You can also use [CMake EXtension for VS Code](https://code.visualstudio.com/docs/cpp/cmake-linux) for seamlessly populating and building targets. Can also use gitpod.io for quick setup
-
