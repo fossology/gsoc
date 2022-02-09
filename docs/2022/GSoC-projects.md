@@ -363,7 +363,10 @@ Practical use example:
 OSS Dataset Repository: [Minerva Dataset Generation](https://github.com/fossology/Minerva-Dataset-Generation);
 Atarashi Repository: [FOSSology/Atarashi](https://github.com/fossology/atarashi)
 
-In [GSoC 2021 @FOSSology](https://fossology.github.io/gsoc/docs/2021/) we have created our initial OSS License Dataset "[Minerva Dataset Generation](https://github.com/fossology/Minerva-Dataset-Generation)" which can be used to build Machine Learning models for license detection in [Atarashi](https://github.com/fossology/atarashi). We are now planning to try out few machine learning models to be trained on our dataset for the use case of Atarashi (OSS License Detection). As the open source license texts differ by very few tokens only which changes the meaning of the text. Semantic Similarity models might be the good place to try but we are open to discuss more about any other models that can fit our use case perfectly.
+In [GSoC 2021 @FOSSology](https://fossology.github.io/gsoc/docs/2021/) we have created our initial OSS License Dataset "[Minerva Dataset Generation](https://github.com/fossology/Minerva-Dataset-Generation)" which can be used to build Machine Learning models
+for license detection in [Atarashi](https://github.com/fossology/atarashi). We are now planning to try out few machine learning models to be trained on our dataset for the use case of Atarashi (OSS License Detection). As the open source license texts differ
+by very few tokens only which changes the meaning of the text. Semantic Similarity models might be the good place to try but we
+are open to discuss more about any other models that can fit our use case perfectly.
 
 ### Tasks:
 
