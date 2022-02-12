@@ -56,7 +56,7 @@ Also - very much fun - There are some YouTube videos created:
 
 In 2021, the GSOC program awarded the fossology project with 7 slots. It was a lot bigger and a lot of fun for 2021, a dedicated page has been set up. Please see the GOSC works [here](../2021/index.md).
 
-From this page you can also get an idea about the work being carried out: check the weekly reporting, [[for example for the UI project]](../2021/ui).
+From this page you can also get an idea about the work being carried out: check the weekly reporting, [for example for the UI project](../2021/ui).
 
 ## Mentors
 
@@ -368,7 +368,7 @@ for license detection in [Atarashi](https://github.com/fossology/atarashi). We a
 by very few tokens only which changes the meaning of the text. Semantic Similarity models might be the good place to try but we
 are open to discuss more about any other models that can fit our use case perfectly.
 
-### Tasks:
+#### Tasks:
 
 - Improve [Minerva Dataset Generation](https://github.com/fossology/Minerva-Dataset-Generation) for more accurate license files
 - Research and suggest various ML/DL models to be implemented for [Atarashi](https://github.com/fossology/atarashi) (open for discussion)
