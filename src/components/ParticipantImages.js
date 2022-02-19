@@ -33,7 +33,7 @@ export default function ParticipantImages() {
           {ImageList.map((props, idx) => (
             <div key={idx}>
               <img src={useBaseUrl(props.img)} />
-              <p className="legend">{props.title}</p>
+              <p className={styles.imageCarouselCaption}>{props.title}</p>
             </div>
           ))}
         </Carousel>
