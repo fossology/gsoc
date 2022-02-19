@@ -71,6 +71,7 @@ Interested in becoming a mentor? Please reach out to us!
 - [Ayush Bhardwaj](https://github.com/hastagAB)
 - [Shaheem Azmal M MD](https://github.com/shaheemazmalmmd)
 - [Nicolas Toussaint](https://github.com/NicolasToussaint)
+- [Avinal Kumar](https://github.com/avinal)
 
 ## Topic Proposals
 
@@ -82,12 +83,15 @@ Currently discussion happening on https://github.com/fossology/fossology/discuss
 
 1. [SPDX naming updates and reporting](#spdx-naming-updates-and-reporting)
 1. [REST API and UI improvements](#rest-api-and-ui-improvements)
+1. [Integrating Open Source Review Toolkit](#Integrating-Open-Source-Review-Toolkit)
 1. [Adopting REUSE standards in FOSSology](#adopting-reuse-standards-in-fossology)
 1. [Improving FOSSology CI scanner image](#improving-fossology-ci-scanner-image)
 1. [Enhancement with ClearlyDefined.io (spasht)](#enhancement-with-clearlydefinedio-spasht)
 1. [Compatibility for PHP-8](#compatibility-for-php-8)
 1. [Introduce concept of project in FOSSology](#introduce-concept-of-project-in-fossology)
 1. [Improve Minerva OSS Dataset and implement models for Atarashi](#improve-minerva-oss-dataset-and-implement-models-for-atarashi)
+1. [Overhauling scheduler design](#Overhauling-scheduler-design)
+1. [Debian packaging for Debian repository](#Debian-packaging-for-Debian-repository)
 
 ### SPDX naming updates and reporting
 
@@ -156,6 +160,28 @@ Currently discussion happening on https://github.com/fossology/fossology/discuss
 | Fun/Periphial          | \*\*\*               |
 | Core Development       | \*\*                 |
 | Project Infrastructure | \*\*\*               |
+| Project size           | Large                |
+| Preferred contributor  | Student/Professional |
+
+### Integrating Open Source Review Toolkit
+
+**Goal:** Using ORT to fetch dependencies and generate SBOM
+
+Build systems fetch the required dependencies (library/artifact) for a project while building the project. Its important to get an insight of these dependencies for license compliance check.
+
+The [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort) is an open source project helps to find dependencies in a project.
+
+The goal of this project is to render the project dependencies created by ort and display those in the fossology-UI. Dependencies can be scheduled directly from the UI and scan with fossology.
+
+Alternative: [oss-review-toolkit/ort#2694](https://github.com/oss-review-toolkit/ort/issues/2694)
+
+| Category               | Rating               |
+| :--------------------- | :------------------- |
+| Low Hanging Fruit      | -                    |
+| Risk/Exploratory       | -                    |
+| Fun/Periphial          | \*\*                 |
+| Core Development       | \*\*\*               |
+| Project Infrastructure | \*                   |
 | Project size           | Large                |
 | Preferred contributor  | Student/Professional |
 
@@ -383,6 +409,79 @@ are open to discuss more about any other models that can fit our use case perfec
 | Core Development       | \*\*                 |
 | Project Infrastructure | \*                   |
 | Project size           | Medium               |
+| Preferred contributor  | Student/Professional |
+
+### Overhauling scheduler design
+
+**Goal:** Improving FOSSology scheduler or replacing with OTS solution
+
+The existing scheduler design is causing new issues which need to be addressed. Moreover, existing scheduler design is not touched in years.
+
+**Concerning points**
+
+1. The scheduler is written in C which makes it next to impossible to find cause of a failure.
+2. The C language does not support exception handling out of the box. It makes code less readable and prone to errors.
+3. The linear queue design causes issue when there should be only one instance of an agent running for an upload, but overall the agent is not mutually exclusive.
+   > For example, if the monkbulk has a limit set to 1, it should be implied for only single upload. But with linear queue, this monkbulk job will block all other agents from executing even when they are not effected by the results of monkbulk.
+   >
+   > This essentially makes the agent mutually exclusive even though, there is a special flag EXCLUSIVE for the very same purpose: https://github.com/fossology/fossology/wiki/Job-Scheduler#agentconfs
+
+- One idea on redesigning the queue, it can be broken into buckets per upload each maintaining its own priority queue. There can be another queue for global operations like maintenance, delagent, etc.
+- Doing so, each bucket can be traversed in round-robin and pick first pending job and check against host limit. This will eliminate the scenario mentioned in point 3. Also, exclusive agents can be sent to global queue.
+
+  ```
+    upload specific queue
+  |-<upload_2> -> nomos, copyright, ojo, keyword
+  |-<upload_3> -> monkbulk, decider, monkbulk, decider
+  |-<upload_4> -> reuser, decider
+
+  global queue
+  -> delagent,
+  ```
+
+4. Since the FOSSology is released, there can be number of new scheduling libraries being released which needs to be explored. They can be a nice addition to the project.
+
+| Category               | Rating       |
+| :--------------------- | :----------- |
+| Low Hanging Fruit      | -            |
+| Risk/Exploratory       | \*\*         |
+| Fun/Periphial          | \*\*\*       |
+| Core Development       | \*\*\*       |
+| Project Infrastructure | \*           |
+| Project size           | Large        |
+| Preferred contributor  | Professional |
+
+### Debian packaging for Debian repository
+
+**Goal:** Improve Debian packaging and make it acceptable for APT
+
+The existing effort to put FOSSology under Debian packaging list needs to be taken forward. A repository under Debian Salsa was setup initially but not maintained any more: https://salsa.debian.org/fossology-team/fossology<br />
+It is configured to use [gbp](https://honk.sigxcpu.org/piki/projects/git-buildpackage/).
+
+**Blockers**
+
+1. The Debian building mechanism does not allow installation from sources other than apt. The Composer packages need to be packed as Debian packages and shipped with FOSSology.
+2. Packaging and shipping other tools needs to satisfy their licensing terms.
+3. The versions of packages in APT and actual versions used are different.
+4. APT also provides JS libraries like JQuery and DataTables but RHL does not.
+
+**See also**
+
+- https://github.com/fossology/fossology/pull/2075
+- https://wiki.debian.org/PackagingWithGit
+- https://wiki.debian.org/SimplePackagingTutorial
+- https://wiki.debian.org/Diagrams
+- https://wiki.debian.org/PHP
+- https://peertube.debian.social/videos/watch/0fb2dbc4-f43d-477e-8b14-20c426f970de
+
+| Category               | Rating               |
+| :--------------------- | :------------------- |
+| Low Hanging Fruit      | \*                   |
+| Risk/Exploratory       | \*\*                 |
+| Fun/Periphial          | \*\*\*               |
+| Core Development       | \*                   |
+| Project Infrastructure | \*\*\*               |
+| Project size           | Small                |
 | Preferred contributor  | Student/Professional |
 
 ## GSOC 2022 Meetings Table
