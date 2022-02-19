@@ -23,7 +23,7 @@ export default function ParticipantImages() {
   return (
     <section className={styles.imageCarousel}>
       <div>
-        <p className='hero__subtitle'>
+        <p className={`hero__subtitle ${styles.subTitle}`}>
           Meet our participants (more photos to come soon)
         </p>
       </div>

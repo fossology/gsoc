@@ -15,3 +15,7 @@
   -ms-flex-direction: column !important;
   flex-direction: column !important;
 }
+
+.subTitle {
+  padding: 0 1rem;
+}
