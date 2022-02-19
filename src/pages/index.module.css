@@ -16,6 +16,14 @@
   .heroBanner {
     padding: 2rem;
   }
+  .buttons {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 627px) {
+  .buttons {
+    row-gap: 10px;
+  }
 }
 
 .buttons {
