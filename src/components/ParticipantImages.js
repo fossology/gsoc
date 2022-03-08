@@ -23,7 +23,7 @@ export default function ParticipantImages() {
   return (
     <section className={styles.imageCarousel}>
       <div>
-        <p className='hero__subtitle'>
+        <p className={`hero__subtitle ${styles.subTitle}`}>
           Meet our participants (more photos to come soon)
         </p>
       </div>
@@ -33,7 +33,7 @@ export default function ParticipantImages() {
           {ImageList.map((props, idx) => (
             <div key={idx}>
               <img src={useBaseUrl(props.img)} />
-              <p className="legend">{props.title}</p>
+              <p className={styles.imageCarouselCaption}>{props.title}</p>
             </div>
           ))}
         </Carousel>

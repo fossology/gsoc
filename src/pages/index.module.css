@@ -16,6 +16,9 @@
   .heroBanner {
     padding: 2rem;
   }
+  .buttons {
+    flex-direction: column;
+  }
 }
 
 .buttons {
