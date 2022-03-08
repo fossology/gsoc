@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: 12
+          node-version: 16
       - name: Test Build
         run: |
           if [ -e yarn.lock ]; then
@@ -37,7 +37,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: 12
+          node-version: 16
       - name: Build pages
         run: |
           # git config --global user.email "actions@github.com"
