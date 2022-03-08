@@ -119,15 +119,16 @@ Currently discussion happening on https://github.com/fossology/fossology/discuss
 - See https://github.com/spdx/spdx-spec/tree/development/v2.2.2/examples
 - Related comments are available on discussion https://github.com/fossology/fossology/discussions/2140#discussioncomment-1939857
 
-| Category               | Rating  |
-| :--------------------- | :------ |
-| Low Hanging Fruit      | \*\*\*  |
-| Risk/Exploratory       | \*\*    |
-| Fun/Periphial          | \*\*    |
-| Core Development       | \*\*\*  |
-| Project Infrastructure | \*\*\*  |
-| Project size           | Medium  |
-| Preferred contributor  | Student |
+| Category               | Rating   |
+| :--------------------- | :------- |
+| Low Hanging Fruit      | \*\*\*   |
+| Risk/Exploratory       | \*\*     |
+| Fun/Periphial          | \*\*     |
+| Core Development       | \*\*\*   |
+| Project Infrastructure | \*\*\*   |
+| Possible mentors       | Gaurav, Shaheem, Michael |
+| Project size           | 175 hour |
+| Preferred contributor  | Student  |
 
 ### Notes from SPDX DocFest:
 
@@ -160,7 +161,8 @@ Currently discussion happening on https://github.com/fossology/fossology/discuss
 | Fun/Periphial          | \*\*\*               |
 | Core Development       | \*\*                 |
 | Project Infrastructure | \*\*\*               |
-| Project size           | Large                |
+| Possible mentors       | Shruti, Shaheem      |
+| Project size           | 350 hour             |
 | Preferred contributor  | Student/Professional |
 
 ### Integrating Open Source Review Toolkit
@@ -182,7 +184,8 @@ Alternative: [oss-review-toolkit/ort#2694](https://github.com/oss-review-toolkit
 | Fun/Periphial          | \*\*                 |
 | Core Development       | \*\*\*               |
 | Project Infrastructure | \*                   |
-| Project size           | Large                |
+| Possible mentors       | Gaurav, Shaheem, Avinal, Michael |
+| Project size           | 350 hour             |
 | Preferred contributor  | Student/Professional |
 
 ### Adopting REUSE standards in FOSSology
@@ -195,15 +198,16 @@ FOSSology currently uses old methods of defining licenses on source files which 
 
 **Note:** On its own, the project is very small for being a GSoC project. We can club it with other tasks, like working on [issue #1592](https://github.com/fossology/fossology/issues/1592)
 
-| Category               | Rating  |
-| :--------------------- | :------ |
-| Low Hanging Fruit      | \*\*    |
-| Risk/Exploratory       | \*      |
-| Fun/Periphial          | \*      |
-| Core Development       | \*      |
-| Project Infrastructure | \*\*\*  |
-| Project size           | Small   |
-| Preferred contributor  | Student |
+| Category               | Rating   |
+| :--------------------- | :------- |
+| Low Hanging Fruit      | \*\*     |
+| Risk/Exploratory       | \*       |
+| Fun/Periphial          | \*       |
+| Core Development       | \*       |
+| Project Infrastructure | \*\*\*   |
+| Possible mentors       | Gaurav, Michael, Nicolas |
+| Project size           | 175 hour |
+| Preferred contributor  | Student  |
 
 ### Improving FOSSology CI scanner image
 
@@ -234,7 +238,8 @@ a branch or scan the complete repo. The capabilities of image include license sc
 | Fun/Periphial          | \*\*\*               |
 | Core Development       | \*\*                 |
 | Project Infrastructure | \*\*\*               |
-| Project size           | Large                |
+| Possible mentors       | Gaurav, Anupam       |
+| Project size           | 350 hour             |
 | Preferred contributor  | Student/Professional |
 
 ### Enhancement with ClearlyDefined.io (spasht)
@@ -293,7 +298,8 @@ The spasht agent is already pulling the data from ClearlyDefined, following enha
 | Fun/Periphial          | \*\*                 |
 | Core Development       | \*\*                 |
 | Project Infrastructure | \*                   |
-| Project size           | Medium               |
+| Possible mentors       | Gaurav, Kaushlendra  |
+| Project size           | 175 hour             |
 | Preferred contributor  | Student/Professional |
 
 ### Compatibility for PHP-8
@@ -317,15 +323,16 @@ The spasht agent is already pulling the data from ClearlyDefined, following enha
 - PHP Migration Docs: https://www.php.net/manual/en/migration80.php
 - Twig Docs: https://twig.symfony.com/doc/3.x/
 
-| Category               | Rating  |
-| :--------------------- | :------ |
-| Low Hanging Fruit      | \*      |
-| Risk/Exploratory       | \*\*    |
-| Fun/Periphial          | \*      |
-| Core Development       | \*\*\*  |
-| Project Infrastructure | \*\*\*  |
-| Project size           | Medium  |
-| Preferred contributor  | Student |
+| Category               | Rating   |
+| :--------------------- | :------- |
+| Low Hanging Fruit      | \*       |
+| Risk/Exploratory       | \*\*     |
+| Fun/Periphial          | \*       |
+| Core Development       | \*\*\*   |
+| Project Infrastructure | \*\*\*   |
+| Possible Mentors       | Shaheem, Kaushlendra, Avinal |
+| Project size           | 175 hour |
+| Preferred contributor  | Student  |
 
 **Good to have:** Improving the MVC architecture of Fossology using Symfony
 Symfony as of now is used purely for dependency injection but it can do a lot more. Introducing the capabilities and making the architecture more stable is a good extension to the project.
@@ -372,15 +379,16 @@ Practical use example:
 - I want to be able to give permissions for _all_ Folders and Uploads for that Project
 - I want to automatically reuse findings from previous scans of same components
 
-| Category               | Rating  |
-| :--------------------- | :------ |
-| Low Hanging Fruit      | \*      |
-| Risk/Exploratory       | \*\*    |
-| Fun/Periphial          | \*      |
-| Core Development       | \*\*\*  |
-| Project Infrastructure | \*      |
-| Project size           | Medium  |
-| Preferred contributor  | Student |
+| Category               | Rating   |
+| :--------------------- | :------- |
+| Low Hanging Fruit      | \*       |
+| Risk/Exploratory       | \*\*     |
+| Fun/Periphial          | \*       |
+| Core Development       | \*\*\*   |
+| Project Infrastructure | \*       |
+| Possible mentors       | Nicolas, Anupam |
+| Project size           | 175 hour |
+| Preferred contributor  | Student  |
 
 ### Improve Minerva OSS Dataset and implement models for Atarashi
 
@@ -408,7 +416,8 @@ are open to discuss more about any other models that can fit our use case perfec
 | Fun/Periphial          | \*\*\*               |
 | Core Development       | \*\*                 |
 | Project Infrastructure | \*                   |
-| Project size           | Medium               |
+| Possible mentors       | Anupam, Ayush, Kaushlendra |
+| Project size           | 175 hour             |
 | Preferred contributor  | Student/Professional |
 
 ### Overhauling scheduler design
@@ -448,7 +457,8 @@ The existing scheduler design is causing new issues which need to be addressed. 
 | Fun/Periphial          | \*\*\*       |
 | Core Development       | \*\*\*       |
 | Project Infrastructure | \*           |
-| Project size           | Large        |
+| Possible mentors       | Gaurav, Anupam, Michael |
+| Project size           | 350 hour     |
 | Preferred contributor  | Professional |
 
 ### Debian packaging for Debian repository
@@ -481,7 +491,8 @@ It is configured to use [gbp](https://honk.sigxcpu.org/piki/projects/git-buildpa
 | Fun/Periphial          | \*\*\*               |
 | Core Development       | \*                   |
 | Project Infrastructure | \*\*\*               |
-| Project size           | Small                |
+| Possible mentors       | Gaurav, Michael      |
+| Project size           | 175 hour             |
 | Preferred contributor  | Student/Professional |
 
 ## GSOC 2022 Meetings Table
