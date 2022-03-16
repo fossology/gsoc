@@ -72,6 +72,7 @@ Interested in becoming a mentor? Please reach out to us!
 - [Shaheem Azmal M MD](https://github.com/shaheemazmalmmd)
 - [Nicolas Toussaint](https://github.com/NicolasToussaint)
 - [Avinal Kumar](https://github.com/avinal)
+- [Vasudev Maduri](https://github.com/vasudevmaduri)
 
 ## Topic Proposals
 
@@ -230,6 +231,11 @@ a branch or scan the complete repo. The capabilities of image include license sc
    - Downloads the report and make it available as an artifact.
    - If there are unidentified licenses left, provide a link for manual review.
    - This can be extended to integrate with ticket management systems like Jira and redmine.
+
+**Resources:**
+- Current documenation: https://gitlab.com/GMishx/fossology/-/merge_requests
+- Sample outputs: https://gitlab.com/GMishx/fossology/-/merge_requests
+- Sample implementaiton for GHA: https://github.com/GMishx/fossology-scan
 
 | Category               | Rating               |
 | :--------------------- | :------------------- |
@@ -416,7 +422,7 @@ are open to discuss more about any other models that can fit our use case perfec
 | Fun/Periphial          | \*\*\*               |
 | Core Development       | \*\*                 |
 | Project Infrastructure | \*                   |
-| Possible mentors       | Anupam, Ayush, Kaushlendra |
+| Possible mentors       | Anupam, Ayush, Kaushlendra, Vasudev |
 | Project size           | 175 hour             |
 | Preferred contributor  | Student/Professional |
 
