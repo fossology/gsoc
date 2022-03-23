@@ -73,6 +73,8 @@ Interested in becoming a mentor? Please reach out to us!
 - [Nicolas Toussaint](https://github.com/NicolasToussaint)
 - [Avinal Kumar](https://github.com/avinal)
 - [Vasudev Maduri](https://github.com/vasudevmaduri)
+- [Vivek Kumar](https://github.com/viv9k)
+- [Sahil Jha](https://github.com/sjha2048)
 
 ## Topic Proposals
 
@@ -155,16 +157,16 @@ Currently discussion happening on https://github.com/fossology/fossology/discuss
 - https://github.com/fossology/fossology/issues?q=is%3Aissue+is%3Aopen+REST
 - https://github.com/Shruti3004/FOSSology-REST-API/issues
 
-| Category               | Rating               |
-| :--------------------- | :------------------- |
-| Low Hanging Fruit      | -                    |
-| Risk/Exploratory       | \*                   |
-| Fun/Periphial          | \*\*\*               |
-| Core Development       | \*\*                 |
-| Project Infrastructure | \*\*\*               |
-| Possible mentors       | Shruti, Shaheem      |
-| Project size           | 350 hour             |
-| Preferred contributor  | Student/Professional |
+| Category               | Rating                        |
+| :--------------------- | :---------------------------- |
+| Low Hanging Fruit      | -                             |
+| Risk/Exploratory       | \*                            |
+| Fun/Periphial          | \*\*\*                        |
+| Core Development       | \*\*                          |
+| Project Infrastructure | \*\*\*                        |
+| Possible mentors       | Shruti, Shaheem, Sahil, Vivek |
+| Project size           | 350 hour                      |
+| Preferred contributor  | Student/Professional          |
 
 ### Integrating Open Source Review Toolkit
 
