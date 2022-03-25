@@ -133,7 +133,7 @@ Currently discussion happening on https://github.com/fossology/fossology/discuss
 | Project size           | 175 hour |
 | Preferred contributor  | Student  |
 
-### Notes from SPDX DocFest:
+#### Notes from SPDX DocFest:
 
 - File types are sometime OTHER vs SOURCE
 - Originator/Supplier missing
