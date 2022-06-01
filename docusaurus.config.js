@@ -55,6 +55,28 @@ module.exports = {
           label: '2022',
           position: 'left',
           to: '/docs/2022/',
+          items: [
+            {
+              label: 'Atarashi',
+              to: '/docs/2022/atarashi/',
+            },
+            {
+              label: 'Concept of project',
+              to: '/docs/2022/project/',
+            },
+            {
+              label: 'REUSE',
+              to: '/docs/2022/reuse/',
+            },
+            {
+              label: 'Spasht',
+              to: '/docs/2022/spasht/',
+            },
+            {
+              label: 'React UI',
+              to: '/docs/2022/ui/',
+            },
+          ]
         },
         {
           href: 'https://github.com/fossology/fossology',
