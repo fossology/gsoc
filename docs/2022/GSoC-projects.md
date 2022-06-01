@@ -21,7 +21,7 @@ We from the fossology project would like to apply for GSOC. Please see two main 
 - https://www.fossology.org
 - https://fossology.github.io/gsoc/
 
-Meetings: Checkout the [Meetings table](#gsoc-2022-meetings-table)
+Meetings: Checkout the [Meetings table](/docs/2022/#meetings-table)
 
 ## Interested in Application? - Getting Grip
 
@@ -502,14 +502,3 @@ It is configured to use [gbp](https://honk.sigxcpu.org/piki/projects/git-buildpa
 | Possible mentors       | Gaurav, Michael      |
 | Project size           | 175 hour             |
 | Preferred contributor  | Student/Professional |
-
-## GSOC 2022 Meetings Table
-
-To coordinate work, we have had regular meetings for the different topics open for the community. For example for 2022, find all
-the GSoC calls sorted on topics. Keeping the meetings open for everyone to join.
-
-| Topic(s)        | Timings                        |     Meeting link     | ICS       |
-| :-------------- | :----------------------------- | :------------------: | :-------- |
-| General meeting | _Thursdays_ 15:30 - 16:30 UTC  | [Microsoft Teams](#) | [.ics](#) |
-| Project 1       | _Wednesdays_ 15:30 - 16:30 UTC | [Microsoft Teams](#) | [.ics](#) |
-| -               | -                              |          -           | -         |
