@@ -16,8 +16,8 @@ SPDX-FileCopyrightTest: 2022 Siemens AG
 
 ### Contact info
 
-- [Email](mailto:)
-- [LinkedIn](https://linkedin.com/)
+- [Email](mailto:rohit.pandey4900@gmail.com)
+- [LinkedIn](https://linkedin.com/in/ipandeyrohit)
 
 ## Adopting REUSE standards in FOSSology
 Copyright and licensing is difficult, especially when reusing software from
