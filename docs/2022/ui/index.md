@@ -37,8 +37,8 @@ Check out the [installation steps](installation) for the project.
 ### Authors
 
 - [Ayush Kumar](https://github.com/Ayush7614)
-  - [Email](mailto:)
-  - [Linkedin](https://linkedin.com/)
+  - [Email](mailto:ayushknj3@gmail.com)
+  - [Linkedin](https://www.linkedin.com/in/ayush-kumar-984443191/)
 - [Krishna Mahato](https://github.com/krishna9304)
   - [Email](mailto:)
   - [Linkedin](https://linkedin.com/)
