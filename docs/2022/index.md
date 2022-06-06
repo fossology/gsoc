@@ -61,5 +61,8 @@ were generated during the Google Summer of Code.
 | Topic(s) | Timings | Meeting link | ICS |
 | :--- | :--- | :--- | :--- |
 | General Meeting | Thursdays 12:30 - 13:30 UTC | [Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTAwZTUyMWYtNDNiNy00MTIyLWFlYWItZWMwNDA5YjYxMzgw%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%227f1979f2-e3e3-40d0-8a77-bcef842abf7e%22%7d) | [.ics](/ics/gsoc_2022_weekly.ics) |
+| REUSE project | Tuesdays 12:00 - 12:30 UTC | [Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWQyNjRlMmUtMzljNS00OWJlLThiNmEtYmRlM2IwNjRmMDI2%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%22a2c4f566-cad3-46d5-9146-26004cf4bc7c%22%7d) | [.ics](/ics/gsoc_2022_reuse.ics) |
+| Spasht | Wednesdays 11:00 - 11:30 UTC | [Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjJmOGRmMjgtYWY3Zi00M2FiLWJhMGEtNTg4ZmVjM2FjMjhl%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%22a2c4f566-cad3-46d5-9146-26004cf4bc7c%22%7d) | [.ics](/ics/gsoc_2022_spasht.ics) |
+| Concept of project | Thursdays 09:00 - 09:30 UTC | [Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MWE4YTRlMDEtODc4Yi00NjY4LWIzNGYtM2ViYWNmMDU3ZDVl%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%22a2c4f566-cad3-46d5-9146-26004cf4bc7c%22%7d) | [.ics](/ics/gsoc_2022_project.ics) |
 
 Thanks for being part of the community. 💚
