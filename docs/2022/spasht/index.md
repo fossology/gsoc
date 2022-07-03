@@ -16,8 +16,8 @@ SPDX-FileCopyrightTest: 2022 Siemens AG
 
 ### Contact info
 
-- [Email](mailto:)
-- [LinkedIn](https://linkedin.com/)
+- [Email](mailto:thanvipendyala194@gmail.com)
+- [LinkedIn](https://linkedin.com/in/thanvi-lahari/)
 
 ## Enhancement with ClearlyDefined.io (spasht)
 The Spasht agent is used to fetch the metadata of licenses and copyrights of
