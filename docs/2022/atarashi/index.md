@@ -3,6 +3,7 @@ sidebar_position: 1
 title: Introduction
 slug: /2022/atarashi/
 ---
+
 <!--
 SPDX-License-Identifier: CC-BY-SA-4.0
 
@@ -16,10 +17,11 @@ SPDX-FileCopyrightTest: 2022 Siemens AG
 
 ### Contact info
 
-- [Email](mailto:)
-- [LinkedIn](https://linkedin.com/)
+- [Email](mailto:sushantmishra02102002@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/its-sushant/)
 
 ## Improve Minerva OSS Dataset and implement models for Atarashi
+
 To implement some of the machine/deep learning models on Minerva OSS Dataset
 from FOSSology and integrate it to atarashi as an agent. Models that are going
 to be used are logistic regression, LSVM, Naive baiyes, doc2vec for semantic
