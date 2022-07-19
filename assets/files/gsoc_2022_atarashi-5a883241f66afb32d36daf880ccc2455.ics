@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Singh, Kaushlendra Pratap (T SSP ASI-IN)";RSVP=TRUE:mailto:kau
+	shlendra-pratap.singh@siemens.com
+ATTENDEE;CN=sushantmishra02102002@gmail.com;RSVP=TRUE:mailto:sushantmishra0
+	2102002@gmail.com
+ATTENDEE;CN=vasudevmaduri2@gmail.com;RSVP=TRUE:mailto:vasudevmaduri2@gmail.
+	com
+ATTENDEE;CN=classicayush@gmail.com;RSVP=TRUE:mailto:classicayush@gmail.com
+ATTENDEE;CN=mcj@mcj.de;RSVP=TRUE:mailto:mcj@mcj.de
+ATTENDEE;CN="Ghosh, Anupam (T SSP ASI-IN)";RSVP=TRUE:mailto:anupam.ghosh@si
+	emens.com
+ATTENDEE;CN="Azmal M MD, Shaheem (T SSP ASI-IN)";RSVP=TRUE:mailto:shaheem.a
+	zmal@siemens.com
+ATTENDEE;CN="Mishra, Gaurav (T SSP ASI-IN)";ROLE=OPT-PARTICIPANT;RSVP=TRUE:
+	mailto:mishra.gaurav@siemens.com
+CLASS:PUBLIC
+CREATED:20220608T060411Z
+DESCRIPTION:Setting up this meeting for everyone to have our weekly discuss
+	ions over Atarashi Project\n \n \nBR\nKaushlendra Pratap Singh\n\n\n\n____
+	__________________________________________________________________________
+	__ \nMicrosoft Teams meeting \nJoin on your computer or mobile app \nClick
+	 here to join the meeting <https://teams.microsoft.com/l/meetup-join/19%3a
+	meeting_NmE4ZWVkZjktZTI1NS00YzQyLWE1YTMtMjUxMDkyODVmZTg0%40thread.v2/0?con
+	text=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22
+	%3a%22a897f79c-71f3-4e34-a964-67183e5a6731%22%7d>  \nOr call in (audio onl
+	y) \n+91 22 6259 0317\,\,\,\,547042649# <tel:+912262590317\,\,\,\,54704264
+	9#>    India\, Mumbai \nPhone Conference ID: 547 042 649# \nFind a local n
+	umber <https://dialin.teams.microsoft.com/74042a74-a90b-4ccc-8227-e22b08bb
+	88da?id=547042649>  | Reset PIN <https://dialin.teams.microsoft.com/usp/ps
+	tnconferencing>  \nLearn More <https://aka.ms/JoinTeamsMeeting>  | Meeting
+	 options <https://teams.microsoft.com/meetingOptions/?organizerId=a897f79c
+	-71f3-4e34-a964-67183e5a6731&tenantId=38ae3bcd-9579-4fd4-adda-b42e1495d55a
+	&threadId=19_meeting_NmE4ZWVkZjktZTI1NS00YzQyLWE1YTMtMjUxMDkyODVmZTg0@thre
+	ad.v2&messageId=0&language=en-US>  \n_____________________________________
+	___________________________________________ \n
+DTEND;TZID="India Standard Time":20220607T173000
+DTSTAMP:20220608T053149Z
+DTSTART;TZID="India Standard Time":20220607T170000
+LAST-MODIFIED:20220608T060411Z
+ORGANIZER;CN="Singh, Kaushlendra Pratap (T SSP ASI-IN)":mailto:kaushlendra-
+	pratap.singh@siemens.com
+PRIORITY:5
+RRULE:FREQ=WEEKLY;COUNT=14;BYDAY=TU
+SEQUENCE:0
+SUMMARY:GSoC 2022 Discussions- Atarashi-Minerva
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000ADAB280CF97AD801000000000000000
+	0100000006F821D4B7E01DB4A8E087A88069695AC
+X-ALT-DESC;FMTTYPE=text/html:<div>Setting up this meeting for everyone to h
+	ave our weekly discussions over Atarashi Project</div>\n\n<div>&nbsp\;</di
+	v>\n\n<div>&nbsp\;</div>\n\n<div>BR</div>\n\n<div>Kaushlendra Pratap Singh
+	</div>\n<div><br><br><br><div style="width:100%\;height: 20px\;">\n    <sp
+	an style="white-space:nowrap\;color:#5F5F5F\;opacity:.36\;">______________
+	__________________________________________________________________</span>\
+	n</div>\n \n <div class="me-email-text" style="color:#252424\;font-family:
+	'Segoe UI'\,'Helvetica Neue'\,Helvetica\,Arial\,sans-serif\;" lang="en-US"
+	>\n    <div style="margin-top: 24px\; margin-bottom: 20px\;">\n        <sp
+	an style="font-size: 24px\; color:#252424">Microsoft Teams meeting</span>\
+	n    </div>\n    <div style="margin-bottom: 20px\;">\n        <div style="
+	margin-top: 0px\; margin-bottom: 0px\; font-weight: bold">\n          <spa
+	n style="font-size: 14px\; color:#252424">Join on your computer or mobile 
+	app</span>\n        </div>\n        <a class="me-email-headline" style="fo
+	nt-size: 14px\;font-family:'Segoe UI Semibold'\,'Segoe UI'\,'Helvetica Neu
+	e'\,Helvetica\,Arial\,sans-serif\;text-decoration: underline\;color: #6264
+	a7\;" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmE4ZWV
+	kZjktZTI1NS00YzQyLWE1YTMtMjUxMDkyODVmZTg0%40thread.v2/0?context=%7b%22Tid%
+	22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%22a897f79c-
+	71f3-4e34-a964-67183e5a6731%22%7d" target="_blank" rel="noreferrer noopene
+	r">Click here to join the meeting</a>\n    </div>\n    \n    \n    \n	<div
+	 style="margin-bottom: 4px\;">\n	<div style="margin-bottom: 4px\;">\n    <
+	span style="font-size: 14px\; color:#252424\; font-weight: bold">Or call i
+	n (audio only)</span>\n    </div>	\n    \n	  <div style="margin-bottom: 4p
+	x\;">\n      <a style="font-size: 14px\;text-decoration: underline\;color:
+	 #6264a7\;" href="tel:+912262590317\,\,\,\,547042649# ">+91 22 6259 0317\,
+	\,\,\,547042649#</a>\n      <span style="font-size: 14px\; color:#252424\;
+	">&nbsp\; India\, Mumbai </span>\n    </div>\n    \n	</div>\n  \n    \n   
+	 <span style="font-size: 14px\; color:#252424\;">\n      Phone Conference 
+	ID:\n    </span>\n    <span style="font-size: 16px\; color:#252424\;">\n  
+	    547 042 649#\n    </span>\n    \n    \n      <div style="margin-bottom
+	: 20px\;">\n      <a class="me-email-link" style="font-size: 14px\;text-de
+	coration: underline\;color: #6264a7\;font-family:'Segoe UI'\,'Helvetica Ne
+	ue'\,Helvetica\,Arial\,sans-serif\;" target="_blank" href="https://dialin.
+	teams.microsoft.com/74042a74-a90b-4ccc-8227-e22b08bb88da?id=547042649" rel
+	="noreferrer noopener">Find a local number</a>\n   |\n   <a class="me-emai
+	l-link" style="font-size: 14px\;text-decoration: underline\;color: #6264a7
+	\;" target="_blank" href="https://dialin.teams.microsoft.com/usp/pstnconfe
+	rencing" rel="noreferrer noopener">\n     Reset PIN</a>\n     </div>\n   \
+	n    \n    <div style="margin-bottom: 24px\;margin-top: 20px\;">\n        
+	<a class="me-email-link" style="font-size: 14px\;text-decoration: underlin
+	e\;color: #6264a7\;font-family:'Segoe UI'\,'Helvetica Neue'\,Helvetica\,Ar
+	ial\,sans-serif\;" target="_blank" href="https://aka.ms/JoinTeamsMeeting" 
+	rel="noreferrer noopener">Learn More</a>  | <a class="me-email-link" style
+	="font-size: 14px\;text-decoration: underline\;color: #6264a7\;font-family
+	:'Segoe UI'\,'Helvetica Neue'\,Helvetica\,Arial\,sans-serif\;" target="_bl
+	ank" href="https://teams.microsoft.com/meetingOptions/?organizerId=a897f79
+	c-71f3-4e34-a964-67183e5a6731&amp\;tenantId=38ae3bcd-9579-4fd4-adda-b42e14
+	95d55a&amp\;threadId=19_meeting_NmE4ZWVkZjktZTI1NS00YzQyLWE1YTMtMjUxMDkyOD
+	VmZTg0@thread.v2&amp\;messageId=0&amp\;language=en-US" rel="noreferrer noo
+	pener">Meeting options</a> \n      </div>\n</div>\n<div style="font-size: 
+	14px\; margin-bottom: 4px\;font-family:'Segoe UI'\,'Helvetica Neue'\,Helve
+	tica\,Arial\,sans-serif\;">\n\n</div>\n<div style="font-size: 12px\;">\n\n
+	</div>\n\n</div>\n<div style="width:100%\;height: 20px\;">\n    <span styl
+	e="white-space:nowrap\;color:#5F5F5F\;opacity:.36\;">_____________________
+	___________________________________________________________</span>\n</div>
+	</div>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTSEQTIME:20220608T053149Z
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

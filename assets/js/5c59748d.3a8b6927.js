@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgosc_2021=self.webpackChunkgosc_2021||[]).push([[705],{7261:function(s){s.exports=JSON.parse('{"label":"cmake","permalink":"/gsoc/blog/tags/cmake","allTagsPath":"/gsoc/blog/tags","count":1}')}}]);

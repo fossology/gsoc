@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgosc_2021=self.webpackChunkgosc_2021||[]).push([[9009],{3279:function(e){e.exports=JSON.parse('{"permalink":"/gsoc/blog/tags/coding-week","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
