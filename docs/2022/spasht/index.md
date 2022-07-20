@@ -10,14 +10,12 @@ SPDX-FileCopyrightText: 2022 Gaurav Mishra <mishra.gaurav@siemens.com>
 SPDX-FileCopyrightTest: 2022 Siemens AG
 -->
 
+# Discontinued
+The project was discontinued by the contributor on 2022/07/19.
+
 ### Author
 
-- [Thanvi Lahari Pendyala](https://github.com/Pendyala-thanvi)
-
-### Contact info
-
-- [Email](mailto:thanvipendyala194@gmail.com)
-- [LinkedIn](https://linkedin.com/in/thanvi-lahari/)
+- Thanvi Lahari Pendyala
 
 ## Enhancement with ClearlyDefined.io (spasht)
 The Spasht agent is used to fetch the metadata of licenses and copyrights of

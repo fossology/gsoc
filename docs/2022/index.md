@@ -33,7 +33,7 @@ Following are the important links to projects.
 | [Samuel Dushimimana](https://github.com/dushimsam) | [React UI](/docs/2022/ui) | - |
 | [Soham Banerjee](https://github.com/soham4abc) | [React UI](/docs/2022/ui) | - |
 | [Sushant Kumar](https://github.com/its-sushant) | [Minerva-Atarashi](/docs/2022/atarashi) | - |
-| [Thanvi Lahari Pendyala](https://github.com/Pendyala-thanvi) | [Spasht](/docs/2022/spasht) | - |
+| Thanvi Lahari Pendyala | [Spasht](/docs/2022/spasht) | \<- Discontinued |
 
 These links (also on the left sidebar) contains information about the project,
 the weekly updates from the students and even technical documentation which
@@ -65,7 +65,7 @@ were generated during the Google Summer of Code.
 | Atarashi - Minerva | *Wednesdays* 04:30 - 05:00 UTC | [Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmE4ZWVkZjktZTI1NS00YzQyLWE1YTMtMjUxMDkyODVmZTg0%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%22a897f79c-71f3-4e34-a964-67183e5a6731%22%7d) | [.ics](/ics/gsoc_2022_atarashi.ics) |
 | REUSE project | *Tuesdays* 12:00 - 12:30 UTC | [Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWQyNjRlMmUtMzljNS00OWJlLThiNmEtYmRlM2IwNjRmMDI2%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%22a2c4f566-cad3-46d5-9146-26004cf4bc7c%22%7d) | [.ics](/ics/gsoc_2022_reuse.ics) |
 | React UI | *Tuesdays* 14:30 - 15:30 UTC | [Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDYzM2M0ZWEtMDE1MC00ZGM0LTk1MGUtNWYxYTNjNzQ1OWRk%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%227f1979f2-e3e3-40d0-8a77-bcef842abf7e%22%7d) | [.ics](/ics/gsoc_2022_ui.ics) |
-| Spasht | *Wednesdays* 11:00 - 11:30 UTC | [Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjJmOGRmMjgtYWY3Zi00M2FiLWJhMGEtNTg4ZmVjM2FjMjhl%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%22a2c4f566-cad3-46d5-9146-26004cf4bc7c%22%7d) | [.ics](/ics/gsoc_2022_spasht.ics) |
+| Spasht | - | - | - |
 | Concept of project | *Thursdays* 09:00 - 09:30 UTC | [Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MWE4YTRlMDEtODc4Yi00NjY4LWIzNGYtM2ViYWNmMDU3ZDVl%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%22a2c4f566-cad3-46d5-9146-26004cf4bc7c%22%7d) | [.ics](/ics/gsoc_2022_project.ics) |
 
 Thanks for being part of the community. 💚
