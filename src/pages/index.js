@@ -24,6 +24,10 @@ function HomepageHeader() {
           Navigate the projects from the drop-downs in the top.
         </p>
         <div className={styles.buttons}>
+          <Link className="button button--secondary button--lg" to="/docs/2023">
+            About 2023 projects
+          </Link>
+          <a>##</a>
           <Link className="button button--secondary button--lg" to="/docs/2022">
             About 2022 projects
           </Link>
