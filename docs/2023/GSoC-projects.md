@@ -93,6 +93,7 @@ Currently, discussion happening on https://github.com/fossology/fossology/discus
 9. [License as service](#license-as-service)
 10. [Obligation as service](#obligation-as-service)
 11. [Improving FOSSology CI scanner image](#improving-fossology-ci-scanner-image)
+12. [Support dynamic CSS class of bootstrap in FOSSology](#support-dynamic-css-class-of-bootstrap-in-fossology)
 
 ### REST API improvements
 
@@ -315,3 +316,23 @@ Additionally, the JSON output of nomos needs to be enhanced providing highlight 
 | Project Infrastructure | *** |
 | Project size | Large |
 | Preferred contributor | Student/Professional |
+
+### Support dynamic CSS class of bootstrap in FOSSology
+
+**Goal:** Create a PHP page and define all the CSS classes of bootstrap that are been used inside of project
+
+FLOW:
+1. Create a PHP page and define all the CSS classes of bootstrap that are been used inside of project.
+2. Also beautify the existing FOSSology UI with Bootstrap.
+3. We can easily change from versions of bootstrap if we have all the classes in one place.
+
+
+| Category | Rating |
+| :-- | :-- |
+| Low Hanging Fruit | ** |
+| Risk/Exploratory | * |
+| Fun/Peripheral | *** |
+| Core Development | * |
+| Project Infrastructure | ** |
+| Project size | Medium |
+| Preferred contributor | Student |
