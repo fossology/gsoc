@@ -21,6 +21,11 @@ module.exports = {
       },
       items: [
         {
+          label: 'Contributor Guidelines',
+          position: 'left',
+          to: '/docs/guidelines/'
+        },
+        {
           label: '2021',
           position: 'left',
           to: '/docs/2021/',
