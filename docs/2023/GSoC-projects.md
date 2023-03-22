@@ -73,6 +73,11 @@ Interested in becoming a mentor? Please reach out to us!
 - [Ayush Bhardwaj](https://github.com/hastagAB)
 - [Shaheem Azmal M MD](https://github.com/shaheemazmalmmd)
 - [Vivek Kumar](https://github.com/viv9k)
+- [Avinal](https://github.com/avinal)
+- Katharina Ettinger
+- [Rohit_Pandey](https://github.com/rohitpandey49)
+- [Sahil Jha](https://github.com/sjha2048)
+- [Shruti Agarwal](https://github.com/shruti3004)
 
 ## Topic Proposals
 
@@ -104,6 +109,7 @@ Currently, discussion happening on https://github.com/fossology/fossology/discus
     - Update REST API to v2
     - https://github.com/fossology/fossology/issues?q=is%3Aissue+is%3Aopen+REST
     - https://github.com/Shruti3004/FOSSology-REST-API/issues
+    - https://github.com/fossology/fossology/issues/2404
 
 | Category | Rating |
 |:--|:--|
