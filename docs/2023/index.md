@@ -11,24 +11,30 @@ SPDX-FileCopyrightText: 2023 Gaurav Mishra <mishra.gaurav@siemens.com>
 SPDX-FileCopyrightText: 2023 Siemens AG
 -->
 
-FOSSology is planning to apply for [GSoC 2023](https://summerofcode.withgoogle.com/).
-We have created our [idea page for GSoC 2023](GSoC-projects.md). Please visit
-it and provide us with feedbacks.
+2023 is the sixth time participation for FOSSology in
+[Google Summer of Code](https://summerofcode.withgoogle.com/programs/2023/organizations/fossology).
 
-We are also accepting mentors to help us with the projects. Please feel free to
-contact us if you are interested.
+You can visit our [idea page for GSoC 2022](GSoC-projects.md).
+
+This year, following contributors were shortlisted for the program. However, we
+would like to thank everyone who has applied with FOSSology for the Google
+Summer of Code program.
 
 ### Projects
 
 [//]: # (Following are the important links to projects.)
 
-| Contributor  | Project      | Final Reports |
-|:-------------|:-------------|:--------------|
-| to be filled | to be filled | to be filled  |
+| Contributor                                        | Project                                                     |
+|:---------------------------------------------------|:------------------------------------------------------------|
+| [Abdelrahman Jamal](https://github.com/Hero2323)   | [Reducing False positive copyrights](/docs/2023/copyrights) |
+| [Samuel Dushimimana](https://github.com/dushimsam) | [REST API improvements](/docs/2023/rest)                    |
+| [Kavya Shukla](https://github.com/k-avy)           | [License as a service](/docs/2023/laas)                     |
+| [Soham Banerjee](https://github.com/soham4abc)     | [REST API improvements](/docs/2023/rest)                    |
+| [Sushant Kumar](https://github.com/its-sushant)    | [Support CycloneDX report](/docs/2023/cyclonedx)            |
 
-[//]: # (These links &#40;also on the left sidebar&#41; contains information about the project,)
-[//]: # (the weekly updates from the students and even technical documentation which)
-[//]: # (were generated during the Google Summer of Code.)
+These links (also on the left sidebar) contains information about the project,
+the weekly updates from the students and even technical documentation which
+were generated during the Google Summer of Code.
 
 ### Mentors
 
@@ -36,10 +42,13 @@ contact us if you are interested.
 * [Avinal Kumar](https://github.com/avinal)
 * [Ayush Bhardwaj](https://github.com/hastagAB)
 * [Gaurav Mishra](https://github.com/GMishx)
-* [Kaushlendra Pratap](https://github.com/Kaushl2208)
-* [Shaheem Azmal](https://github.com/shaheemazmalmmd)
-* [Vivek Kumar](https://github.com/viv9k)
 * Katharina Ettinger
+* [Kaushlendra Pratap](https://github.com/Kaushl2208)
+* [Rohit Pandey](https://github.com/rohitpandey49)
+* [Sahil Jha](https://github.com/sjha2048)
+* [Shaheem Azmal](https://github.com/shaheemazmalmmd)
+* [Shruti Agarwal](https://github.com/Shruti3004)
+* [Vivek Kumar](https://github.com/viv9k)
 
 ### Meetings table
 

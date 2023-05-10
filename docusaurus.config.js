@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'GSoC projects at FOSSology',
-  tagline: 'Updates about activites done by Google Summer of Code students at FOSSology.',
+  tagline: 'Updates about activities done by Google Summer of Code students at FOSSology.',
   url: 'https://fossology.github.io',
   baseUrl: '/gsoc/',
   onBrokenLinks: 'throw',
@@ -89,8 +89,20 @@ module.exports = {
           to: '/docs/2023/',
           items: [
             {
-              label: 'Project ideas',
-              to: '/docs/2023/GSoC-projects',
+              label: 'Reducing False positive copyrights',
+              to: '/docs/2023/copyrights',
+            },
+            {
+              label: 'REST API improvements',
+              to: '/docs/2023/rest',
+            },
+            {
+              label: 'License as a service',
+              to: '/docs/2023/laas',
+            },
+            {
+              label: 'Support CycloneDX report',
+              to: '/docs/2023/cyclonedx',
             },
           ]
         },
