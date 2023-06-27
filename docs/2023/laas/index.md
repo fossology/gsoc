@@ -38,7 +38,7 @@ There are two parts of the project:
 
 - Second part is API Designing:
   - Adding endpoints related to the license database.
-  - Adding various query parameters as a filter.
+  - Adding various query parameters for filters and ordering.
   - To add fuzzy search for the license text.
   - Adding the endpoints related to authentication of the API.
 
