@@ -1,0 +1,44 @@
+---
+sidebar_position: 6
+title: Week 5
+---
+
+<!--
+SPDX-License-Identifier: CC-BY-SA-4.0
+
+SPDX-FileCopyrightText: 2023 Gaurav Mishra <mishra.gaurav@siemens.com>
+SPDX-FileCopyrightText: 2023 Siemens AG
+-->
+
+## Attendees:
+
+  - [Gaurav Mishra](https://github.com/GMishx)
+  - [Soham Banerjee](https://github.com/soham4abc)
+  - [Sushant Kumar](https://github.com/its-sushant)
+  - [Samuel Dushimimana](https://github.com/dushimsam)
+  - [Ayush Bhardwaj](https://github.com/HastagAB)
+  - [Avinal Kumar](https://github.com/avinal)
+  - [Kavya Shukla](https://github.com/k-avy)
+  - [Anupam Ghosh](https://github.com/ag4ums)
+
+## Updates from contributors
+
+- [Sushant Kumar](https://github.com/its-sushant)
+  - Done implementation of the CycloneDX agent, [PR #2507](https://github.com/fossology/fossology/pull/2507)
+  - Gave demo of the CycloneDX agent report generation.
+  - Suggestion, create `bomRef` as `<upload_id>-<item_id>`.
+
+- [Kavya Shukla](https://github.com/k-avy)
+  - Added authentication for REST API.
+  - Using username and password for now.
+  - Implemented fuzzy search and full-text search.
+    - Suggestion is to add a query parameter to let user decide to go for fuzzy or full-text search.
+
+- [Soham Banerjee](https://github.com/soham4abc)
+  - Working on copyright related endpoints.
+  - Raised PRs and working on changes requested.
+
+- [Samuel Dushimimana](https://github.com/dushimsam)
+  - Working on jobs and standard acknowledgement endpoints.
+  - Showed demo of the acknowledgements endpoints with insert, update and toggle enable.
+  - Working on merging the license decision endpoints and showed the demo.
