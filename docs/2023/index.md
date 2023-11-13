@@ -24,13 +24,14 @@ Summer of Code program.
 
 [//]: # (Following are the important links to projects.)
 
-| Contributor                                        | Project                                                     |
-|:---------------------------------------------------|:------------------------------------------------------------|
-| [Abdelrahman Jamal](https://github.com/Hero2323)   | [Reducing False positive copyrights](/docs/2023/copyrights) |
-| [Samuel Dushimimana](https://github.com/dushimsam) | [REST API improvements](/docs/2023/rest)                    |
-| [Kavya Shukla](https://github.com/k-avy)           | [License as a service](/docs/2023/laas)                     |
-| [Soham Banerjee](https://github.com/soham4abc)     | [REST API improvements](/docs/2023/rest)                    |
-| [Sushant Kumar](https://github.com/its-sushant)    | [Support CycloneDX report](/docs/2023/cyclonedx)            |
+| Contributor                                        | Project                                                     | Final Report                                                  |
+|:---------------------------------------------------|:------------------------------------------------------------|:-------------------------------------------------------------|
+| [Abdelrahman Jamal](https://github.com/Hero2323)   | [Reducing False positive copyrights](/docs/2023/copyrights) | [Report](https://github.com/Hero2323/GSoC-2023)         |
+| [Samuel Dushimimana](https://github.com/dushimsam) | [REST API improvements](/docs/2023/rest)                    |                                                              |
+| [Kavya Shukla](https://github.com/k-avy)           | [License as a service](/docs/2023/laas)                     |                                                              |
+| [Soham Banerjee](https://github.com/soham4abc)     | [REST API improvements](/docs/2023/rest)                    |                                                              |
+| [Sushant Kumar](https://github.com/its-sushant)    | [Support CycloneDX report](/docs/2023/cyclonedx)            |                                                              |
+
 
 These links (also on the left sidebar) contains information about the project,
 the weekly updates from the students and even technical documentation which
