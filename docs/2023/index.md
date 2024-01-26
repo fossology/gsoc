@@ -62,6 +62,16 @@ were generated during the Google Summer of Code.
 | CycloneDX       | *Tuesday* 05:00 - 05:30 UTC   | [Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDA2OGQ1Y2UtYmQ2Mi00ZmZkLTliOTUtNmEyODlkZmViYjQz%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%22a2c4f566-cad3-46d5-9146-26004cf4bc7c%22%7d) | [.ics](/ics/gsoc_2023_cyclonedx.ics) |
 
 ### Photo
-To come.
+Here are some screen captures of the conclusion meeting of GSoC 2023 with all
+mentors and contributors.
+
+![group photo1](/img/gsoc23participants1.png 'GSoC 2023 Participants - 1')
+[Participants photo 1]
+
+![group photo2](/img/gsoc23participants2.png 'GSoC 2023 Participants - 2')
+[Participants photo 2]
+
+![group photo3](/img/gsoc23participants3.png 'GSoC 2023 Participants - 3')
+[Participants photo 3]
 
 Thanks for being part of the community. 💚
