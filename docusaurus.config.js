@@ -1,6 +1,3 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'GSoC projects at FOSSology',
@@ -9,6 +6,7 @@ module.exports = {
   baseUrl: '/gsoc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  onBrokenAnchors: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'fossology',
   projectName: 'gsoc',
@@ -149,7 +147,7 @@ module.exports = {
           items: [
             {
               label: 'YouTube',
-              href: 'https://www.youtube.com/channel/UCZGPJnQZVnEPQWxOuNamLpw',
+              href: 'https://www.youtube.com/@fossology',
             },
             {
               label: 'Installing FOSSology',
@@ -164,10 +162,12 @@ module.exports = {
       ],
       copyright: `Copyright © 2021 - ${new Date().getFullYear()} FOSSology project. Built with Docusaurus.`,
     },
-    prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
     },
+    image: 'img/logo.png',
   },
   presets: [
     [

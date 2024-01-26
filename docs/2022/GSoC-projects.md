@@ -21,7 +21,7 @@ We from the fossology project would like to apply for GSOC. Please see two main 
 - https://www.fossology.org
 - https://fossology.github.io/gsoc/
 
-Meetings: Checkout the [Meetings table](/docs/2022/#meetings-table)
+Meetings: Checkout the [Meetings table](/docs/2022#meetings-table)
 
 ## Interested in Application? - Getting Grip
 
