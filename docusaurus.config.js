@@ -107,6 +107,17 @@ module.exports = {
           ]
         },
         {
+          label: '2024',
+          position: 'left',
+          to: '/docs/2024/',
+          items: [
+            {
+              label: 'Idea list',
+              to: '/docs/2024/GSoC-projects',
+            },
+          ]
+        },
+        {
           href: 'https://github.com/fossology/fossology',
           label: 'GitHub',
           position: 'right',
