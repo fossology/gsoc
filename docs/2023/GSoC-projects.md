@@ -22,7 +22,7 @@ resources for finding out more FOSSology in general:
 - https://www.fossology.org
 - https://fossology.github.io/gsoc/
 
-Meetings: Checkout the [Meetings table](/docs/2023/#meetings-table)
+Meetings: Checkout the [Meetings table](/docs/2023#meetings-table)
 
 ## Interested in Application? - Getting Grip
 

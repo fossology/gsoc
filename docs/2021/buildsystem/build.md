@@ -40,12 +40,12 @@ Install CMake if you haven't already (minimum 3.10 required)
 
 | CMake Flags            | Description                  | Default     |
 | --- | --- | --- |
-| **-DCMAKE_INSTALL_PREFIX=<path\>** | Sets the install prefix. | `/usr/local` |
+| **-DCMAKE_INSTALL_PREFIX=\<path\>** | Sets the install prefix. | `/usr/local` |
 | **-DAGENTS="agent1;agent2..."** | Only configure these agents. | ALL AGENTS  |
-| **-DOFFLINE=<ON/OFF\>** | Controls vendor generation, ON=NO  | **OFF**     |
-| **-DCMAKE_BUILD_TYPE=<type\>** | -   `Debug`, `Release`, `RelWithDebInfo`,`MinSizeRel`     | `Debug` |
-| **-DTESTING=<ON/OFF\>** | Controls testing config generation    | **OFF**   |
-| **-DMONOPACK=<ON/OFF\>** | Package adj2nest and ununpack seperately        | **OFF**     |
+| **-DOFFLINE=\<ON/OFF\>** | Controls vendor generation, ON=NO  | **OFF**     |
+| **-DCMAKE_BUILD_TYPE=\<type\>** | -   `Debug`, `Release`, `RelWithDebInfo`,`MinSizeRel`     | `Debug` |
+| **-DTESTING=\<ON/OFF\>** | Controls testing config generation    | **OFF**   |
+| **-DMONOPACK=\<ON/OFF\>** | Package adj2nest and ununpack seperately        | **OFF**     |
 | **-GNinja**            | Use Ninja instead of Unix Makefiles   | *Unix MakeFiles*      |
 
 There are lots of inbuilt CMake command-line options you can see them in the official [documentation](https://cmake.org/cmake/help/v3.10/manual/cmake.1.html). Once you have chosen your flags we can now configure the project using the following commands.
