@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgosc=self.webpackChunkgosc||[]).push([[705],{27261:s=>{s.exports=JSON.parse('{"label":"cmake","permalink":"/gsoc/blog/tags/cmake","allTagsPath":"/gsoc/blog/tags","count":1,"unlisted":false}')}}]);

@@ -1,0 +1,149 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN=fwhdzh@gmail.com;RSVP=TRUE:mailto:fwhdzh@gmail.com
+ATTENDEE;CN="Azmal M MD, Shaheem (T SSP ASI-IN)";RSVP=TRUE:mailto:shaheem.a
+	zmal@siemens.com
+ATTENDEE;CN=avinal.xlvii@gmail.com;RSVP=TRUE:mailto:avinal.xlvii@gmail.com
+ATTENDEE;CN=nicolas1.toussaint@orange.com;RSVP=TRUE:mailto:nicolas1.toussai
+	nt@orange.com
+CLASS:PUBLIC
+CREATED:20220606T045457Z
+DESCRIPTION:Hello all\,\n\n \n\nLet’s use this meeting to have discussion
+	s on introducing project concept.\n\n \n\nWith best regards\,\n\nGaurav Mi
+	shra\n\n__________________________________________________________________
+	______________ \n\nMicrosoft Teams meeting \n\nJoin on your computer or mo
+	bile app \n\nClick here to join the meeting <https://teams.microsoft.com/l
+	/meetup-join/19%3ameeting_MWE4YTRlMDEtODc4Yi00NjY4LWIzNGYtM2ViYWNmMDU3ZDVl
+	%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d
+	55a%22%2c%22Oid%22%3a%22a2c4f566-cad3-46d5-9146-26004cf4bc7c%22%7d>  \n\nO
+	r call in (audio only) \n\n+91 22 6259 0317\,\,\,\,785164572# <tel:+912262
+	590317\,\,\,\,785164572#>    India\, Mumbai \n\nPhone Conference ID: 785 1
+	64 572# \n\nFind a local number <https://dialin.teams.microsoft.com/74042a
+	74-a90b-4ccc-8227-e22b08bb88da?id=785164572>  | Reset PIN <https://dialin.
+	teams.microsoft.com/usp/pstnconferencing>  \n\nLearn More <https://aka.ms/
+	JoinTeamsMeeting>  | Meeting options <https://teams.microsoft.com/meetingO
+	ptions/?organizerId=a2c4f566-cad3-46d5-9146-26004cf4bc7c&tenantId=38ae3bcd
+	-9579-4fd4-adda-b42e1495d55a&threadId=19_meeting_MWE4YTRlMDEtODc4Yi00NjY4L
+	WIzNGYtM2ViYWNmMDU3ZDVl@thread.v2&messageId=0&language=en-US>  \n\n_______
+	_________________________________________________________________________ 
+	\n\n \n\n
+DTEND;TZID="India Standard Time":20220609T150000
+DTSTAMP:20220606T045435Z
+DTSTART;TZID="India Standard Time":20220609T143000
+LAST-MODIFIED:20220606T045457Z
+LOCATION:Microsoft Teams Meeting
+ORGANIZER;CN="Mishra, Gaurav (T SSP ASI-IN)":mailto:mishra.gaurav@siemens.c
+	om
+PRIORITY:5
+RRULE:FREQ=WEEKLY;COUNT=13;BYDAY=TH
+SEQUENCE:1
+SUMMARY;LANGUAGE=en-in:GSoC 2022 Discussions - Project concept
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000104C81C38D79D801000000000000000
+	0100000008488202A23E695458A4906E7E1EB8210
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta name=Generato
+	r content="Microsoft Word 15 (filtered medium)"><style><!--\n/* Font Defin
+	itions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5
+	 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2 2 2
+	 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5 2 4 
+	2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\;\n	panose-1:2
+	 11 7 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNorma
+	l\, div.MsoNormal\n	{margin:0cm\;\n	font-size:11.0pt\;\n	font-family:"Cali
+	bri"\,sans-serif\;\n	mso-fareast-language:EN-US\;}\na:link\, span.MsoHyper
+	link\n	{mso-style-priority:99\;\n	color:#0563C1\;\n	text-decoration:underl
+	ine\;}\nspan.EmailStyle18\n	{mso-style-type:personal-compose\;\n	font-fami
+	ly:"Calibri"\,sans-serif\;\n	color:windowtext\;}\n.MsoChpDefault\n	{mso-st
+	yle-type:export-only\;\n	font-size:10.0pt\;}\n@page WordSection1\n	{size:6
+	12.0pt 792.0pt\;\n	margin:72.0pt 72.0pt 72.0pt 72.0pt\;}\ndiv.WordSection1
+	\n	{page:WordSection1\;}\n--></style><!--[if gte mso 9]><xml>\n<o:shapedef
+	aults v:ext="edit" spidmax="1026" />\n</xml><![endif]--><!--[if gte mso 9]
+	><xml>\n<o:shapelayout v:ext="edit">\n<o:idmap v:ext="edit" data="1" />\n<
+	/o:shapelayout></xml><![endif]--></head><body lang=EN-IN link="#0563C1" vl
+	ink="#954F72" style='word-wrap:break-word'><div class=WordSection1><p clas
+	s=MsoNormal>Hello all\,<o:p></o:p></p><p class=MsoNormal><o:p>&nbsp\;</o:p
+	></p><p class=MsoNormal>Let&#8217\;s use this meeting to have discussions 
+	on introducing project concept.<o:p></o:p></p><p class=MsoNormal><o:p>&nbs
+	p\;</o:p></p><p class=MsoNormal>With best regards\,<o:p></o:p></p><p class
+	=MsoNormal>Gaurav Mishra<o:p></o:p></p><div><p class=MsoNormal><span style
+	='color:#5F5F5F'>_________________________________________________________
+	_______________________</span> <o:p></o:p></p></div><div><div style='margi
+	n-top:18.0pt\;margin-bottom:15.0pt'><p class=MsoNormal><span lang=EN-US st
+	yle='font-size:18.0pt\;font-family:"Segoe UI"\,sans-serif\;color:#252424'>
+	Microsoft Teams meeting</span><span lang=EN-US style='font-family:"Segoe U
+	I"\,sans-serif\;color:#252424'> <o:p></o:p></span></p></div><div style='ma
+	rgin-bottom:15.0pt'><div><p class=MsoNormal><b><span lang=EN-US style='fon
+	t-size:10.5pt\;font-family:"Segoe UI"\,sans-serif\;color:#252424'>Join on 
+	your computer or mobile app</span></b><b><span lang=EN-US style='font-fami
+	ly:"Segoe UI"\,sans-serif\;color:#252424'> <o:p></o:p></span></b></p></div
+	><p class=MsoNormal><span lang=EN-US style='font-family:"Segoe UI"\,sans-s
+	erif\;color:#252424'><a href="https://teams.microsoft.com/l/meetup-join/19
+	%3ameeting_MWE4YTRlMDEtODc4Yi00NjY4LWIzNGYtM2ViYWNmMDU3ZDVl%40thread.v2/0?
+	context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid
+	%22%3a%22a2c4f566-cad3-46d5-9146-26004cf4bc7c%22%7d" target="_blank"><span
+	 style='font-size:10.5pt\;font-family:"Segoe UI Semibold"\,sans-serif\;col
+	or:#6264A7'>Click here to join the meeting</span></a> <o:p></o:p></span></
+	p></div><div style='margin-bottom:3.0pt'><div style='margin-bottom:3.0pt'>
+	<p class=MsoNormal><b><span lang=EN-US style='font-size:10.5pt\;font-famil
+	y:"Segoe UI"\,sans-serif\;color:#252424'>Or call in (audio only)</span></b
+	><span lang=EN-US style='font-family:"Segoe UI"\,sans-serif\;color:#252424
+	'> <o:p></o:p></span></p></div><div style='margin-bottom:3.0pt'><p class=M
+	soNormal><span lang=EN-US style='font-family:"Segoe UI"\,sans-serif\;color
+	:#252424'><a href="tel:+912262590317\,\,\,\,785164572# "><span style='font
+	-size:10.5pt\;color:#6264A7'>+91 22 6259 0317\,\,\,\,785164572#</span></a>
+	 </span><span lang=EN-US style='font-size:10.5pt\;font-family:"Segoe UI"\,
+	sans-serif\;color:#252424'>&nbsp\; India\, Mumbai </span><span lang=EN-US 
+	style='font-family:"Segoe UI"\,sans-serif\;color:#252424'><o:p></o:p></spa
+	n></p></div></div><p class=MsoNormal><span lang=EN-US style='font-size:10.
+	5pt\;font-family:"Segoe UI"\,sans-serif\;color:#252424'>Phone Conference I
+	D: </span><span lang=EN-US style='font-size:12.0pt\;font-family:"Segoe UI"
+	\,sans-serif\;color:#252424'>785 164 572# </span><span lang=EN-US style='f
+	ont-family:"Segoe UI"\,sans-serif\;color:#252424'><o:p></o:p></span></p><d
+	iv style='margin-bottom:15.0pt'><p class=MsoNormal><span lang=EN-US style=
+	'font-family:"Segoe UI"\,sans-serif\;color:#252424'><a href="https://diali
+	n.teams.microsoft.com/74042a74-a90b-4ccc-8227-e22b08bb88da?id=785164572" t
+	arget="_blank"><span style='font-size:10.5pt\;color:#6264A7'>Find a local 
+	number</span></a> | <a href="https://dialin.teams.microsoft.com/usp/pstnco
+	nferencing" target="_blank"><span style='font-size:10.5pt\;color:#6264A7'>
+	Reset PIN</span></a> <o:p></o:p></span></p></div><div style='margin-top:15
+	.0pt\;margin-bottom:18.0pt'><p class=MsoNormal><span lang=EN-US style='fon
+	t-family:"Segoe UI"\,sans-serif\;color:#252424'><a href="https://aka.ms/Jo
+	inTeamsMeeting" target="_blank"><span style='font-size:10.5pt\;color:#6264
+	A7'>Learn More</span></a> | <a href="https://teams.microsoft.com/meetingOp
+	tions/?organizerId=a2c4f566-cad3-46d5-9146-26004cf4bc7c&amp\;tenantId=38ae
+	3bcd-9579-4fd4-adda-b42e1495d55a&amp\;threadId=19_meeting_MWE4YTRlMDEtODc4
+	Yi00NjY4LWIzNGYtM2ViYWNmMDU3ZDVl@thread.v2&amp\;messageId=0&amp\;language=
+	en-US" target="_blank"><span style='font-size:10.5pt\;color:#6264A7'>Meeti
+	ng options</span></a> <o:p></o:p></span></p></div></div><div><p class=MsoN
+	ormal><span style='color:#5F5F5F'>________________________________________
+	________________________________________</span> <o:p></o:p></p></div><p cl
+	ass=MsoNormal><o:p>&nbsp\;</o:p></p></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTLASTSEQUENCE:1
+X-MS-OLK-APPTSEQTIME:20220606T045435Z
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+diff --git a/docs/2022/index.md b/docs/2022/index.md

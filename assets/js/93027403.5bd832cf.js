@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgosc=self.webpackChunkgosc||[]).push([[440],{22474:e=>{e.exports=JSON.parse('[{"label":"coding-week","permalink":"/gsoc/blog/tags/coding-week","count":1},{"label":"cmake","permalink":"/gsoc/blog/tags/cmake","count":1}]')}}]);
