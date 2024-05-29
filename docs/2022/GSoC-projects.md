@@ -86,15 +86,15 @@ Currently discussion happening on https://github.com/fossology/fossology/discuss
 
 1. [SPDX naming updates and reporting](#spdx-naming-updates-and-reporting)
 1. [REST API and UI improvements](#rest-api-and-ui-improvements)
-1. [Integrating Open Source Review Toolkit](#Integrating-Open-Source-Review-Toolkit)
+1. [Integrating Open Source Review Toolkit](#integrating-open-source-review-toolkit)
 1. [Adopting REUSE standards in FOSSology](#adopting-reuse-standards-in-fossology)
 1. [Improving FOSSology CI scanner image](#improving-fossology-ci-scanner-image)
 1. [Enhancement with ClearlyDefined.io (spasht)](#enhancement-with-clearlydefinedio-spasht)
 1. [Compatibility for PHP-8](#compatibility-for-php-8)
 1. [Introduce concept of project in FOSSology](#introduce-concept-of-project-in-fossology)
 1. [Improve Minerva OSS Dataset and implement models for Atarashi](#improve-minerva-oss-dataset-and-implement-models-for-atarashi)
-1. [Overhauling scheduler design](#Overhauling-scheduler-design)
-1. [Debian packaging for Debian repository](#Debian-packaging-for-Debian-repository)
+1. [Overhauling scheduler design](#overhauling-scheduler-design)
+1. [Debian packaging for Debian repository](#debian-packaging-for-debian-repository)
 
 ### SPDX naming updates and reporting
 
