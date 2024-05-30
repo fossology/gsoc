@@ -49,13 +49,14 @@ More info to come here.
 
 ### Meetings table
 
-| Topic(s)           | Timings                       | Meeting link                                                                                            | ICS                                  |
-|:-------------------|:------------------------------|:--------------------------------------------------------------------------------------------------------|:-------------------------------------|
-| General Meeting    | *Thursday* 13:30 - 14:30 UTC  | [Jitsi](https://meet.jit.si/moderated/5a655b3b6f3b4f83cddb13b93ac5408d6de48bf4ce1049f4128aa1c885478d48) | [.ics](/ics/gsoc_2024_weekly.ics)    |
-| -                  | -                             | -                                                                                                       | -                                    |
-| SPDX Related       | *Tuesday* 10:30 - 11:20 UTC   | [Jitsi](https://moderated.jitsi.net/d623bb1284a54c83958eff31d2ecce9ed6b894312eda4ed9b400d5963f4e18b6)   | [.ics](/ics/gsoc_2024_spdx.ics)      |
-| CI Scanner         | *Wednesday* 10:30 - 11:00 UTC | [Jitsi](https://moderated.jitsi.net/39896aad61bc4a27b9418ee6b78689348c65790e889046069dbe9c8c34110c9a)   | [.ics](/ics/gsoc_2024_ci.ics)        |
-| Scheduler Overhaul | *Friday* 10:30 - 11:00 UTC    | [Jitsi](https://moderated.jitsi.net/5444f675f5ce47c788fa4238a6a958c53d3e62804e9243d5b807fbaa81f3120f)   | [.ics](/ics/gsoc_2024_scheduler.ics) |
+| Topic(s)            | Timings                       | Meeting link                                                                                            | ICS                                  |
+|:--------------------|:------------------------------|:--------------------------------------------------------------------------------------------------------|:-------------------------------------|
+| General Meeting     | *Thursday* 13:30 - 14:30 UTC  | [Jitsi](https://meet.jit.si/moderated/5a655b3b6f3b4f83cddb13b93ac5408d6de48bf4ce1049f4128aa1c885478d48) | [.ics](/ics/gsoc_2024_weekly.ics)    |
+| -                   | -                             | -                                                                                                       | -                                    |
+| SPDX Related        | *Tuesday* 10:30 - 11:20 UTC   | [Jitsi](https://moderated.jitsi.net/d623bb1284a54c83958eff31d2ecce9ed6b894312eda4ed9b400d5963f4e18b6)   | [.ics](/ics/gsoc_2024_spdx.ics)      |
+| CI Scanner          | *Wednesday* 10:30 - 11:00 UTC | [Jitsi](https://moderated.jitsi.net/39896aad61bc4a27b9418ee6b78689348c65790e889046069dbe9c8c34110c9a)   | [.ics](/ics/gsoc_2024_ci.ics)        |
+| Scheduler Overhaul  | *Friday* 10:30 - 11:00 UTC    | [Jitsi](https://moderated.jitsi.net/5444f675f5ce47c788fa4238a6a958c53d3e62804e9243d5b807fbaa81f3120f)   | [.ics](/ics/gsoc_2024_scheduler.ics) |
+| AI Powered Scanners | *Thursday* 10:30 - 11:20 UTC  | [Jitsi](https://moderated.jitsi.net/15ee0bf46cb345e4accc817ed2967b55db216bf57c894c30bd1550ecf3ec3ace)   | [.ics](/ics/gsoc_2024_ai.ics)        |
 
 ### Photo
 Photos to come soon.
