@@ -113,6 +113,38 @@ module.exports = {
               label: 'Idea list',
               to: '/docs/2024/GSoC-projects',
             },
+            {
+              label: 'Scheduler Overhaul',
+              to: '/docs/2024/scheduler',
+            },
+            {
+              label: 'AI Powered License Detection',
+              to: '/docs/2024/license-detection',
+            },
+            {
+              label: 'SPDX 3.0 Support',
+              to: '/docs/2024/spdx30',
+            },
+            {
+              label: 'SPDX License Expression Support',
+              to: '/docs/2024/spdx-expression',
+            },
+            {
+              label: 'REST API improvements',
+              to: '/docs/2024/rest',
+            },
+            {
+              label: 'CI Scanner Improvements',
+              to: '/docs/2024/ci-scanner',
+            },
+            {
+              label: 'Data Pipeline',
+              to: '/docs/2024/pipeline',
+            },
+            {
+              label: 'Text Phrases',
+              to: '/docs/2024/text-phrases',
+            },
           ]
         },
         {
