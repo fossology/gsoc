@@ -24,24 +24,37 @@ CI Scanner Improvements
 
 ## What's the project about?
 
-To be able to easily and continuously scan packages with
-fossology checks in CI pipelines, a docker image
-(fossology/fossology:scanner) capable of running license checks (using
-nomos or ojo) and keyword and copyright scans is available.
-This project aims to improve the CI Scanner Image in
-various aspects and numerous quality of life improvements, like
-highlighting the exact location of violation, ability to customize the
-keywords used by the scanner, and improving user experience – allow
-whitelisting from a custom location and ability to download and scan
-dependencies
+To be able to easily and continuously scan packages with 
+fossology checks in CI pipelines, a docker image [fossology/fossology:scanner](https://hub.docker.com/layers/fossology/fossology/scanner/images/sha256-a625b1b10832b98d47429387c18b4fb042f7b09f912b50da14da61fddb11a2ff?context=explore) capable of running license checks (using nomos or ojo) and keyword and copyright scans is available. 
+
+The main aims of this projects is to improve the CI pipeline with various quality of life improvements like:
+- Highlight the exact location of violations in the results.
+- Enable customization of keywords used by the scanner.
+- Allow whitelisting from a custom location.
+- Provide the ability to download and scan dependencies.
+
 
 ## What should be done?
 
-1. Highlight the exact location (line number) of a violation during
-reporting
-2. Allow users to customize keyword scanning using their own
-keyword.conf
-3. Allow users to store allowlist.json file elsewhere (currently, it is
-required to be present at the root of the project)
-4. Allow users to download and scan dependencies by providing a path
-at CI/CD pipeline trigger.
+### Reporting line numbers for violations
+- For calculating the previous and new line number from the diff scan output, an algorithm has to be made. 
+- The line number start byte and end byte information is spit out by all scanners except nomos in json output. That has to be fixed.
+- Add the line number calculated to the finding log information as well as write it in results file.
+
+### Keyword scanning using custom keyword.conf
+- Currently, the keyword scanner uses a predefined set of keywords stored at `/usr/local/share/fossology/keyword/agent/keyword.conf.`
+- To support this, we also need to document the regex-like format used for specifying these keywords.
+- Decision to be made : Should custom `keyword.conf` overwrite the previous one? 
+
+### Providing allowlist.json from a different path
+- Currently, the `allowlist.json` is located at the root of the project.
+- We want to allow users to optionally specify a different path, using a CLI argument, like --allowlist
+
+### Allow users to download and scan dependencies
+- Currently, the project only scans the source code of the project either in repo/diff manner.
+- We additionally want to allow the functionality to scan and dependencies of the project.
+
+#### Steps to achieve this:
+    - With the [CycloneDX](https://cyclonedx.org/tool-center/) tool center, we can generate SBOM which contains the dependency download url.
+    - The SBOM format specifies the package URL (purl) for each dependency. 
+    - Using the [python-packageurl](https://github.com/package-url/packageurl-python#purl-to-url) tool, we can extract the download url from the purl for this purpose.
