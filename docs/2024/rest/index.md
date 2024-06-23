@@ -27,6 +27,7 @@ REST API Improvements
 
 In recent years, FOSSology's REST APIs have expanded significantly, enhancing user accessibility, flexibility, and automation. However, the development is not yet complete, prompting some users to resort to mocking WebUI access solely for information retrieval. With the development of FOSSology's new [React UI](https://github.com/fossology/FOSSologyUI) also underway, robust support for REST APIs becomes imperative.
 
+
 This project aims to finalize the development of FOSSology's REST API by exposing any remaining endpoints, enhancing and upgrading existing ones to V2, increasing test coverage, and improving documentation. The approach involves a comprehensive review of each module to ensure the availability and exposure of required APIs for frontend consumption. These efforts will streamline development workflows, enhancing the overall usability of the FOSSology platform and facilitating the development of the new React UI.
 
 ## What should be done?
@@ -48,5 +49,14 @@ This project involves the following tasks:
 3. **Increasing Test Coverage:**
    - Study each endpoint and its functionality to identify potential edge cases.
    - Write unit tests for all existing and new endpoints.
+
+More specific details about each task can be found in the [Task Details Table](https://docs.google.com/document/d/158BZBZ5owLtI-SqD1MIduMy4bR3XLuwm4aDLynoFZAA/edit?usp=sharing).
+    - Develop a REST API guideline which will provide a solid set of rules to follow.
+    - Upgrade existing endpoints to V2 based on the guideline, also ensuring backward compatibility.
+    - Update documentation to reflect the changes and versioning.
+
+3. **Increasing Test Coverage:**
+    - Study each endpoint and its functionality to identify potential edge cases.
+    - Write unit tests for all existing and new endpoints.
 
 More specific details about each task can be found in the [Task Details Table](https://docs.google.com/document/d/158BZBZ5owLtI-SqD1MIduMy4bR3XLuwm4aDLynoFZAA/edit?usp=sharing).
