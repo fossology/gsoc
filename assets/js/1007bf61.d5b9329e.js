@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgosc=self.webpackChunkgosc||[]).push([[5766],{72177:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/gsoc/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

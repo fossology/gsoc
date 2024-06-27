@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgosc=self.webpackChunkgosc||[]).push([[2535],{45641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"New build system - Week 3","permalink":"/gsoc/blog/cmake-cweek3","unlisted":false}]}')}}]);
