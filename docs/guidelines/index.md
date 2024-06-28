@@ -11,7 +11,7 @@ Hi contributor!
 
 Thanks for your interest in our project, FOSSology.
 
-![FOSSology](/img/logo.png)
+![FOSSology](/img/logo.png) 
 
 **Welcome to the FOSSology GSoC program.**
 
