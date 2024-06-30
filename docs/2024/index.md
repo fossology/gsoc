@@ -18,7 +18,7 @@ You can visit our [idea page for GSoC 2024](GSoC-projects.md).
 
 More info to come here.
 
-### Projects
+### Projects    
 
 [//]: # "Following are the important links to projects."
 
@@ -52,7 +52,8 @@ More info to come here.
 | Topic(s)            | Timings                       | Meeting link                                                                                            | ICS                                  |
 | :------------------ | :---------------------------- | :------------------------------------------------------------------------------------------------------ | :----------------------------------- |
 | General Meeting     | _Thursday_ 13:30 - 14:30 UTC  | [Jitsi](https://meet.jit.si/moderated/5a655b3b6f3b4f83cddb13b93ac5408d6de48bf4ce1049f4128aa1c885478d48) | [.ics](/ics/gsoc_2024_weekly.ics)    |
-| -                   | -                             | -                                                                                                       | -                                    |
+|- | - |- |- |
+| REST API            | _Tuesday_ 11:00 - 11:50 UTC   | [Jitsi](https://moderated.jitsi.net/d623bb1284a54c83958eff31d2ecce9ed6b894312eda4ed9b400d5963f4e18b6)   | [.ics](/ics/gsoc_2024_rest.ics)      |
 | SPDX Related        | _Tuesday_ 10:30 - 11:20 UTC   | [Jitsi](https://moderated.jitsi.net/d623bb1284a54c83958eff31d2ecce9ed6b894312eda4ed9b400d5963f4e18b6)   | [.ics](/ics/gsoc_2024_spdx.ics)      |
 | CI Scanner          | _Wednesday_ 10:30 - 11:00 UTC | [Jitsi](https://moderated.jitsi.net/39896aad61bc4a27b9418ee6b78689348c65790e889046069dbe9c8c34110c9a)   | [.ics](/ics/gsoc_2024_ci.ics)        |
 | Scheduler Overhaul  | _Friday_ 10:30 - 11:00 UTC    | [Jitsi](https://moderated.jitsi.net/5444f675f5ce47c788fa4238a6a958c53d3e62804e9243d5b807fbaa81f3120f)   | [.ics](/ics/gsoc_2024_scheduler.ics) |
