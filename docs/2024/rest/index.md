@@ -51,12 +51,3 @@ This project involves the following tasks:
    - Write unit tests for all existing and new endpoints.
 
 More specific details about each task can be found in the [Task Details Table](https://docs.google.com/document/d/158BZBZ5owLtI-SqD1MIduMy4bR3XLuwm4aDLynoFZAA/edit?usp=sharing).
-    - Develop a REST API guideline which will provide a solid set of rules to follow.
-    - Upgrade existing endpoints to V2 based on the guideline, also ensuring backward compatibility.
-    - Update documentation to reflect the changes and versioning.
-
-3. **Increasing Test Coverage:**
-    - Study each endpoint and its functionality to identify potential edge cases.
-    - Write unit tests for all existing and new endpoints.
-
-More specific details about each task can be found in the [Task Details Table](https://docs.google.com/document/d/158BZBZ5owLtI-SqD1MIduMy4bR3XLuwm4aDLynoFZAA/edit?usp=sharing).
