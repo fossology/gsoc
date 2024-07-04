@@ -11,7 +11,16 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 SPDX-FileCopyrightText: 2024 Divij Sharma <divijs75@gmail.com>
 -->
 
+## Details
+
+- Created by: [Divij Sharma](https://github.com/dvjsharma)
+- Reviewed by: [Gaurav Mishra](https://github.com/GMishx), [Shaheem Azmal M MD](https://github.com/shaheemazmalmmd)
+
+## Motive
+
 Since this project primarily focuses on REST API development and improvement, it is crucial to establish a comprehensive guideline from the beginning. This guideline will serve as a set of rules to follow and provide a clear objective to achieve. After researching various reputable open-source projects and reviewing several design guides, I have prepared a detailed guideline document. Please refer to the table below for more information.
+
+## Guidelines
 
 <table>
 	<tr>
