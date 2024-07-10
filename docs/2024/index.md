@@ -26,7 +26,7 @@ More info to come here.
 | :--------------------------------------------------- | :----------------------------------------------------------- |
 | [Aaditya Singh](https://github.com/aadsingh)         | [Overhaul Scheduler Design](/docs/2024/scheduler)            |
 | [Abdelrahman Jamal](https://github.com/Hero2323)     | [AI Powered License Detection](/docs/2024/license-detection) |
-| [Abhishek Kumar](https://github.com/abhi-kumar17871) | [SPDX 3.0 Support](/docs/2024/spdx30)                        |
+| [Abhishek Kumar](https://github.com/abhi-kumar17871) | [Support SPDX 3.0 Reports](/docs/2024/spdx30)                        |
 | [Akash Sah](https://github.com/AkashSah2003)         | [SPDX License Expression](/docs/2024/spdx-expression)        |
 | [Divij Sharma](https://github.com/dvjsharma)         | [REST API Improvements](/docs/2024/rest)                     |
 | [Rajul Jha](https://github.com/rajuljha)             | [Improving CI Scanner](/docs/2024/ci-scanner)                |
