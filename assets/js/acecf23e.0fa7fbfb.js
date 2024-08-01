@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgosc=self.webpackChunkgosc||[]).push([[1454],{81838:s=>{s.exports=JSON.parse('{"blogBasePath":"/gsoc/blog","blogTitle":"Blog"}')}}]);
