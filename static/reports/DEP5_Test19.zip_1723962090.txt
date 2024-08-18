@@ -1,0 +1,23 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/       
+Upstream-Name: /srv/fossology/repository/report
+Upstream-Contact: 
+Source: 
+Disclaimer: <text> This file is offered as-is, without any warranty. </text>
+Copyright: 
+License: 
+Comment:  created on 2024-08-18T11:51:30Z with FOSSology
+
+
+Files: Test19.zip/Test17
+License: (BSD-2-Clause OR MIT)
+
+Files: Test19.zip/Test18
+License: (MIT AND (GPL-2.0-only AND BSD-2-Clause))
+
+Files: Test19.zip/Test7
+License: (MIT AND ((GPL-2.0-only OR BSD-3-Clause) AND AFL-1.1))
+
+Files: Test19.zip/Test16.txt
+License: LicenseRef-newlc
+
+
