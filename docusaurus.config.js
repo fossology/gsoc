@@ -122,7 +122,7 @@ module.exports = {
               to: '/docs/2024/license-detection',
             },
             {
-              label: 'SPDX 3.0 Support',
+              label: 'Support SPDX 3.0 Reports',
               to: '/docs/2024/spdx30',
             },
             {
