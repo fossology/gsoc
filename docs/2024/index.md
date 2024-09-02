@@ -18,20 +18,20 @@ You can visit our [idea page for GSoC 2024](GSoC-projects.md).
 
 More info to come here.
 
-### Projects    
+### Projects
 
 [//]: # "Following are the important links to projects."
 
-| Contributor                                          | Project                                                      |
-| :--------------------------------------------------- | :----------------------------------------------------------- |
-| [Aaditya Singh](https://github.com/aadsingh)         | [Overhaul Scheduler Design](/docs/2024/scheduler)            |
-| [Abdelrahman Jamal](https://github.com/Hero2323)     | [AI Powered License Detection](/docs/2024/license-detection) |
-| [Abhishek Kumar](https://github.com/abhi-kumar17871) | [Support SPDX 3.0 Reports](/docs/2024/spdx30)                        |
-| [Akash Sah](https://github.com/AkashSah2003)         | [SPDX License Expression](/docs/2024/spdx-expression)        |
-| [Divij Sharma](https://github.com/dvjsharma)         | [REST API Improvements](/docs/2024/rest)                     |
-| [Rajul Jha](https://github.com/rajuljha)             | [Improving CI Scanner](/docs/2024/ci-scanner)                |
-| [Shreya Gautam](https://github.com/ShreyaGautamm)    | [Data Pipeline](/docs/2024/pipeline)                         |
-| [Valens Niyonsenga](https://github.com/valens200)    | [Text phrase scanning](/docs/2024/text-phrases)              |
+| Contributor                                          | Project                                                      | Final Reports |
+| :--------------------------------------------------- | :----------------------------------------------------------- | :-------- |
+| [Aaditya Singh](https://github.com/aadsingh)         | [Overhaul Scheduler Design](/docs/2024/scheduler)            | Visit |
+| [Abdelrahman Jamal](https://github.com/Hero2323)     | [AI Powered License Detection](/docs/2024/license-detection) | Visit |
+| [Abhishek Kumar](https://github.com/abhi-kumar17871) | [Support SPDX 3.0 Reports](/docs/2024/spdx30)                | [Visit](https://github.com/abhi-kumar17871/GSoC-24) |
+| [Akash Sah](https://github.com/AkashSah2003)         | [SPDX License Expression](/docs/2024/spdx-expression)        | [Visit](https://github.com/Akashsah2003/GSoC-24) |
+| [Divij Sharma](https://github.com/dvjsharma)         | [REST API Improvements](/docs/2024/rest)                     | [Visit](https://github.com/dvjsharma/GSoC-24) |
+| [Rajul Jha](https://github.com/rajuljha)             | [Improving CI Scanner](/docs/2024/ci-scanner)                | [Visit](https://rajuljha.github.io/posts/gsoc-24-project-report/) |
+| [Shreya Gautam](https://github.com/ShreyaGautamm)    | [Data Pipeline](/docs/2024/pipeline)                         | Visit |
+| [Valens Niyonsenga](https://github.com/valens200)    | [Text phrase scanning](/docs/2024/text-phrases)              | Visit |
 
 ### Proposed Mentors
 
