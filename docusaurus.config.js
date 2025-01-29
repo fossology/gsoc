@@ -148,6 +148,12 @@ module.exports = {
           ]
         },
         {
+          label: '2025',
+          position: 'left',
+          to: '/docs/2025/',
+          items: []
+        },
+        {
           href: 'https://github.com/fossology/fossology',
           label: 'GitHub',
           position: 'right',
