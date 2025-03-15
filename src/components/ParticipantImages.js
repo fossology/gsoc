@@ -41,6 +41,22 @@ const ImageList = [
     img: '/img/gsoc23participants3.png',
     title: 'GSoC - 2023 participants 3',
   },
+  {
+    img: '/img/gsoc24participants1.png',
+    title: 'GSoC - 2024 participants 1',
+  },
+  {
+    img: '/img/gsoc24participants2.png',
+    title: 'GSoC - 2024 participants 2',
+  },
+  {
+    img: '/img/gsoc24participants3.png',
+    title: 'GSoC - 2024 participants 3',
+  },
+  {
+    img: '/img/gsoc24participants4.png',
+    title: 'GSoC - 2024 participants 4',
+  },
 ];
 
 export default function ParticipantImages() {
