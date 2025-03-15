@@ -59,6 +59,11 @@ const ImageList = [
   },
 ];
 
+function shuffleArray(arr) {
+  arr.sort(() => Math.random() - 0.5);
+  return arr;
+}
+
 export default function ParticipantImages() {
   return (
     <section className={styles.imageCarousel}>
@@ -70,7 +75,7 @@ export default function ParticipantImages() {
       <div>
         <Carousel showArrows={true} ariaLabel='Images of participants'
           autoPlay={true} interval='6000' infiniteLoop={true}>
-          {ImageList.map((props, idx) => (
+          {shuffleArray(ImageList).map((props, idx) => (
             <div key={idx}>
               <img src={useBaseUrl(props.img)} />
               <p className={styles.imageCarouselCaption}>{props.title}</p>
