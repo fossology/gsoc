@@ -22,16 +22,16 @@ More info to come here.
 
 [//]: # "Following are the important links to projects."
 
-| Contributor                                          | Project                                                      | Final Reports |
-| :--------------------------------------------------- | :----------------------------------------------------------- | :-------- |
-| [Aaditya Singh](https://github.com/aadsingh)         | [Overhaul Scheduler Design](/docs/2024/scheduler)            | Visit |
-| [Abdelrahman Jamal](https://github.com/Hero2323)     | [AI Powered License Detection](/docs/2024/license-detection) | Visit |
-| [Abhishek Kumar](https://github.com/abhi-kumar17871) | [Support SPDX 3.0 Reports](/docs/2024/spdx30)                | [Visit](https://github.com/abhi-kumar17871/GSoC-24) |
-| [Akash Sah](https://github.com/AkashSah2003)         | [SPDX License Expression](/docs/2024/spdx-expression)        | [Visit](https://github.com/Akashsah2003/GSoC-24) |
-| [Divij Sharma](https://github.com/dvjsharma)         | [REST API Improvements](/docs/2024/rest)                     | [Visit](https://github.com/dvjsharma/GSoC-24) |
-| [Rajul Jha](https://github.com/rajuljha)             | [Improving CI Scanner](/docs/2024/ci-scanner)                | [Visit](https://rajuljha.github.io/posts/gsoc-24-project-report/) |
-| [Shreya Gautam](https://github.com/ShreyaGautamm)    | [Data Pipeline](/docs/2024/pipeline)                         | Visit |
-| [Valens Niyonsenga](https://github.com/valens200)    | [Text phrase scanning](/docs/2024/text-phrases)              | Visit |
+| Contributor                                          | Project                                                      | Final Reports                                                                                             |
+|:-----------------------------------------------------|:-------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
+| [Aaditya Singh](https://github.com/aadsingh)         | [Overhaul Scheduler Design](/docs/2024/scheduler)            | [Visit](https://docs.google.com/document/d/1xBVwKjn3AjuAp8EqPfiISVr9gSHiUUfbc-2Ux7muKe4/edit?usp=sharing) |
+| [Abdelrahman Jamal](https://github.com/Hero2323)     | [AI Powered License Detection](/docs/2024/license-detection) | [Visit](https://github.com/Hero2323/GSoC-24)                                                              |
+| [Abhishek Kumar](https://github.com/abhi-kumar17871) | [Support SPDX 3.0 Reports](/docs/2024/spdx30)                | [Visit](https://github.com/abhi-kumar17871/GSoC-24)                                                       |
+| [Akash Sah](https://github.com/AkashSah2003)         | [SPDX License Expression](/docs/2024/spdx-expression)        | [Visit](https://github.com/Akashsah2003/GSoC-24)                                                          |
+| [Divij Sharma](https://github.com/dvjsharma)         | [REST API Improvements](/docs/2024/rest)                     | [Visit](https://github.com/dvjsharma/GSoC-24)                                                             |
+| [Rajul Jha](https://github.com/rajuljha)             | [Improving CI Scanner](/docs/2024/ci-scanner)                | [Visit](https://rajuljha.github.io/posts/gsoc-24-project-report/)                                         |
+| [Shreya Gautam](https://github.com/ShreyaGautamm)    | [Data Pipeline](/docs/2024/pipeline)                         | -                                                                                                         |
+| [Valens Niyonsenga](https://github.com/valens200)    | [Text phrase scanning](/docs/2024/text-phrases)              | [Visit](https://github.com/valens200/GSoC-2024)                                                           |
 
 ### Proposed Mentors
 
@@ -61,7 +61,20 @@ More info to come here.
 
 ### Photo
 
-Photos to come soon.
+Here are some screen captures of the conclusion meeting of GSoC 2023 with all
+mentors and contributors.
+
+![group photo1](/img/gsoc24participants1.png 'GSoC 2024 Participants - 1')
+[Participants photo 1]
+
+![group photo2](/img/gsoc24participants2.png 'GSoC 2024 Participants - 2')
+[Participants photo 2]
+
+![group photo3](/img/gsoc24participants3.png 'GSoC 2024 Participants - 3')
+[Participants photo 3]
+
+![group photo4](/img/gsoc24participants4.png 'GSoC 2024 Participants - 4')
+[Participants photo 1]
 
 Thanks for being part of the community. 💚
 
