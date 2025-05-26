@@ -22,9 +22,18 @@ More info to come here.
 
 [//]: # "Following are the important links to projects."
 
-| Contributor | Project | Final Reports |
-|:------------|:--------|:--------------|
-|             |         |               |
+| Contributor                                                | Project                                                            | Final Reports |
+|:-----------------------------------------------------------|:-------------------------------------------------------------------|:--------------|
+| [Devanshi Sachan](https://github.com/devxnshi)             | FOSSology UX and UI Redesign                                       |               |
+| [Tiyasa Kundu](https://github.com/tiyasakundu)             | Completion of UI using React.js                                    |               |
+| [Harshit Gandhi](https://github.com/harshitg927)           | Support text phrases and bulk based scanning for Monk a like agent |               |
+| [Vaibhav Sahu](https://github.com/Vaibhavsahu2810)         | Reuse of clearing decisions using reports from OSSelot Project     |               |
+| [Prakash Mishra](https://github.com/Prakash-Mishra-9ghz)   | Integrating OSS Review Toolkit with FOSSology                      |               |
+| [M.Salman](https://github.com/SalmanDeveloperz)            | Complete Microservices Infrastructure for FOSSology                |               |
+| [Chayan Das](https://github.com/ChayanDass)                | LicenseDB Platform Improvements                                    |               |
+| [Ahmed Gamal](https://github.com/Ahmed-Gamal24)            | Enhancing Debian Packaging for FOSSology                           |               |
+| [Rajul Jha](https://github.com/rajuljha)                   | Enhance Atarashi's Ability                                         |               |
+| [Abdulsobur Oyewale](https://github.com/smilingprogrammer) | Data Pipeline For Safaa                                            |               |
 
 ### Proposed Mentors
 
@@ -35,12 +44,25 @@ More info to come here.
 - [Ayush Bhardwaj](https://github.com/hastagAB)
 - [Avinal Kumar](https://github.com/avinal)
 - [Sushant Kumar](https://github.com/its-sushant)
+- [Jan Altenberg](https://github.com/JanAltenberg)
+- [Sahil](https://github.com/sjha2048)
+- [Soham Banerjee](https://github.com/soham4abc)
+- [Amrit Verma](https://github.com/amritkv)
 
 ### Meetings table
 
-| Topic(s) | Timings | Meeting link | ICS |
-|:---------|:--------|:-------------|:----|
-|          |         |              |     |
+| Topic(s)                                                           | Timings | Meeting link | ICS |
+|:-------------------------------------------------------------------|:--------|:-------------|:----|
+| FOSSology UX and UI Redesign                                       |         |              |     |
+| Completion of UI using React.js                                    |         |              |     |
+| Support text phrases and bulk based scanning for Monk a like agent |         |              |     |
+| Reuse of clearing decisions using reports from OSSelot Project     |         |              |     |
+| Integrating OSS Review Toolkit with FOSSology                      |         |              |     |
+| Complete Microservices Infrastructure for FOSSology                |         |              |     |
+| LicenseDB Platform Improvements                                    |         |              |     |
+| Enhancing Debian Packaging for FOSSology                           |         |              |     |
+| Enhance Atarashi's Ability                                         |         |              |     |
+| Data Pipeline For Safaa                                            |         |              |     |
 
 ### Photo
 
