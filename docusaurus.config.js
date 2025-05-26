@@ -151,7 +151,52 @@ module.exports = {
           label: '2025',
           position: 'left',
           to: '/docs/2025/',
-          items: []
+          items: [
+            {
+              label: 'Idea list',
+              to: '/docs/2025/GSoC-projects',
+            },
+            {
+              label: 'Enhance Atarashi\'s Ability',
+              to: '/docs/2025/atarashi-enhancement',
+            },
+            {
+              label: 'Data Pipeline For Safaa',
+              to: '/docs/2025/data-pipeline',
+            },
+            {
+              label: 'Enhancing Debian Packaging for FOSSology',
+              to: '/docs/2025/debian-packaging',
+            },
+            {
+              label: 'LicenseDB Platform Improvements',
+              to: '/docs/2025/licensedb-platform',
+            },
+            {
+              label: 'Complete Microservices Infrastructure for FOSSology',
+              to: '/docs/2025/microservices-infrastructure',
+            },
+            {
+              label: 'Integrating OSS Review Toolkit with FOSSology',
+              to: '/docs/2025/oss-review-toolkit',
+            },
+            {
+              label: 'Reuse of clearing decisions using reports from OSSelot Project',
+              to: '/docs/2025/osselot',
+            },
+            {
+              label: 'Support text phrases and bulk based scanning for Monk a like agent',
+              to: '/docs/2025/text-phrases-bulk',
+            },
+            {
+              label: 'Completion of UI using React.js',
+              to: '/docs/2025/ui-react',
+            },
+            {
+              label: 'FOSSology UX and UI Redesign',
+              to: '/docs/2025/ux-ui-design',
+            },
+          ]
         },
         {
           href: 'https://github.com/fossology/fossology',
