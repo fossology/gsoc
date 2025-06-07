@@ -20,7 +20,7 @@ SPDX-FileCopyrightText: 2025 Chayan Das <01chayandas@gmail.com>
 ## Project title
 
 
-licenseDB platform improvement 
+LicenseDB platform improvement 
 ## What the project is about
 
 
