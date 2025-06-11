@@ -30,7 +30,7 @@ Currently, Safaa provides a strong framework designed to deal with copyright not
 4. Preprocessing Tools
 
 However, Currently in the Safaa Project, data is manually curated And we see that most of the things are manual here. 
-This project wil concentrate on creating a pipeline, Utilizing LLMS if required to increase the accuracy, or use deep learning techniques to improve. 
+This project will concentrate on creating a pipeline, Utilizing LLMs if required to increase the accuracy, or use deep learning techniques to improve. 
 
 Writing scripts to copy copyright data automatically(group's data or some users data) from fossology instance to train the model.
 
