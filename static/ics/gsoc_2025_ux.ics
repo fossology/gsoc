@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+PRODID:-//ownCloud calendar v2.0.0
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+CREATED:20250611T115018Z
+DTSTAMP:20250611T115131Z
+LAST-MODIFIED:20250611T115131Z
+UID:D3K1KFIDBS4LCL0UP0OWKP
+SUMMARY:UX and UI Weekly
+LOCATION:
+CLASS:PUBLIC
+DESCRIPTION:Hello Everyone\,\n\nLet’s meet here and discuss the updates on 
+ UX and UI.\n\nBest Regards\nShaheem Azmal M MD\n___________________________
+ _____________________________________________________\nMicrosoft Teams Need
+  help?\n\nhttps://teams.microsoft.com/l/meetup-join/19%3ameeting_NjA1N2U1YW
+ UtZWJkYy00NTRjLWI2ODItNGI5NDEwN2MwYWEz%40thread.v2/0?context=%7b%22Tid%22%3
+ a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%227f1979f2-e3e3-
+ 40d0-8a77-bcef842abf7e%22%7d\n\nMeeting ID: 358 158 699 449 8\nPasscode: pS
+ 7yK3At\nDial in by phone\n+91 22 6259 0317\,\,\,\,364451809# India\, Mumbai
+ \nFind a local number\nPhone conference ID: 364 451 809#\n_________________
+ _______________________________________________________________
+STATUS:CONFIRMED
+DTSTART;TZID=Asia/Kolkata:20250610T180000
+DTEND;TZID=Asia/Kolkata:20250610T190000
+RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20251128T000000
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+BEGIN:STANDARD
+TZNAME:IST
+TZOFFSETFROM:+0630
+TZOFFSETTO:+0530
+DTSTART:19420515T000000
+RDATE:19451015T000000
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR
