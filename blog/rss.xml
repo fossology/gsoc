@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>GSoC projects at FOSSology Blog</title>
+        <link>https://fossology.github.io/gsoc/blog</link>
+        <description>GSoC projects at FOSSology Blog</description>
+        <lastBuildDate>Wed, 23 Jun 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[New build system - Week 3]]></title>
+            <link>https://fossology.github.io/gsoc/blog/cmake-cweek3</link>
+            <guid>https://fossology.github.io/gsoc/blog/cmake-cweek3</guid>
+            <pubDate>Wed, 23 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[<!--]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="attendees">Attendees<a href="https://fossology.github.io/gsoc/blog/cmake-cweek3#attendees" class="hash-link" aria-label="Direct link to Attendees" title="Direct link to Attendees">​</a></h3>
+<ul>
+<li>Michael C. Jaeger <a href="https://github.com/mcjaeger" target="_blank" rel="noopener noreferrer">https://github.com/mcjaeger</a></li>
+<li>Gaurav Mishra <a href="https://github.com/GMishx" target="_blank" rel="noopener noreferrer">https://github.com/GMishx</a></li>
+<li>Sarita Singh <a href="https://github.com/itssingh" target="_blank" rel="noopener noreferrer">https://github.com/itssingh</a></li>
+<li>Avinal Kumar <a href="https://github.com/avinal" target="_blank" rel="noopener noreferrer">https://github.com/avinal</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="week-2-progress">Week 2 Progress<a href="https://fossology.github.io/gsoc/blog/cmake-cweek3#week-2-progress" class="hash-link" aria-label="Direct link to Week 2 Progress" title="Direct link to Week 2 Progress">​</a></h3>
+<ol>
+<li>Version file Implementation</li>
+<li>Initial functions on obtaining commit and branch info</li>
+<li>To test the current progress, follow the instructions <a href="https://github.com/avinal/FOSSology/wiki#test-the-new-system-only-gcc-with-make-and-ninja-tested-for-now" target="_blank" rel="noopener noreferrer">here</a></li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="discussions">Discussions<a href="https://fossology.github.io/gsoc/blog/cmake-cweek3#discussions" class="hash-link" aria-label="Direct link to Discussions" title="Direct link to Discussions">​</a></h3>
+<ul>
+<li>
+<p><strong>What is the regex expression used for obtaining version information?</strong></p>
+<ul>
+<li>The regex has recently been modified to cover recent versions. The latest form is as below:<!-- -->
+<div class="language-cpp codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-cpp codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token operator" style="color:rgb(137, 221, 255)">:</span><span class="token plain">digit</span><span class="token operator" style="color:rgb(137, 221, 255)">:</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token operator" style="color:rgb(137, 221, 255)">+</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token operator" style="color:rgb(137, 221, 255)">:</span><span class="token plain">digit</span><span class="token operator" style="color:rgb(137, 221, 255)">:</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token operator" style="color:rgb(137, 221, 255)">+</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token operator" style="color:rgb(137, 221, 255)">:</span><span class="token plain">digit</span><span class="token operator" style="color:rgb(137, 221, 255)">:</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token operator" style="color:rgb(137, 221, 255)">+</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">?</span><span class="token plain">rc</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token operator" style="color:rgb(137, 221, 255)">:</span><span class="token plain">digit</span><span class="token operator" style="color:rgb(137, 221, 255)">:</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token operator" style="color:rgb(137, 221, 255)">+</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token operator" style="color:rgb(137, 221, 255)">?</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">?</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token operator" style="color:rgb(137, 221, 255)">:</span><span class="token plain">digit</span><span class="token operator" style="color:rgb(137, 221, 255)">:</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token operator" style="color:rgb(137, 221, 255)">*</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">?</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token operator" style="color:rgb(137, 221, 255)">:</span><span class="token plain">alnum</span><span class="token operator" style="color:rgb(137, 221, 255)">:</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token operator" style="color:rgb(137, 221, 255)">*</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>You can also try alternatives to regex if possible for CMake.</li>
+</ul>
+</li>
+<li>
+<p><strong>Should I use</strong> <code>git describe --tags</code> <strong>or</strong> <code>git describe --always HEAD</code> <strong>for obtaining version information?</strong></p>
+<ul>
+<li>In FOSSology we always use :code:<code>git describe --tags</code>, no exception whatsoever.</li>
+</ul>
+</li>
+<li>
+<p>CMake provides a preset configuration for the install path on GNU systems, you can see the description <a href="https://cmake.org/cmake/help/v3.10/module/GNUInstallDirs.html" target="_blank" rel="noopener noreferrer">here</a> based on the <a href="https://www.gnu.org/prep/standards/html_node/Directory-Variables.html" target="_blank" rel="noopener noreferrer">configuration</a> suggested by the GNU. After comparing the variables defined in Makefile.conf with these, it seems directly taken from GNU standards.
+So I wanted to ask if this would be okay to stick to the presets, instead of manually declaring the same paths? The former step will reduce the number of variables we are currently caching and will make it flexible for different installation scenarios.</p>
+<ul>
+<li>Using the GNU standards is the ideal situation but FOSSology uses slightly different locations. For example, all agents end up under <code>/usr/local/share/fossology/</code> with their individual folders instead of going to <code>/usr/local/bin/</code>.</li>
+<li>If the same results can be achieved by using the <code>CMAKE_INSTALL_&lt;dir&gt;</code> and <code>CMAKE_INSTALL_PREFIX</code> then yeah, it will be preferred.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion-and-further-plans">Conclusion and Further Plans<a href="https://fossology.github.io/gsoc/blog/cmake-cweek3#conclusion-and-further-plans" class="hash-link" aria-label="Direct link to Conclusion and Further Plans" title="Direct link to Conclusion and Further Plans">​</a></h3>
+<ul>
+<li>Try adding the version and commit hash info.</li>
+<li>Implement writing version files for each build.</li>
+</ul>]]></content:encoded>
+            <author>opensource@avinal.space (Avinal)</author>
+            <category>coding-week</category>
+            <category>cmake</category>
+        </item>
+    </channel>
+</rss>
