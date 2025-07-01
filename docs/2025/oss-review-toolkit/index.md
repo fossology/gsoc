@@ -52,3 +52,10 @@ Allow users to configure: Server URL and credentials
 ### Add Unit Tests ###
 Write comprehensive unit test cases to validate plugin functionality.
 Conform to ORT's test architecture and quality standards.
+
+
+## Related Issues
+
+- [FOSSology Tracking Issue](https://github.com/fossology/fossology/issues/3064) – Maintained by the FOSSology organization to oversee project progress during GSoC.
+
+- [ORT Integration Issue](https://github.com/oss-review-toolkit/ort/issues/10488) – Opened to coordinate and discuss the integration work within the OSS Review Toolkit repository.
