@@ -1,0 +1,36 @@
+---
+title: Week 9
+author: Devanshi Sachan
+---
+<!--
+SPDX-License-Identifier: CC-BY-SA-4.0
+
+SPDX-FileCopyrightText: 2025 Devanshi Sachan <devs221102gmail.com>
+-->
+
+# Week 9: Meeting Summary and Activities  
+**Date:** July 29, 2025  
+
+## Attendees  
+- Devanshi Sachan   
+- Katharina Ettinger
+- Shaheem Azmal M MD  
+- Amrit Verma  
+- Gaurav Mishra
+- Kaushlendra Pratap  
+- Tiyasa Kundu  
+
+## Discussion Points  
+- Reviewed the final versions of three key pages: "Schedule an Analysis," "Upload a New File," and "Export Lists." Discussed whether any final refinements are needed or if they’re ready to move into development.  
+- Walked through the first draft of the "Report Configuration" page, identified areas that need more visual emphasis, sections that can be simplified, and parts that can be collapsed to reduce clutter.  
+- Had an initial discussion around potential feature additions for the "Show Jobs" page, what kind of actions or filters might improve usability, and how to surface key job statuses more clearly.  
+
+## Activities Completed  
+- Implemented final feedback and wrapped up designs for the "Schedule an Analysis," "Upload a New File," and "Export Lists" pages, including any supporting side panels for enhanced navigation and clarity.  
+- Designed table components and layout patterns for the "Report Configuration" page, with a focus on flexibility and reusability for other table-heavy views like "Show Jobs."  
+- Completed the design for the "Report Configuration" page and began revisiting the heuristic analysis and functional goals of the "Show Jobs" page, kicking off early design drafts.  
+
+## Next Steps  
+- Add newly created components from the "Report Configuration" and "Show Jobs" pages to the design system, ensuring documentation includes variations and usage rules.  
+- Continue refining the "Report Configuration" page based on internal feedback and push forward with building out the "Show Jobs" page in more detail.  
+- Establish clear guidelines for table cell components covering content alignment, icon usage, truncation behavior, and responsive rules so they can be reused seamlessly across multiple views.  
