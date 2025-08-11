@@ -1,0 +1,37 @@
+---
+title: Week 10
+author: Devanshi Sachan
+---
+<!--
+SPDX-License-Identifier: CC-BY-SA-4.0
+
+SPDX-FileCopyrightText: 2025 Devanshi Sachan <devs221102gmail.com>
+-->
+# Week 10: Meeting Summary and Activities  
+**Date:** August 05, 2025  
+
+## Attendees  
+- Devanshi Sachan   
+- Katharina Ettinger
+- Shaheem Azmal M MD  
+- Amrit Verma  
+- Gaurav Mishra
+- Kaushlendra Pratap  
+- Tiyasa Kundu  
+- Dearsh Oberoi  
+
+## Discussion Points  
+- Reviewed the final versions of the "Show Jobs" and "Report Configuration" pages, deciding whether they require any last refinements or are ready to proceed to development.  
+- Discussed functional limitations of the "Patent Relevant Browser" page, including how the "Advanced Search" feature currently operates and how related CTAs could be grouped more logically for better usability.  
+- Evaluated the hierarchy, relevance, and placement of folder and file names on the current page, and considered whether their visibility should be adjusted.  
+
+## Activities Completed  
+- Incorporated all feedback into the "Report Configuration" page, addressing layout, table behavior, and component reusability.  
+- Completed the "Show Jobs" page design, ensuring consistency with other table-heavy pages, and reviewed it for final feedback.  
+- Added all new components from the "Report Configuration" and "Show Jobs" pages to the design system, documenting usage rules, responsive behavior, and state variations.  
+- Revisited the heuristic analysis of the "Patent Relevant Browser" page to identify key pain points and prioritize areas for improvement, then proceeded with creating the first draft of its redesigned layout and components.  
+
+## Next Steps  
+- Finalize the "Patent Relevant Browser" page design and share it for review and feedback.  
+- Begin redesign of the "License Browser" page, starting with analysis to identify usability issues, layout inefficiencies, and opportunities for component reuse.  
+- Continue adding newly created icons to the GitHub repository, ensuring developers have easy access to updated assets during implementation.  
