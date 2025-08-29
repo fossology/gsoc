@@ -25,7 +25,7 @@ More info to come here.
 | Contributor                                                | Project                                                            | Final Reports |
 |:-----------------------------------------------------------|:-------------------------------------------------------------------|:--------------|
 | [Devanshi Sachan](https://github.com/devxnshi)             | FOSSology UX and UI Redesign                                       |               |
-| [Tiyasa Kundu](https://github.com/tiyasakundu)             | Completion of UI using React.js                                    |               |
+| [Tiyasa Kundu](https://github.com/tiyasakundu)             | Completion of UI using React.js                                    |[Visit](https://github.com/tiyasakundu/GSoC2025/)|
 | [Harshit Gandhi](https://github.com/harshitg927)           | Support text phrases and bulk based scanning for Monk a like agent |               |
 | [Vaibhav Sahu](https://github.com/Vaibhavsahu2810)         | Reuse of clearing decisions using reports from OSSelot Project     |               |
 | [Prakash Mishra](https://github.com/Prakash-Mishra-9ghz)   | Integrating OSS Review Toolkit with FOSSology                      |               |
