@@ -30,7 +30,7 @@ More info to come here.
 | [Vaibhav Sahu](https://github.com/Vaibhavsahu2810)         | Reuse of clearing decisions using reports from OSSelot Project     |               |
 | [Prakash Mishra](https://github.com/Prakash-Mishra-9ghz)   | Integrating OSS Review Toolkit with FOSSology                      |[Visit](https://github.com/Prakash-Mishra-9ghz/GSoC-2025)|
 | [M.Salman](https://github.com/SalmanDeveloperz)            | Complete Microservices Infrastructure for FOSSology                |               |
-| [Chayan Das](https://github.com/ChayanDass)                | LicenseDB Platform Improvements                                    |               |
+| [Chayan Das](https://github.com/ChayanDass)                | LicenseDB Platform Improvements                                    |[Visit](https://github.com/ChayanDass/GSoC-25)              |
 | [Ahmed Gamal](https://github.com/Ahmed-Gamal24)            | Enhancing Debian Packaging for FOSSology                           |               |
 | [Rajul Jha](https://github.com/rajuljha)                   | Enhance Atarashi's Ability                                         |               |
 | [Abdulsobur Oyewale](https://github.com/smilingprogrammer) | Data Pipeline For Safaa                                            |               |
