@@ -1,0 +1,162 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Azmal M MD, Shaheem (T SSP ASI-IN)";RSVP=TRUE:mailto:shaheem.a
+	zmal@siemens.com
+ATTENDEE;CN="Ghosh, Anupam (T SSP ASI-IN)";RSVP=TRUE:mailto:anupam.ghosh@si
+	emens.com
+ATTENDEE;CN="Ettinger, Katharina (T SSP DOS-DE)";RSVP=TRUE:mailto:katharina
+	.ettinger@siemens.com
+ATTENDEE;CN="Michael C. Jaeger";RSVP=TRUE:mailto:mcj@mcj.de
+ATTENDEE;CN=sjha200000@gmail.com;RSVP=TRUE:mailto:sjha200000@gmail.com
+ATTENDEE;CN=mail2shruti.ag@gmail.com;RSVP=TRUE:mailto:mail2shruti.ag@gmail.
+	com
+ATTENDEE;CN=vvksindia@gmail.com;RSVP=TRUE:mailto:vvksindia@gmail.com
+ATTENDEE;CN="Mishra, Gaurav (T SSP ASI-IN)";RSVP=TRUE:mailto:mishra.gaurav@
+	siemens.com
+ATTENDEE;CN=sohambanerjee4abc@gmail.com;RSVP=TRUE:mailto:sohambanerjee4abc@
+	gmail.com
+ATTENDEE;CN=ayushknj3@gmail.com;RSVP=TRUE:mailto:ayushknj3@gmail.com
+ATTENDEE;CN=dushsam100@gmail.com;RSVP=TRUE:mailto:dushsam100@gmail.com
+ATTENDEE;CN=krishhtrishh9304@gmail.com;RSVP=TRUE:mailto:krishhtrishh9304@gm
+	ail.com
+CATEGORIES:Shaheem,Fossology
+CLASS:PUBLIC
+CREATED:20220608T060343Z
+DESCRIPTION:Hello all\,\n\n \n\nLet’s use this meeting discuss updates an
+	d clarifications about the UI project.\n\n \n\nBest Regards\n\nShaheem Azm
+	al M MD\n\n \n\n__________________________________________________________
+	______________________ \n\nMicrosoft Teams meeting \n\nJoin on your comput
+	er or mobile app \n\nClick here to join the meeting <https://teams.microso
+	ft.com/l/meetup-join/19%3ameeting_ZDYzM2M0ZWEtMDE1MC00ZGM0LTk1MGUtNWYxYTNj
+	NzQ1OWRk%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b
+	42e1495d55a%22%2c%22Oid%22%3a%227f1979f2-e3e3-40d0-8a77-bcef842abf7e%22%7d
+	>  \n\nOr call in (audio only) \n\n+91 22 6259 0317\,\,\,\,574632763# <tel
+	:+912262590317\,\,\,\,574632763#>    India\, Mumbai \n\nPhone Conference I
+	D: 574 632 763# \n\nFind a local number <https://dialin.teams.microsoft.co
+	m/74042a74-a90b-4ccc-8227-e22b08bb88da?id=574632763>  | Reset PIN <https:/
+	/dialin.teams.microsoft.com/usp/pstnconferencing>  \n\nLearn More <https:/
+	/aka.ms/JoinTeamsMeeting>  | Meeting options <https://teams.microsoft.com/
+	meetingOptions/?organizerId=7f1979f2-e3e3-40d0-8a77-bcef842abf7e&tenantId=
+	38ae3bcd-9579-4fd4-adda-b42e1495d55a&threadId=19_meeting_ZDYzM2M0ZWEtMDE1M
+	C00ZGM0LTk1MGUtNWYxYTNjNzQ1OWRk@thread.v2&messageId=0&language=en-US>  \n\
+	n_________________________________________________________________________
+	_______ \n\n \n\n
+DTEND;TZID="India Standard Time":20220607T210000
+DTSTAMP:20220607T122115Z
+DTSTART;TZID="India Standard Time":20220607T200000
+LAST-MODIFIED:20220608T060343Z
+LOCATION:Microsoft Teams Meeting
+ORGANIZER;CN="Azmal M MD, Shaheem (T SSP ASI-IN)":mailto:shaheem.azmal@siem
+	ens.com
+PRIORITY:5
+RRULE:FREQ=WEEKLY;COUNT=25;BYDAY=TU
+SEQUENCE:0
+SUMMARY:GSoC 2022 Discussions - UI
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000809AE069967AD801000000000000000
+	010000000A6F5C909E32CCC4897EA2281F8A7CB12
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta name="Gener
+	ator" content="Microsoft Word 15 (filtered medium)"><style><!--\n/* Font D
+	efinitions */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5
+	 3 5 4 6 3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2
+	 2 2 4 3 2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5 
+	2 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\;\n	panose
+	-1:2 11 7 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoN
+	ormal\, div.MsoNormal\n	{margin:0in\;\n	font-size:11.0pt\;\n	font-family:"
+	Calibri"\,sans-serif\;}\na:link\, span.MsoHyperlink\n	{mso-style-priority:
+	99\;\n	color:#0563C1\;\n	text-decoration:underline\;}\nspan.EmailStyle18\n
+		{mso-style-type:personal-compose\;\n	font-family:"Calibri"\,sans-serif\;\
+	n	color:windowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	fo
+	nt-size:10.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0i
+	n 1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></sty
+	le><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" 
+	/>\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit
+	">\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]--><
+	/head><body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:b
+	reak-word"><div class="WordSection1"><p class="MsoNormal"><span lang="EN-I
+	N">Hello all\,<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-IN
+	"><o:p>&nbsp\;</o:p></span></p><p class="MsoNormal"><span lang="EN-IN">Let
+	’s use this meeting discuss updates and clarifications about the UI proj
+	ect.<o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-IN"><o:p>&nb
+	sp\;</o:p></span></p><p class="MsoNormal"><span lang="EN-IN">Best Regards<
+	o:p></o:p></span></p><p class="MsoNormal"><span lang="EN-IN">Shaheem Azmal
+	 M MD<o:p></o:p></span></p><p class="MsoNormal"><o:p>&nbsp\;</o:p></p><div
+	><p class="MsoNormal"><span style="color:#5F5F5F">________________________
+	________________________________________________________</span> <o:p></o:p
+	></p></div><div><div style="margin-top:.25in\;margin-bottom:15.0pt"><p cla
+	ss="MsoNormal"><span style="font-size:18.0pt\;font-family:&quot\;Segoe UI&
+	quot\;\,sans-serif\;color:#252424">Microsoft Teams meeting</span><span sty
+	le="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"> <o:p><
+	/o:p></span></p></div><div style="margin-bottom:15.0pt"><div><p class="Mso
+	Normal"><b><span style="font-size:10.5pt\;font-family:&quot\;Segoe UI&quot
+	\;\,sans-serif\;color:#252424">Join on your computer or mobile app</span><
+	/b><b><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#
+	252424"> <o:p></o:p></span></b></p></div><p class="MsoNormal"><span style=
+	"font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a href="h
+	ttps://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDYzM2M0ZWEtMDE1MC00
+	ZGM0LTk1MGUtNWYxYTNjNzQ1OWRk%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3
+	bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%227f1979f2-e3e3-40d0-8a7
+	7-bcef842abf7e%22%7d" target="_blank"><span style="font-size:10.5pt\;font-
+	family:&quot\;Segoe UI Semibold&quot\;\,sans-serif\;color:#6264A7">Click h
+	ere to join the meeting</span></a> <o:p></o:p></span></p></div><div style=
+	"margin-bottom:3.0pt"><div style="margin-bottom:3.0pt"><p class="MsoNormal
+	"><b><span style="font-size:10.5pt\;font-family:&quot\;Segoe UI&quot\;\,sa
+	ns-serif\;color:#252424">Or call in (audio only)</span></b><span style="fo
+	nt-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"> <o:p></o:p><
+	/span></p></div><div style="margin-bottom:3.0pt"><p class="MsoNormal"><spa
+	n style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a
+	 href="tel:+912262590317\,\,\,\,574632763# "><span style="font-size:10.5pt
+	\;color:#6264A7">+91 22 6259 0317\,\,\,\,574632763#</span></a> </span><spa
+	n style="font-size:10.5pt\;font-family:&quot\;Segoe UI&quot\;\,sans-serif\
+	;color:#252424">&nbsp\; India\, Mumbai </span><span style="font-family:&qu
+	ot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><o:p></o:p></span></p></di
+	v></div><p class="MsoNormal"><span style="font-size:10.5pt\;font-family:&q
+	uot\;Segoe UI&quot\;\,sans-serif\;color:#252424">Phone Conference ID: </sp
+	an><span style="font-size:12.0pt\;font-family:&quot\;Segoe UI&quot\;\,sans
+	-serif\;color:#252424">574 632 763# </span><span style="font-family:&quot\
+	;Segoe UI&quot\;\,sans-serif\;color:#252424"><o:p></o:p></span></p><div st
+	yle="margin-bottom:15.0pt"><p class="MsoNormal"><span style="font-family:&
+	quot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a href="https://dialin.
+	teams.microsoft.com/74042a74-a90b-4ccc-8227-e22b08bb88da?id=574632763" tar
+	get="_blank"><span style="font-size:10.5pt\;color:#6264A7">Find a local nu
+	mber</span></a> | <a href="https://dialin.teams.microsoft.com/usp/pstnconf
+	erencing" target="_blank"><span style="font-size:10.5pt\;color:#6264A7">Re
+	set PIN</span></a> <o:p></o:p></span></p></div><div style="margin-top:15.0
+	pt\;margin-bottom:.25in"><p class="MsoNormal"><span style="font-family:&qu
+	ot\;Segoe UI&quot\;\,sans-serif\;color:#252424"><a href="https://aka.ms/Jo
+	inTeamsMeeting" target="_blank"><span style="font-size:10.5pt\;color:#6264
+	A7">Learn More</span></a> | <a href="https://teams.microsoft.com/meetingOp
+	tions/?organizerId=7f1979f2-e3e3-40d0-8a77-bcef842abf7e&amp\;tenantId=38ae
+	3bcd-9579-4fd4-adda-b42e1495d55a&amp\;threadId=19_meeting_ZDYzM2M0ZWEtMDE1
+	MC00ZGM0LTk1MGUtNWYxYTNjNzQ1OWRk@thread.v2&amp\;messageId=0&amp\;language=
+	en-US" target="_blank"><span style="font-size:10.5pt\;color:#6264A7">Meeti
+	ng options</span></a> <o:p></o:p></span></p></div></div><div><p class="Mso
+	Normal"><span style="color:#5F5F5F">______________________________________
+	__________________________________________</span> <o:p></o:p></p></div><p 
+	class="MsoNormal"><o:p>&nbsp\;</o:p></p></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

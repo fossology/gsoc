@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+PRODID:-//ownCloud calendar v2.0.0
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+CREATED:20250611T115745Z
+DTSTAMP:20250611T115847Z
+LAST-MODIFIED:20250611T115847Z
+UID:J7WNKRX52M7CUMF6NBQ0N
+SUMMARY:FOSSology GSoC Weekly
+CLASS:PUBLIC
+DESCRIPTION:Hello Everyone\,\n\nWe’d like to invite all contributors and me
+ ntors to a general discussion session where we can check in on the progress
+  of all the projects in FOSSology Community.\n\nBest Regards\nShaheem Azmal
+  M MD\n\n__________________________________________________________________
+ ______________\n\nMicrosoft Teams\n\nhttps://teams.microsoft.com/l/meetup-j
+ oin/19%3ameeting_YWE1NTBmZjAtM2JmZC00MDllLTk4MmUtY2I4YTVlMjdmNWE4%40thread.
+ v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%2
+ 2Oid%22%3a%227f1979f2-e3e3-40d0-8a77-bcef842abf7e%22%7d\n\nMeeting ID: 339 
+ 198 867 256 2\nPasscode: Lg7yB7Ua\nDial in by phone\n+91 22 6259 0317\,\,\,
+ \,182407457# India\, Mumbai\nPhone conference ID: 182 407 457#\n___________
+ _____________________________________________________________________
+STATUS:CONFIRMED
+DTSTART;TZID=Asia/Kolkata:20250605T180000
+DTEND;TZID=Asia/Kolkata:20250605T190000
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20251120T000000
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+BEGIN:STANDARD
+TZNAME:IST
+TZOFFSETFROM:+0630
+TZOFFSETTO:+0530
+DTSTART:19420515T000000
+RDATE:19451015T000000
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR

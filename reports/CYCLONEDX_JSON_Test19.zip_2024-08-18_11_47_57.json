@@ -1,0 +1,221 @@
+{
+    "bomFormat": "CycloneDX",
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "specVersion": "1.4",
+    "version": 1,
+    "serialNumber": "urn:uuid:9ccba516-5d29-11ef-9951-b960f108627e",
+    "metadata": {
+        "timestamp": "2024-08-18T11:47:57+05:30",
+        "tools": [
+            {
+                "vendor": "FOSSology",
+                "name": "FOSSology",
+                "version": ""
+            }
+        ],
+        "component": {
+            "type": "library",
+            "name": "Test19.zip",
+            "mime-type": "application/zip",
+            "bom-ref": "7",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "BF9A0672E64C0557A25BEF00BD6D3BA98412C1AE"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "919A09FA79C69C3D52197C8A7490192A"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "600541C0DFA6782CD4C11AE5CDE4948ADD0042BA06978BA05F29705C2A97BA5A"
+                }
+            ],
+            "licenses": [
+                {
+                    "expression": "LicenseRef-newlc"
+                },
+                {
+                    "expression": "(BSD-2-Clause OR MIT)"
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-only",
+                        "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                    }
+                }
+            ]
+        }
+    },
+    "components": [
+        {
+            "type": "file",
+            "name": "Test19.zip/Test17",
+            "mime-type": "text/plain",
+            "bom-ref": "7-31",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "C281D099FC10E31965A824F517E391A8E427BB7D"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "CE954C3F29246CBA636CC1961886317D"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "C1F3F53E3FA92008121471181F28793F6BA9F5A44CF0ED6E5B0440D6D3CA4D4E"
+                }
+            ],
+            "licenses": [
+                {
+                    "expression": "LicenseRef-fossology-BSD"
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause",
+                        "url": "https://opensource.org/licenses/BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT",
+                        "url": "https://opensource.org/licenses/MIT"
+                    }
+                },
+                {
+                    "expression": "(BSD-2-Clause OR MIT)"
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "Test19.zip/Test18",
+            "mime-type": "text/plain",
+            "bom-ref": "7-29",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "180AA02AE54254F8B122D1675A0854515372B1CB"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "07608519D92F2FA6A053B1C67956EB09"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "DFC7A1880190025121DB47D8F468D51A5490D46041E72799F535C544709A27EE"
+                }
+            ],
+            "licenses": [
+                {
+                    "expression": "LicenseRef-fossology-BSD"
+                },
+                {
+                    "license": {
+                        "id": "BSD-2-Clause",
+                        "url": "https://opensource.org/licenses/BSD-2-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-only",
+                        "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT",
+                        "url": "https://opensource.org/licenses/MIT"
+                    }
+                },
+                {
+                    "expression": "(MIT AND (GPL-2.0-only AND BSD-2-Clause))"
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "Test19.zip/Test7",
+            "mime-type": "text/plain",
+            "bom-ref": "7-30",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "42A84366DA049B32A08B7EA2B777A80EAD5082EF"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "296C30F5A2C917761CE6AAC04C0C059E"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "939725C5A5EF56D792A724915A9937BE89C65387FB0B714ED63A30C85E980CF0"
+                }
+            ],
+            "licenses": [
+                {
+                    "expression": "(MIT AND ((GPL-2.0-only OR BSD-3-Clause) AND AFL-1.1))"
+                },
+                {
+                    "license": {
+                        "id": "AFL-1.1",
+                        "url": "http://opensource.linux-mirror.org/licenses/afl-1.1.txt"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause",
+                        "url": "https://opensource.org/licenses/BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "GPL-2.0-only",
+                        "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT",
+                        "url": "https://opensource.org/licenses/MIT"
+                    }
+                },
+                {
+                    "expression": "LicenseRef-fossology-BSD"
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "Test19.zip/Test16.txt",
+            "mime-type": "text/plain",
+            "bom-ref": "7-28",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "B0A628C1AC47EE2DE6A03DAFD18927EEE240901B"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "A04EF8DF8807F9BF3D01D507CF87DD7C"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "381BA9E8B7EF548BBB36E70F5A7615445F95FCD98C07BC906357A6A939F5C48F"
+                }
+            ],
+            "licenses": [
+                {
+                    "expression": "LicenseRef-newlc"
+                }
+            ]
+        }
+    ]
+}

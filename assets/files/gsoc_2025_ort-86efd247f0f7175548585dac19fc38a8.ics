@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+PRODID:-//ownCloud calendar v2.0.0
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+CREATED:20250611T114739Z
+DTSTAMP:20250611T114923Z
+LAST-MODIFIED:20250611T114923Z
+UID:B9DBK5S771WYV821QFE34
+SUMMARY:ORT- Weekly GSoC Sync
+CLASS:PUBLIC
+DESCRIPTION:Hey\,\n\nLets discuss project progress\, Blockers.\n\nCheers\,\
+ nKaushl\n\n________________________________________________________________
+ ________________\nMicrosoft Teams\nhttps://teams.microsoft.com/l/meetup-joi
+ n/19%3ameeting_NjdhMmRhYTQtMmY3MC00YjBlLTk2OTYtZjEyNDcwNjEzNTA5%40thread.v2
+ /0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22O
+ id%22%3a%22a897f79c-71f3-4e34-a964-67183e5a6731%22%7d\n\nMeeting ID: 337 00
+ 7 673 774 0\nPasscode: YQ6y2vW9\nDial in by phone\n+91 22 6259 0317\,\,\,\,
+ 452357211# India\, Mumbai\nPhone conference ID: 452 357 211#\n_____________
+ ___________________________________________________________________
+STATUS:CONFIRMED
+DTSTART;TZID=Asia/Kolkata:20250602T180000
+DTEND;TZID=Asia/Kolkata:20250602T183000
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20251001T000000
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+BEGIN:STANDARD
+TZNAME:IST
+TZOFFSETFROM:+0630
+TZOFFSETTO:+0530
+DTSTART:19420515T000000
+RDATE:19451015T000000
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR
