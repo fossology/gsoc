@@ -18,6 +18,7 @@
   --ifm-color-primary-darkest: #57000A;
   --ifm-color-primary-light: #9BADC4;
   --ifm-color-primary-lighter: #B0C4DE;
+
   --ifm-color-primary-lightest: #B9CFEB;
   --ifm-code-font-size: 95%;
 }
@@ -27,4 +28,188 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+
+/* LOGO ko normal rehne do */
+.navbar__logo {
+  background: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  transform: none !important;
+}
+
+/* HOME text ko separate style */
+.navbar__brand .navbar__title {
+  background: #ffffff;
+  color:rgba(0, 0, 0, 0.743);
+  border-radius: 8px;
+  padding: 6px 12px;
+  margin-left: 8px; /* logo se thoda gap */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: 0.2s ease;
+}
+
+/* HOME hover effect */
+.navbar__brand .navbar__title:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  color:#D50019;
+}
+
+
+
+.navbar__brand .navbar__logo {
+  margin-right: 8px;
+  border-radius: 6px;
+}
+
+/* Top-level navbar links (most items) */
+.navbar__item .navbar__link,
+.navbar__items .navbar__link {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 6px 12px;
+  margin-right: 6px;
+  color: #333 !important;
+  transition: all 0.18s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.10);
+}
+
+/* Hover: lift + darker shadow */
+.navbar__item .navbar__link:hover,
+.navbar__items .navbar__link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.16);
+  color: #D50019 !important;
+}
+
+/* Active link styling (current page) */
+.navbar__link--active {
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  font-weight: 700;
+}
+
+/* Dropdown menu links (same visual style) */
+.menu__link {
+  background: #ffffff !important;
+  border-radius: 6px;
+  margin: 4px 0;
+  padding: 6px 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+/* Mobile: ensure brand and items don't collapse visually weird */
+@media (max-width: 991px) {
+  .navbar__brand,
+  .navbar__brand .navbar__title {
+    padding: 4px 8px;
+  }
+  .navbar__item .navbar__link {
+    padding: 8px 10px;
+    margin-right: 4px;
+    border-radius: 6px;
+  }
+}
+
+/* Modern Footer Layout */
+.footer {
+  background: #0f0f0f !important;
+  padding: 50px 0 30px;
+}
+
+.footer-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer-desc {
+  font-size: 15px;
+  color: #bbb;
+  line-height: 1.6;
+  max-width: 230px;
+}
+
+.footer__title {
+  color: #fff !important;
+  font-size: 18px !important;
+  font-weight: 600;
+}
+
+/* Links */
+.footer__link-item {
+  color: #ccc !important;
+  font-size: 15px !important;
+  padding: 4px 0;
+  transition: 0.25s ease;
+}
+
+.footer__link-item:hover {
+  color: #fff !important;
+  margin-left: 3px;
+}
+
+/* Social Box */
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+}
+
+.social-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  filter: brightness(1.2) invert(1);
+  transition: transform 0.25s ease;
+}
+
+.footer-social:hover .social-icon {
+  transform: scale(1.15);
+}
+
+.footer-social a {
+  color: #ccc !important;
+  font-size: 15px;
+}
+
+.footer-social:hover a {
+  color: #fff !important;
+}
+
+/* Contact */
+.footer-contact {
+  color: #ccc;
+  font-size: 15px;
+  margin: 6px 0;
+}
+
+/* Bottom Line */
+.footer__bottom,
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  color: #888;
+  font-size: 14px;
+}
+
+/* Keep YouTube icon red */
+.footer-social.youtube .social-icon {
+  filter: none !important;
+}
+
+.footer-contact-link {
+  color: #ccc !important;
+  text-decoration: none !important;
+  transition: 0.2s ease;
+}
+
+.footer-contact-link:hover {
+  color: #fff !important;
+  margin-left: 2px;
 }
