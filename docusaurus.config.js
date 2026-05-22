@@ -199,6 +199,41 @@ module.exports = {
           ]
         },
         {
+          label: '2026',
+          position: 'left',
+          to: '/docs/2026/',
+          items: [
+            {
+              label: 'Improve CycloneDX Support and Update CycloneDX Exports to Spec Version 1.7',
+              to: '/docs/2026/cyclonedx-support',
+            },
+            {
+              label: 'Enhance FOSSology\'s Ability to Identify and Support License Expressions',
+              to: '/docs/2026/enhance-license-expression',
+            },
+            {
+              label: 'Enhance Reuse Agent for Intelligent License Reuse',
+              to: '/docs/2026/enhance-reuse',
+            },
+            {
+              label: 'Enhancing Nirjas & Atarashi for Accurate, Scalable License Intelligence',
+              to: '/docs/2026/enhancing-atarashi',
+            },
+            {
+              label: 'Report Aggregation for Compliance',
+              to: '/docs/2026/report-aggregation',
+            },
+            {
+              label: 'Rewrite FOSSology UI using NextJS',
+              to: '/docs/2026/ui-rewrite',
+            },
+            {
+              label: 'FOSSology & LicenseDb UX and UI design',
+              to: '/docs/2026/ux-ui-design',
+            },
+          ]
+        },
+        {
           href: 'https://github.com/fossology/fossology',
           label: 'GitHub',
           position: 'right',
