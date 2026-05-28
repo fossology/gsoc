@@ -46,12 +46,13 @@ You can visit our [idea page for GSoC 2026](https://github.com/fossology/fossolo
 
 | Topic(s) | Timings | Meeting link | ICS |
 |:---------|:--------|:-------------|:----|
-|  Enhanced Reuse Agent for Intelligent License Reuse        |         |              |     |
-|   Enhancing Nirjas & Atarashi for Accurate, Scalable License Intelligence       |         |              |     |
+|  FOSSology Weekly       |         |              |     |
+|  Enhanced Reuse Agent for Intelligent License Reuse        |    *Tuesday*  10:00 - 10:30 UTC      |    [MS Teams](https://teams.microsoft.com/meet/311030842691125?p=tnXiNtW15XcmQfK0Ca)          |   [.ics](/ics/gsoc_2026_reuse.ics)  |
+|   Enhancing Nirjas & Atarashi for Accurate, Scalable License Intelligence       |  *Tuesday*  09:30 - 10:00 UTC      | [MS Teams](https://teams.microsoft.com/meet/32117348529243?p=grKXxepPneIF3TMSaM)             | [.ics](/ics/gsoc_2026_atarashi.ics)    |
 |  Improve CycloneDX Support and Update CycloneDX Exports to Spec Version 1.7        |         |              |     |
-|    Enhance fossology's ability to identity and support license expressions      |         |              |     |
-|  Report Aggregation for Compliance        |         |              |     |
-|     Rewrite FOSSology UI using NextJS     |         |              |     |
+|    Enhance fossology's ability to identity and support license expressions      |   *Tuesday*  09:00 - 09:30 UTC       |      [MS Teams](https://teams.microsoft.com/meet/375015924219505?p=hbwlwy2E2X9G8gL8Uc)        |   [.ics](/ics/gsoc_2026_lice_expr.ics)  |
+|  Report Aggregation for Compliance        |    *Thursday*  09:30 - 10:00 UTC      |     [MS Teams](https://teams.microsoft.com/meet/365749884842687?p=6AlKu1RgUDZtIjK8RK)         |   [.ics](/ics/gsoc_2026_report_agg.ics)  |
+|     Rewrite FOSSology UI using NextJS     |  *Friday*  11:00 - 11:30 UTC        |    [MS Teams](https://teams.microsoft.com/meet/33008173602722?p=FdgQCLF2MhkLzf6MJ4)          |   [.ics](/ics/gsoc_2026_ui.ics)  |
 |  FOSSology & LicenseDb UX and UI design        |         |              |     |
 
 ### Photo
