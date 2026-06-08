@@ -1,0 +1,118 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft//Outlook Web//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E00807EA051A294B9A4449ECDC01000000000000000
+ 01000000038C156A0DE2EBC4FA18577D975A95B0D
+DTSTAMP:20260527T182409Z
+DTSTART:20260526T100000Z
+DTEND:20260526T103000Z
+RECURRENCE-ID:20260526T100000Z
+SUMMARY:GSoC 2026: Enhanced Reuse Agent
+LOCATION:Microsoft Teams Meeting
+DESCRIPTION:Hey Everyone\,\n\n\n\n\nThis is our weekly recurring call for R
+ euse Project this year. Lets discuss the weekly updates and questions from
+  the student.\n\n\n\n\nBest\,\n\nKaushl\n\n\n\n___________________________
+ _____________________________________________________\nMicrosoft Teams mee
+ ting\n\nJoin:\nhttps://teams.microsoft.com/meet/311030842691125?p=tnXiNtW1
+ 5XcmQfK0Ca\n\nMeeting ID:\n311 030 842 691 125\n\nPasscode:\nCy9Cq6Zv\n\n\
+ n\n\nNeed\n help? | \nSystem reference \n\nDial in by phone\n\n+91\n 22 62
+ 59 0317\,\,\,\,776485272# \nIndia\, Mumbai \nFind\n a local number \n\nPho
+ ne conference ID:\n776 485 272#\n\nFor organisers:\nMeeting\n options | \n
+ Reset dial-in PIN \n\n\n\n________________________________________________
+ ________________________________
+X-ALT-DESC;FMTTYPE=text/html:<div class="cal_d1c1">\n<div>\n<div class="x_e
+ lementToProof" style="font-family:Arial\,Helvetica\,sans-serif\; font-size
+ :10pt\; color:rgb(0\,0\,0)">\nHey Everyone\,</div>\n<div class="x_elementT
+ oProof" style="font-family:Arial\,Helvetica\,sans-serif\; font-size:10pt\;
+  color:rgb(0\,0\,0)">\n<br>\n</div>\n<div class="x_elementToProof" style="
+ font-family:Arial\,Helvetica\,sans-serif\; font-size:10pt\; color:rgb(0\,0
+ \,0)">\nThis is our weekly recurring call for Reuse Project this year. Let
+ s discuss the weekly updates and questions from the student.</div>\n<div c
+ lass="x_elementToProof" style="font-family:Arial\,Helvetica\,sans-serif\; 
+ font-size:10pt\; color:rgb(0\,0\,0)">\n<br>\n</div>\n<div class="x_element
+ ToProof" style="font-family:Arial\,Helvetica\,sans-serif\; font-size:10pt\
+ ; color:rgb(0\,0\,0)">\nBest\,</div>\n<div class="x_elementToProof" style=
+ "font-family:Arial\,Helvetica\,sans-serif\; font-size:10pt\; color:rgb(0\,
+ 0\,0)">\nKaushl</div>\n<br>\n<div class="x_me-email-text" lang="en-GB" sty
+ le="max-width:1024px\; color:#242424\; font-family:'Segoe UI'\,'Helvetica 
+ Neue'\,Helvetica\,Arial\,sans-serif">\n<div aria-hidden="true" style="marg
+ in-bottom:24px\; overflow:hidden\; white-space:nowrap">\n_________________
+ _______________________________________________________________</div>\n<di
+ v style="margin-bottom:12px"><span class="x_me-email-text" style="font-siz
+ e:20px\; color:#242424\; font-weight:600">Microsoft Teams meeting</span>\n
+ </div>\n<div style="margin-bottom:6px"><span class="x_me-email-text" style
+ ="font-size:20px\; color:#242424\; font-weight:600">Join:\n</span><a href=
+ "https://teams.microsoft.com/meet/311030842691125?p=tnXiNtW15XcmQfK0Ca" ta
+ rget="_blank" rel="noopener noreferrer" data-auth="NotApplicable" id="x_me
+ et_invite_block.action.join_link" title="Meeting join" aria-label="Meeting
+  join" class="x_me-email-link" style="font-size:20px\; text-decoration:und
+ erline\; color:#5B5FC7">https://teams.microsoft.com/meet/311030842691125?p
+ =tnXiNtW15XcmQfK0Ca</a>\n</div>\n<div style="margin-bottom:6px"><span clas
+ s="x_me-email-text-secondary" style="font-size:14px\; color:#616161">Meeti
+ ng ID:\n</span><span class="x_me-email-text" style="font-size:14px\; color
+ :#242424">311 030 842 691 125</span>\n</div>\n<div style="margin-bottom:32
+ px"><span class="x_me-email-text-secondary" style="font-size:14px\; color:
+ #616161">Passcode:\n</span><span class="x_me-email-text" style="font-size:
+ 14px\; color:#242424">Cy9Cq6Zv</span>\n</div>\n<div style="margin-bottom:1
+ 2px\; max-width:1024px">\n<hr style="border:0\; background:#616161\; heigh
+ t:1px">\n</div>\n<div style="margin-bottom:24px"><a href="https://aka.ms/J
+ oinTeamsMeeting?omkt=en-GB" target="_blank" rel="noopener noreferrer" data
+ -auth="NotApplicable" id="x_meet_invite_block.action.help" class="x_me-ema
+ il-link" style="font-size:14px\; text-decoration:underline\; color:#5B5FC7
+ ">Need\n help?</a> <span style="color:#616161">|</span> <a href="https://t
+ eams.microsoft.com/l/meetup-join/19%3ameeting_NDIwOGM4NWItNTE5Ny00NGIwLTg3
+ NjctMTlkNzgyNGMzNjM4%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579
+ -4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%22a897f79c-71f3-4e34-a964-67183e
+ 5a6731%22%7d" target="_blank" rel="noopener noreferrer" data-auth="NotAppl
+ icable" id="x_meet_invite_block.action.join_link_compatibility" class="x_m
+ e-email-link" style="font-size:14px\; text-decoration:underline\; color:#5
+ B5FC7">\nSystem reference</a> </div>\n<div>\n<div style="margin-bottom:6px
+ "><span class="x_me-email-text" style="font-size:16px\; color:#242424\; fo
+ nt-weight:600\; margin-right:4px">Dial in by phone</span>\n</div>\n<div st
+ yle="margin-bottom:6px"><a href="tel:+912262590317\,\,\,\,776485272#" targ
+ et="_blank" rel="noopener noreferrer" data-auth="NotApplicable" id="x_meet
+ _invite_block.action.join_phone_number1" class="x_me-email-link" style="fo
+ nt-size:14px\; text-decoration:underline\; color:#5B5FC7\; margin-right:6p
+ x">+91\n 22 6259 0317\,\,\,\,776485272#</a> <span class="x_me-email-text" 
+ style="font-size:14px\; color:#616161">\nIndia\, Mumbai</span> </div>\n<di
+ v style="margin-bottom:6px"><a href="https://dialin.teams.microsoft.com/74
+ 042a74-a90b-4ccc-8227-e22b08bb88da?id=776485272" target="_blank" rel="noop
+ ener noreferrer" data-auth="NotApplicable" id="x_meet_invite_block.action.
+ join_phone_find_local_number" class="x_me-email-link" style="font-size:14p
+ x\; text-decoration:underline\; color:#5B5FC7">Find\n a local number</a> <
+ /div>\n</div>\n<div style="margin-bottom:24px"><span class="x_me-email-tex
+ t-secondary" style="font-size:14px\; color:#616161">Phone conference ID:\n
+ </span><span class="x_me-email-text" style="font-size:14px\; color:#242424
+ ">776 485 272#</span>\n</div>\n<div><span class="x_me-email-text-secondary
+ " style="font-size:14px\; color:#616161">For organisers:\n</span><a href="
+ https://teams.microsoft.com/meetingOptions/?organizerId=a897f79c-71f3-4e34
+ -a964-67183e5a6731&amp\;tenantId=38ae3bcd-9579-4fd4-adda-b42e1495d55a&amp\
+ ;threadId=19_meeting_NDIwOGM4NWItNTE5Ny00NGIwLTg3NjctMTlkNzgyNGMzNjM4@thre
+ ad.v2&amp\;messageId=0&amp\;language=en-GB" target="_blank" rel="noreferre
+ r noopener" data-auth="NotApplicable" id="x_meet_invite_block.action.organ
+ izer_meet_options" class="x_me-email-link" style="font-size:14px\; text-de
+ coration:underline\; color:#5B5FC7">Meeting\n options</a> <span style="col
+ or:#616161">|</span> <a href="https://dialin.teams.microsoft.com/usp/pstnc
+ onferencing" target="_blank" rel="noreferrer noopener" data-auth="NotAppli
+ cable" id="x_meet_invite_block.action.organizer_reset_dialin_pin" class="x
+ _me-email-link" style="font-size:14px\; text-decoration:underline\; color:
+ #5B5FC7">\nReset dial-in PIN</a> </div>\n<div style="margin-top:24px\; mar
+ gin-bottom:6px"></div>\n<div style="margin-bottom:24px"></div>\n<div aria-
+ hidden="true" style="margin-bottom:24px\; overflow:hidden\; white-space:no
+ wrap">\n__________________________________________________________________
+ ______________</div>\n</div>\n</div>\n</div>\n
+ORGANIZER;CN=Singh\, Kaushlendra Pratap (FT RPD SSP DAE-IN):mailto:kaushlen
+ dra-pratap.singh@siemens.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Azmal M MD\, Shaheem (FT RPD SSP DAE-IN):m
+ ailto:shaheem.azmal@siemens.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Kumar\, Sushant:mailto:sushant.kumar@sieme
+ ns-healthineers.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN=sakshammishra112@gmail.com:mailto:sakshamm
+ ishra112@gmail.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
