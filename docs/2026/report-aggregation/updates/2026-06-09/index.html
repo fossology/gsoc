@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-2026/report-aggregation/updates/2026-06-09" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.8.1">
+<title data-rh="true">Week 3 | GSoC projects at FOSSology</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://fossology.github.io/gsoc/img/logo.png"><meta data-rh="true" name="twitter:image" content="https://fossology.github.io/gsoc/img/logo.png"><meta data-rh="true" property="og:url" content="https://fossology.github.io/gsoc/docs/2026/report-aggregation/updates/2026-06-09"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Week 3 | GSoC projects at FOSSology"><meta data-rh="true" name="description" content="&lt;!--"><meta data-rh="true" property="og:description" content="&lt;!--"><link data-rh="true" rel="icon" href="/gsoc/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://fossology.github.io/gsoc/docs/2026/report-aggregation/updates/2026-06-09"><link data-rh="true" rel="alternate" href="https://fossology.github.io/gsoc/docs/2026/report-aggregation/updates/2026-06-09" hreflang="en"><link data-rh="true" rel="alternate" href="https://fossology.github.io/gsoc/docs/2026/report-aggregation/updates/2026-06-09" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Report Aggregation for Compliance","item":"https://fossology.github.io/gsoc/docs/2026/report-aggregation/"},{"@type":"ListItem","position":2,"name":"Week 3","item":"https://fossology.github.io/gsoc/docs/2026/report-aggregation/updates/2026-06-09"}]}</script><link rel="alternate" type="application/rss+xml" href="/gsoc/blog/rss.xml" title="GSoC projects at FOSSology RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/gsoc/blog/atom.xml" title="GSoC projects at FOSSology Atom Feed"><link rel="stylesheet" href="/gsoc/assets/css/styles.fefc38bd.css">
+<script src="/gsoc/assets/js/runtime~main.6dc33384.js" defer="defer"></script>
+<script src="/gsoc/assets/js/main.442eae07.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t="light";var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",e||t),document.documentElement.setAttribute("data-theme-choice",e||t)}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/gsoc/img/logo.png"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/gsoc/"><div class="navbar__logo"><img src="/gsoc/img/logo.png" alt="Home" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/gsoc/img/logo.png" alt="Home" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Home</b></a><a class="navbar__item navbar__link" href="/gsoc/docs/guidelines/">Contributor Guidelines</a><div class="navbar__item dropdown dropdown--hoverable"><a class="navbar__link" aria-haspopup="true" aria-expanded="false" role="button" href="/gsoc/docs/2021/">2021</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/gsoc/docs/2021/buildsystem/">New build system</a></li><li><a class="dropdown__link" href="/gsoc/docs/2021/copyrights/">Copyrights false positive detection</a></li><li><a class="dropdown__link" href="/gsoc/docs/2021/microservice/">Microservice architecture</a></li><li><a class="dropdown__link" href="/gsoc/docs/2021/minerva/">Minerva</a></li><li><a class="dropdown__link" href="/gsoc/docs/2021/scancode/">ScanCode Integration</a></li><li><a class="dropdown__link" href="/gsoc/docs/2021/ui/">React UI</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a class="navbar__link" aria-haspopup="true" aria-expanded="false" role="button" href="/gsoc/docs/2022/">2022</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/gsoc/docs/2022/atarashi/">Atarashi</a></li><li><a class="dropdown__link" href="/gsoc/docs/2022/project/">Concept of project</a></li><li><a class="dropdown__link" href="/gsoc/docs/2022/reuse/">REUSE</a></li><li><a class="dropdown__link" href="/gsoc/docs/2022/spasht/">Spasht</a></li><li><a class="dropdown__link" href="/gsoc/docs/2022/ui/">React UI</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a class="navbar__link" aria-haspopup="true" aria-expanded="false" role="button" href="/gsoc/docs/2023/">2023</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/gsoc/docs/2023/copyrights">Reducing False positive copyrights</a></li><li><a class="dropdown__link" href="/gsoc/docs/2023/rest">REST API improvements</a></li><li><a class="dropdown__link" href="/gsoc/docs/2023/laas">License as a service</a></li><li><a class="dropdown__link" href="/gsoc/docs/2023/cyclonedx">Support CycloneDX report</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a class="navbar__link" aria-haspopup="true" aria-expanded="false" role="button" href="/gsoc/docs/2024/">2024</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/gsoc/docs/2024/GSoC-projects">Idea list</a></li><li><a class="dropdown__link" href="/gsoc/docs/2024/scheduler">Scheduler Overhaul</a></li><li><a class="dropdown__link" href="/gsoc/docs/2024/license-detection">AI Powered License Detection</a></li><li><a class="dropdown__link" href="/gsoc/docs/2024/spdx30">Support SPDX 3.0 Reports</a></li><li><a class="dropdown__link" href="/gsoc/docs/2024/spdx-expression">SPDX License Expression Support</a></li><li><a class="dropdown__link" href="/gsoc/docs/2024/rest">REST API improvements</a></li><li><a class="dropdown__link" href="/gsoc/docs/2024/ci-scanner">CI Scanner Improvements</a></li><li><a class="dropdown__link" href="/gsoc/docs/2024/pipeline">Data Pipeline</a></li><li><a class="dropdown__link" href="/gsoc/docs/2024/text-phrases">Text Phrases</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a class="navbar__link" aria-haspopup="true" aria-expanded="false" role="button" href="/gsoc/docs/2025/">2025</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/gsoc/docs/2025/GSoC-projects">Idea list</a></li><li><a class="dropdown__link" href="/gsoc/docs/2025/atarashi-enhancement">Enhance Atarashi&#x27;s Ability</a></li><li><a class="dropdown__link" href="/gsoc/docs/2025/data-pipeline">Data Pipeline For Safaa</a></li><li><a class="dropdown__link" href="/gsoc/docs/2025/debian-packaging">Enhancing Debian Packaging for FOSSology</a></li><li><a class="dropdown__link" href="/gsoc/docs/2025/licensedb-platform">LicenseDB Platform Improvements</a></li><li><a class="dropdown__link" href="/gsoc/docs/2025/microservices-infrastructure">Complete Microservices Infrastructure for FOSSology</a></li><li><a class="dropdown__link" href="/gsoc/docs/2025/oss-review-toolkit">Integrating OSS Review Toolkit with FOSSology</a></li><li><a class="dropdown__link" href="/gsoc/docs/2025/osselot">Reuse of clearing decisions using reports from OSSelot Project</a></li><li><a class="dropdown__link" href="/gsoc/docs/2025/text-phrases-bulk">Support text phrases and bulk based scanning for Monk a like agent</a></li><li><a class="dropdown__link" href="/gsoc/docs/2025/ui-react">Completion of UI using React.js</a></li><li><a class="dropdown__link" href="/gsoc/docs/2025/ux-ui-design">FOSSology UX and UI Redesign</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a aria-current="page" class="navbar__link active" aria-haspopup="true" aria-expanded="false" role="button" href="/gsoc/docs/2026/">2026</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/gsoc/docs/2026/cyclonedx-support">Improve CycloneDX Support and Update CycloneDX Exports to Spec Version 1.7</a></li><li><a class="dropdown__link" href="/gsoc/docs/2026/enhance-license-expression">Enhance FOSSology&#x27;s Ability to Identify and Support License Expressions</a></li><li><a class="dropdown__link" href="/gsoc/docs/2026/enhance-reuse">Enhance Reuse Agent for Intelligent License Reuse</a></li><li><a class="dropdown__link" href="/gsoc/docs/2026/enhancing-atarashi">Enhancing Nirjas &amp; Atarashi for Accurate, Scalable License Intelligence</a></li><li><a aria-current="page" class="dropdown__link dropdown__link--active" href="/gsoc/docs/2026/report-aggregation">Report Aggregation for Compliance</a></li><li><a class="dropdown__link" href="/gsoc/docs/2026/ui-rewrite">Rewrite FOSSology UI using NextJS</a></li><li><a class="dropdown__link" href="/gsoc/docs/2026/ux-ui-design">FOSSology &amp; LicenseDb UX and UI design</a></li></ul></div></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/fossology/fossology" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gsoc/docs/2026">GSoC&#x27;26 @ FOSSology</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gsoc/docs/2026/ux-ui-design/">FOSSology &amp; LicenseDb UX and UI design</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/gsoc/docs/2026/ui-rewrite/">Rewrite FOSSology UI using NextJS</a><button aria-label="Expand sidebar category &#x27;Rewrite FOSSology UI using NextJS&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/gsoc/docs/2026/report-aggregation/">Report Aggregation for Compliance</a><button aria-label="Collapse sidebar category &#x27;Report Aggregation for Compliance&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/gsoc/docs/2026/report-aggregation/updates/2026-05-08">Weekly Updates</a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/gsoc/docs/2026/report-aggregation/updates/2026-05-08">Community bonding</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/gsoc/docs/2026/report-aggregation/updates/2026-05-24">Week 1</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/gsoc/docs/2026/report-aggregation/updates/2026-06-01">Week 2</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/gsoc/docs/2026/report-aggregation/updates/2026-06-09">Week 3</a></li></ul></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/gsoc/docs/2026/cyclonedx-support/">Improve CycloneDX Support and Update CycloneDX Exports to Spec Version 1.7</a><button aria-label="Expand sidebar category &#x27;Improve CycloneDX Support and Update CycloneDX Exports to Spec Version 1.7&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/gsoc/docs/2026/enhancing-atarashi/">Enhancing Nirjas &amp; Atarashi for Accurate, Scalable License Intelligence</a><button aria-label="Expand sidebar category &#x27;Enhancing Nirjas &amp; Atarashi for Accurate, Scalable License Intelligence&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/gsoc/docs/2026/enhance-reuse/">Enhanced Reuse Agent for Intelligent License Reuse</a><button aria-label="Expand sidebar category &#x27;Enhanced Reuse Agent for Intelligent License Reuse&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/gsoc/docs/2026/enhance-license-expression/">Enhance FOSSology&#x27;s Ability to Identify and Support License Expressions</a><button aria-label="Expand sidebar category &#x27;Enhance FOSSology&#x27;s Ability to Identify and Support License Expressions&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/gsoc/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/gsoc/docs/2026/report-aggregation/"><span>Report Aggregation for Compliance</span></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Weekly Updates</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Week 3</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Week 3</h1></header>
+<p><em>(June 09, 2025 – June 16, 2025)</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="meeting-1">Meeting 1<a href="#meeting-1" class="hash-link" aria-label="Direct link to Meeting 1" title="Direct link to Meeting 1">​</a></h2>
+<p><strong>Date:</strong> June 11, 2025<br>
+<strong>Attendees:</strong></p>
+<ul>
+<li><a href="https://github.com/harshitg927" target="_blank" rel="noopener noreferrer">Harshit Gandhi</a></li>
+<li><a href="https://github.com/Kaushl2208" target="_blank" rel="noopener noreferrer">Kaushlendra</a></li>
+<li><a href="https://github.com/its-sushant" target="_blank" rel="noopener noreferrer">Sushant</a></li>
+<li><a href="https://github.com/shaheemazmalmmd" target="_blank" rel="noopener noreferrer">Shaheem Azmal M MD</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="summary">Summary:<a href="#summary" class="hash-link" aria-label="Direct link to Summary:" title="Direct link to Summary:">​</a></h3>
+<ul>
+<li>Presented the findings and the architectural design I created with the inputs Kaushl made in the last meet.</li>
+<li>I wasn&#x27;t able to find many open source projects under MIT license which would be helpful to integrate in this project.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="document">Document:<a href="#document" class="hash-link" aria-label="Direct link to Document:" title="Direct link to Document:">​</a></h4>
+<h1>How the Report Aggregator Architecture Works</h1>
+<p>Think of this as a smart combiner for compliance reports. You give it several reports FOSSology already generated (same format), and it produces one merged report - not by gluing files together, but by understanding what each report contains and folding duplicates intelligently.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-problem-it-solves">The problem it solves<a href="#the-problem-it-solves" class="hash-link" aria-label="Direct link to The problem it solves" title="Direct link to The problem it solves">​</a></h2>
+<p>Organizations often have many separate compliance reports:</p>
+<ul>
+<li>One per upload</li>
+<li>One per project</li>
+<li>One per team scan</li>
+</ul>
+<p>They want one authoritative report that:</p>
+<ol>
+<li>Contains everything from all inputs</li>
+<li>Does not list the same component twice if it appeared in multiple reports</li>
+<li>Shows where each piece of data came from</li>
+<li>Lets humans fix mistakes without losing that traceability</li>
+</ol>
+<p>FOSSology today can combine some formats at generation time (<code>uploadsAdd</code>), but that is mostly concatenation, not true merge. CycloneDX does not even merge content. This tool fixes that after reports exist, by reading files from disk.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-big-idea-two-specialists--one-brain">The big idea: two specialists + one brain<a href="#the-big-idea-two-specialists--one-brain" class="hash-link" aria-label="Direct link to The big idea: two specialists + one brain" title="Direct link to The big idea: two specialists + one brain">​</a></h2>
+<p>The architecture avoids building one giant &quot;universal data model&quot; for every format. Instead:</p>
+<table><thead><tr><th>Piece</th><th>Role</th><th>Analogy</th></tr></thead><tbody><tr><td>Adapters (one per format)</td><td>Read and write one format</td><td>Translators who speak SPDX, CycloneDX, DEP5, etc.</td></tr><tr><td>Mapping files (<code>.toml</code>)</td><td>Tell the engine where fields live and how to compare them</td><td>A recipe card per format</td></tr><tr><td>Merge engine (one, shared)</td><td>Dedup, merge, fix IDs, track provenance</td><td>The chef who follows the recipe</td></tr></tbody></table>
+<p>Important: data stays in its native shape (JSON dict, XML tree, text stanzas). The engine does not convert everything into one internal graph format.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-pipeline-step-by-step">The pipeline, step by step<a href="#the-pipeline-step-by-step" class="hash-link" aria-label="Direct link to The pipeline, step by step" title="Direct link to The pipeline, step by step">​</a></h2>
+<p>Read files → Parse (adapter) → Merge (engine) → Write (adapter) → Output + provenance.json</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-ingestion">1. Ingestion<a href="#1-ingestion" class="hash-link" aria-label="Direct link to 1. Ingestion" title="Direct link to 1. Ingestion">​</a></h3>
+<p>You point the tool at N report files, e.g.:</p>
+<p>report-aggregator merge report-a.json report-b.json -o merged.json</p>
+<p>Rules:</p>
+<ul>
+<li>Same format only - SPDX with SPDX, CycloneDX with CycloneDX</li>
+<li>SPDX 2 never mixes with SPDX 3</li>
+<li>No live FOSSology database calls in v1 - just files</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-loading-adapterload">2. Loading (adapter <code>.load()</code>)<a href="#2-loading-adapterload" class="hash-link" aria-label="Direct link to 2-loading-adapterload" title="Direct link to 2-loading-adapterload">​</a></h3>
+<p>Each format has its own adapter that parses bytes into a native structure:</p>
+<ul>
+<li>CycloneDX → Python dict from JSON</li>
+<li>SPDX tag-value → parsed blocks</li>
+<li>DEP5 / ReadMeOSS → custom text structures</li>
+</ul>
+<p>Because FOSSology output is template-driven and predictable, parsers only need to handle FOSSology&#x27;s shape, not every possible variant of the spec.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-input-normalization-adapterentries">3. Input normalization (adapter <code>.entries()</code>)<a href="#3-input-normalization-adapterentries" class="hash-link" aria-label="Direct link to 3-input-normalization-adapterentries" title="Direct link to 3-input-normalization-adapterentries">​</a></h3>
+<p>Before merging, each report is broken into a flat list of mergeable items:</p>
+<ul>
+<li>SPDX: packages and files (one input file may already contain multiple packages from <code>uploadsAdd</code>)</li>
+<li>CycloneDX: upload (<code>metadata.component</code>) and files (<code>components[]</code>)</li>
+<li>DEP5: license stanzas (<code>Files:</code> blocks)</li>
+<li>ReadMeOSS: license blocks in MAIN / OTHER / ACKNOWLEDGEMENTS</li>
+</ul>
+<p>The engine never assumes &quot;one input file = one package.&quot;</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-merging-the-engine---6-steps">4. Merging (the engine - 6 steps)<a href="#4-merging-the-engine---6-steps" class="hash-link" aria-label="Direct link to 4. Merging (the engine - 6 steps)" title="Direct link to 4. Merging (the engine - 6 steps)">​</a></h3>
+<p>Step 1 - Collect<br>
+<!-- -->Pull all entries from all N reports.</p>
+<p>Step 2 - Group by identity<br>
+<!-- -->Ask: &quot;Is this the same real-world thing as that?&quot;</p>
+<ul>
+<li>Same upload/package → same SHA1 checksum</li>
+<li>Same file → same file SHA1</li>
+<li>Same license text → same <code>md5(normalized text)</code></li>
+</ul>
+<p>If two entries share an identity key, they go in the same bucket and get merged into one.</p>
+<p>Step 3 - Merge fields in each bucket<br>
+<!-- -->Per the mapping file:</p>
+<ul>
+<li>Union fields (e.g. licenses): combine - if one report says MIT and another says Zlib, output has both</li>
+<li>Conflict fields (e.g. copyright, package name): if they disagree, keep the first value but flag the conflict in the sidecar</li>
+<li>Everything else: first input wins, with provenance recorded</li>
+</ul>
+<p>Step 4 - Fix IDs and references (graph formats only)<br>
+<!-- -->SPDX and CycloneDX use local IDs like <code>SPDXRef-upload10</code> or <code>bom-ref: &quot;10-3&quot;</code>. Different reports can reuse the same IDs for different things.</p>
+<p>The engine builds a remap table and rewrites:</p>
+<ul>
+<li>SPDX IDs</li>
+<li>Relationship links (<code>DESCRIBES</code>, <code>CONTAINS</code>, etc.)</li>
+<li>CycloneDX <code>bom-ref</code> values (for uniqueness)</li>
+</ul>
+<p>Text formats (DEP5, ReadMeOSS) skip this - they have no ID graph.</p>
+<p>Step 5 - Record provenance<br>
+<!-- -->For every merged field, record which input reports contributed. Written to <code>merged.provenance.json</code>.</p>
+<p>Step 6 - Assemble and render<br>
+<!-- -->Build one output document (one header, merged entries, fixed references) and serialize back to the same format.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="two-kinds-of-formats-this-drives-behavior">Two kinds of formats (this drives behavior)<a href="#two-kinds-of-formats-this-drives-behavior" class="hash-link" aria-label="Direct link to Two kinds of formats (this drives behavior)" title="Direct link to Two kinds of formats (this drives behavior)">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="category-a---document-graph-formats">Category A - Document graph formats<a href="#category-a---document-graph-formats" class="hash-link" aria-label="Direct link to Category A - Document graph formats" title="Direct link to Category A - Document graph formats">​</a></h3>
+<p>SPDX 2/3, CycloneDX, CLIXML (to be researched and read upon)</p>
+<p>These are structured graphs: entities (packages, files) linked by IDs and relationships.</p>
+<p>Merge is semantic:</p>
+<ul>
+<li>Dedup by checksum</li>
+<li>Rewire references</li>
+<li>Dedup license text blocks</li>
+<li>Regenerate document metadata (e.g. new <code>documentNamespace</code> for SPDX)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="category-b---stanzasection-formats">Category B - Stanza/section formats<a href="#category-b---stanzasection-formats" class="hash-link" aria-label="Direct link to Category B - Stanza/section formats" title="Direct link to Category B - Stanza/section formats">​</a></h3>
+<p>DEP5, ReadMeOSS</p>
+<p>These are text organized in paragraphs/sections, not a graph.</p>
+<p>Merge is content-based:</p>
+<ul>
+<li>Group stanzas by license expression or text hash</li>
+<li>Union file lists under the same license</li>
+<li>Flag overlaps when the same file path gets different licenses</li>
+<li>No ID rewiring</li>
+</ul>
+<p>Graph formats ──► dedup + rewire IDs + relationships</p>
+<p>Stanza formats ──► dedup by text/content + section merge</p>
+<p>both ──► provenance sidecar</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-sameness-is-decided-identity-rules">How &quot;sameness&quot; is decided (identity rules)<a href="#how-sameness-is-decided-identity-rules" class="hash-link" aria-label="Direct link to How &quot;sameness&quot; is decided (identity rules)" title="Direct link to How &quot;sameness&quot; is decided (identity rules)">​</a></h2>
+<p>This is one of the most important design choices.</p>
+<table><thead><tr><th>What</th><th>How we know it&#x27;s the same</th><th>Why</th></tr></thead><tbody><tr><td>Package / upload</td><td>SHA1 (fallback MD5, SHA256)</td><td>FOSSology stores upload hash - filename is unreliable</td></tr><tr><td>File</td><td>File SHA1</td><td>Content hash is definitive</td></tr><tr><td>License text</td><td><code>md5(normalized text)</code></td><td><code>LicenseRef-fossology-xyz</code> names differ across FOSSology instances</td></tr><tr><td>DEP5 stanza</td><td><code>md5(license + sorted file globs)</code></td><td>Groups &quot;these files under this license&quot;</td></tr><tr><td>ReadMeOSS block</td><td><code>md5(normalized text)</code></td><td>Same idea as license text</td></tr></tbody></table>
+<p>Not used for identity: package name, version, purl - FOSSology often leaves these empty (<code>&quot;NA&quot;</code>).</p>
+<p>License text normalization before hashing:</p>
+<ol>
+<li>Normalize line endings to <code>\n</code></li>
+<li>Strip trailing whitespace per line</li>
+<li>For ReadMeOSS: strip OSSelot prefix if present</li>
+<li>Do not strip blank lines inside license text (may matter legally)</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="concrete-example-two-cyclonedx-reports">Concrete example: two CycloneDX reports<a href="#concrete-example-two-cyclonedx-reports" class="hash-link" aria-label="Direct link to Concrete example: two CycloneDX reports" title="Direct link to Concrete example: two CycloneDX reports">​</a></h2>
+<p>Report A (upload <code>appA</code>, sha1 <code>aaa</code>):</p>
+<ul>
+<li>1 file: <code>src/png.c</code>, sha1 <code>abc</code>, license MIT</li>
+</ul>
+<p>Report B (upload <code>appB</code>, sha1 <code>bbb</code>):</p>
+<ul>
+<li><code>src/png.c</code>, sha1 <code>abc</code>, license Zlib (same file as A)</li>
+<li><code>src/zlib.c</code>, sha1 <code>def</code>, license Zlib</li>
+</ul>
+<p>What the engine does:</p>
+<ol>
+<li>Upload tier: <code>aaa</code> and <code>bbb</code> are different → keep both as <code>type:library</code> entries</li>
+<li>File tier: <code>abc</code> appears in A and B → one merged file entry with licenses <code>[MIT, Zlib]</code></li>
+<li>File <code>def</code>: only in B → kept as-is</li>
+<li>Provenance: records that <code>abc</code>&#x27;s Zlib license came from report B</li>
+<li>Output: one JSON with 2 library entries + 2 file entries + <code>provenance.json</code></li>
+</ol>
+<p>That is merge, not concatenation. Concatenation would give you two <code>png.c</code> entries.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="mapping-files-the-engines-instruction-manual">Mapping files: the engine&#x27;s instruction manual<a href="#mapping-files-the-engines-instruction-manual" class="hash-link" aria-label="Direct link to Mapping files: the engine&#x27;s instruction manual" title="Direct link to Mapping files: the engine&#x27;s instruction manual">​</a></h2>
+<p>Each format has a TOML file like <code>mappings/spdx2.toml</code>:</p>
+<p>package_identity = [&quot;checksum.SHA1&quot;, &quot;checksum.MD5&quot;, &quot;checksum.SHA256&quot;]</p>
+<p>union_fields = [&quot;hasExtractedLicensingInfos&quot;]</p>
+<p>conflict_fields = [&quot;PackageName&quot;, &quot;PackageCopyrightText&quot;]</p>
+<p>The engine reads this and knows:</p>
+<ul>
+<li>Where packages live</li>
+<li>What field decides &quot;same package&quot;</li>
+<li>Which fields to combine vs which to treat as conflicts</li>
+</ul>
+<p>Adding a new format = new adapter + new mapping file. The core engine stays unchanged.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="provenance-sidecar-the-audit-trail">Provenance sidecar: the audit trail<a href="#provenance-sidecar-the-audit-trail" class="hash-link" aria-label="Direct link to Provenance sidecar: the audit trail" title="Direct link to Provenance sidecar: the audit trail">​</a></h2>
+<p>Every merge produces two outputs:</p>
+<ol>
+<li><code>merged-report</code> (SPDX, JSON, text, etc.)</li>
+<li><code>merged-report.provenance.json</code></li>
+</ol>
+<p>The sidecar contains:</p>
+<ul>
+<li>inputs - which files were merged</li>
+<li>field_provenance - e.g. <code>/packages/0/licenseConcluded</code> came from report-A and report-B</li>
+<li>conflicts - fields that disagreed, what each input said, what was chosen</li>
+<li>edits - human corrections applied later</li>
+</ul>
+<p>This powers the future UI: &quot;show me which report contributed this license.&quot;</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="edit-layer-corrections-that-survive-re-merge">Edit layer: corrections that survive re-merge<a href="#edit-layer-corrections-that-survive-re-merge" class="hash-link" aria-label="Direct link to Edit layer: corrections that survive re-merge" title="Direct link to Edit layer: corrections that survive re-merge">​</a></h2>
+<p>Users will fix wrong data. Edits are stored as RFC-6902 JSON patches (like Git-style change records):</p>
+<p>aggregate = merge(all inputs) + apply(user patches)</p>
+<p>Patches target the internal structure (before rendering to text/JSON), so:</p>
+<ul>
+<li>Re-running merge after an input changes does not wipe manual fixes</li>
+<li>Patches stay valid when the report is re-serialized</li>
+</ul>
+<p>Each edit records who, when, and what changed.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-this-relates-to-fossologyuploadsaddtoday">How this relates to FOSSology <code>uploadsAdd</code> today<a href="#how-this-relates-to-fossologyuploadsaddtoday" class="hash-link" aria-label="Direct link to how-this-relates-to-fossologyuploadsaddtoday" title="Direct link to how-this-relates-to-fossologyuploadsaddtoday">​</a></h2>
+<table><thead><tr><th><strong>Aspect</strong></th><th><code>uploadsAdd</code> (built into FOSSology)</th><th>Report Aggregator (new tool)</th></tr></thead><tbody><tr><td>When</td><td>While generating from DB</td><td>After reports exist on disk</td></tr><tr><td>How</td><td>Mostly append blocks</td><td>Identity-based dedup</td></tr><tr><td>CycloneDX</td><td>Broken - only changes filename</td><td>Actually merges uploads + files</td></tr><tr><td>Provenance</td><td>None</td><td>Full sidecar</td></tr><tr><td>Conflicts</td><td>Silent</td><td>Flagged for review</td></tr></tbody></table>
+<p>They complement each other. You can merge individual per-upload reports, or reports that were already partially combined by <code>uploadsAdd</code>.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-gets-built-project-structure">What gets built (project structure)<a href="#what-gets-built-project-structure" class="hash-link" aria-label="Direct link to What gets built (project structure)" title="Direct link to What gets built (project structure)">​</a></h2>
+<p>report-aggregator/
+├── mappings/ # TOML recipes per format
+├── src/report_aggregator/
+│ ├── engine/ # Shared merge logic
+│ ├── adapters/ # One per format (spdx2, cyclonedx, dep5, ...)
+│ └── cli.py # Command-line entry point
+└── tests/golden/ # Real FOSSology outputs for regression tests</p>
+<p>MIT-only: mostly Python stdlib (<code>json</code>, <code>xml.etree</code>, <code>tomllib</code>). Custom parsers for SPDX tag-value, DEP5, ReadMeOSS because existing libraries are GPL/Apache/BSD.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v1-scope-what-ships-first">v1 scope (what ships first)<a href="#v1-scope-what-ships-first" class="hash-link" aria-label="Direct link to v1 scope (what ships first)" title="Direct link to v1 scope (what ships first)">​</a></h2>
+<table><thead><tr><th>In v1</th><th>Deferred</th></tr></thead><tbody><tr><td>CycloneDX 1.4 JSON</td><td>CLIXML (phase 4)</td></tr><tr><td>SPDX 2 tag-value</td><td>SPDX RDF/XML, CSV</td></tr><tr><td>DEP5</td><td>Hierarchical CDX parent root</td></tr><tr><td>ReadMeOSS</td><td>Unified Report <code>.docx</code></td></tr><tr><td>SPDX 3 JSON (phase 2b)</td><td></td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="one-sentence-summary">One-sentence summary<a href="#one-sentence-summary" class="hash-link" aria-label="Direct link to One-sentence summary" title="Direct link to One-sentence summary">​</a></h2>
+<p>Adapters parse FOSSology reports into native structures, a shared engine merges them by content hash (not filename), fixes ID collisions in graph formats, records every decision in a provenance sidecar, and adapters write back one clean report of the same format.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="discussion-regarding-the-presented-architecture">Discussion Regarding the Presented Architecture<a href="#discussion-regarding-the-presented-architecture" class="hash-link" aria-label="Direct link to Discussion Regarding the Presented Architecture" title="Direct link to Discussion Regarding the Presented Architecture">​</a></h4>
+<ul>
+<li>The mentors liked this architectural design and agreed upon me starting the initial implementation of the project.</li>
+<li>Any further enhancements will be made while the implementation is going on.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="next-steps">Next Steps<a href="#next-steps" class="hash-link" aria-label="Direct link to Next Steps" title="Direct link to Next Steps">​</a></h4>
+<ul>
+<li>Start the initial implementation of the project.</li>
+<li>Create a repository on github and push the code there.</li>
+<li>This repository onwership will be transfered to FOSSology in the future.</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/gsoc/docs/tags/gsoc-26">gsoc26</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/fossology/gsoc/edit/main/docs/2026/report-aggregation/updates/2026-06-09.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/gsoc/docs/2026/report-aggregation/updates/2026-06-01"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Week 2</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/gsoc/docs/2026/cyclonedx-support/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Introduction</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#meeting-1" class="table-of-contents__link toc-highlight">Meeting 1</a><ul><li><a href="#summary" class="table-of-contents__link toc-highlight">Summary:</a></li></ul></li><li><a href="#the-problem-it-solves" class="table-of-contents__link toc-highlight">The problem it solves</a></li><li><a href="#the-big-idea-two-specialists--one-brain" class="table-of-contents__link toc-highlight">The big idea: two specialists + one brain</a></li><li><a href="#the-pipeline-step-by-step" class="table-of-contents__link toc-highlight">The pipeline, step by step</a><ul><li><a href="#1-ingestion" class="table-of-contents__link toc-highlight">1. Ingestion</a></li><li><a href="#2-loading-adapterload" class="table-of-contents__link toc-highlight">2. Loading (adapter <code>.load()</code>)</a></li><li><a href="#3-input-normalization-adapterentries" class="table-of-contents__link toc-highlight">3. Input normalization (adapter <code>.entries()</code>)</a></li><li><a href="#4-merging-the-engine---6-steps" class="table-of-contents__link toc-highlight">4. Merging (the engine - 6 steps)</a></li></ul></li><li><a href="#two-kinds-of-formats-this-drives-behavior" class="table-of-contents__link toc-highlight">Two kinds of formats (this drives behavior)</a><ul><li><a href="#category-a---document-graph-formats" class="table-of-contents__link toc-highlight">Category A - Document graph formats</a></li><li><a href="#category-b---stanzasection-formats" class="table-of-contents__link toc-highlight">Category B - Stanza/section formats</a></li></ul></li><li><a href="#how-sameness-is-decided-identity-rules" class="table-of-contents__link toc-highlight">How &quot;sameness&quot; is decided (identity rules)</a></li><li><a href="#concrete-example-two-cyclonedx-reports" class="table-of-contents__link toc-highlight">Concrete example: two CycloneDX reports</a></li><li><a href="#mapping-files-the-engines-instruction-manual" class="table-of-contents__link toc-highlight">Mapping files: the engine&#39;s instruction manual</a></li><li><a href="#provenance-sidecar-the-audit-trail" class="table-of-contents__link toc-highlight">Provenance sidecar: the audit trail</a></li><li><a href="#edit-layer-corrections-that-survive-re-merge" class="table-of-contents__link toc-highlight">Edit layer: corrections that survive re-merge</a></li><li><a href="#how-this-relates-to-fossologyuploadsaddtoday" class="table-of-contents__link toc-highlight">How this relates to FOSSology <code>uploadsAdd</code> today</a></li><li><a href="#what-gets-built-project-structure" class="table-of-contents__link toc-highlight">What gets built (project structure)</a></li><li><a href="#v1-scope-what-ships-first" class="table-of-contents__link toc-highlight">v1 scope (what ships first)</a></li><li><a href="#one-sentence-summary" class="table-of-contents__link toc-highlight">One-sentence summary</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/fossology" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://fossology.slack.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Slack<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://www.fossology.org/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Main home page<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.youtube.com/@fossology" target="_blank" rel="noopener noreferrer" class="footer__link-item">YouTube<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/fossology/fossology/wiki/Install-from-Source" target="_blank" rel="noopener noreferrer" class="footer__link-item">Installing FOSSology<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/fossology/fossology/wiki/New-at-FOSSology,-You-Could-..." target="_blank" rel="noopener noreferrer" class="footer__link-item">Getting started<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2021 - 2026 FOSSology project. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+PRODID:-//ownCloud calendar v2.0.0
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+CREATED:20250611T115326Z
+DTSTAMP:20250611T115424Z
+LAST-MODIFIED:20250611T115424Z
+UID:IOCKG4668NOD7LLQ19YL2B
+SUMMARY:Atarashi Improvement: GSoC 2025 Update Call
+CLASS:PUBLIC
+DESCRIPTION:Hey Everyone\,\n\nSetting up this recurring meeting for Atarash
+ i Project Update weekly.\n\nCheers\,\nKaushl\n\n___________________________
+ _____________________________________________________\nMicrosoft Teams\n\nh
+ ttps://teams.microsoft.com/l/meetup-join/19%3ameeting_YTNlY2FmYzctNTEyNy00N
+ jg4LTk1MmYtMTdkYzRhMzVmNjlm%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3bc
+ d-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%22a897f79c-71f3-4e34-a964-6
+ 7183e5a6731%22%7d\n\nMeeting ID: 377 369 383 416 5\nPasscode: va6HX7pe\nDia
+ l in by phone\n+91 22 6259 0317\,\,\,\,360594976# India\, Mumbai\nFind a lo
+ cal number\nPhone conference ID: 360 594 976#\n____________________________
+ ____________________________________________________
+STATUS:CONFIRMED
+DTSTART;TZID=Asia/Kolkata:20250604T170000
+DTEND;TZID=Asia/Kolkata:20250604T173000
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20251101T000000
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+BEGIN:STANDARD
+TZNAME:IST
+TZOFFSETFROM:+0630
+TZOFFSETTO:+0530
+DTSTART:19420515T000000
+RDATE:19451015T000000
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR

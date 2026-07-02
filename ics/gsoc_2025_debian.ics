@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+PRODID:-//ownCloud calendar v2.0.0
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+CREATED:20250711T055418Z
+DTSTAMP:20250711T055620Z
+LAST-MODIFIED:20250711T055620Z
+UID:HT91XAMXQKPOLVDA0QG2FQ
+SUMMARY:Weekly call for debian packaging
+CLASS:PUBLIC
+DESCRIPTION:_______________________________________________________________
+ _________________\nMicrosoft Teams\n\nhttps://teams.microsoft.com/l/meetup-
+ join/19%3ameeting_ODNmMWYxOGYtYzY4OC00MDU4LTkxYzktMDM5NWI0YmNmNDNi%40thread
+ .v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%
+ 22Oid%22%3a%227f1979f2-e3e3-40d0-8a77-bcef842abf7e%22%7d\n\nMeeting ID: 387
+  074 491 629 6\nPasscode: 7TB6Kq2N\nDial in by phone\n\n+91 22 6259 0317\,\
+ ,\,\,698651627# India\, Mumbai\nPhone conference ID: 698 651 627#\n________
+ ________________________________________________________________________
+STATUS:CONFIRMED
+DTSTART;TZID=Asia/Kolkata:20250710T160000
+DTEND;TZID=Asia/Kolkata:20250710T163000
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20251001T000000
+SEQUENCE:0
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR
