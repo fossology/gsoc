@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+PRODID:-//ownCloud calendar v2.0.0
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+CREATED:20250611T122518Z
+DTSTAMP:20250611T122641Z
+LAST-MODIFIED:20250611T122641Z
+UID:CBLYKU4EQCWNV038E2LCT
+SUMMARY:Weekly call for text phrases and bulk based scanning
+CLASS:PUBLIC
+DESCRIPTION:Hello Everyone\,\n\nLets meet here and discuss the updates rega
+ rding project Support text phrases and bulk based scanning for MONK a like 
+ agent · Issue #3050 · fossology/fossology\n\nBest Regards\nShaheem Azmal M 
+ MD\n\n_____________________________________________________________________
+ ___________\nMicrosoft Teams\n\nhttps://teams.microsoft.com/l/meetup-join/1
+ 9%3ameeting_MDk0M2Y4M2ItMjlmOC00NzBjLTgxZjctZTYyNzdlYWFhZGFh%40thread.v2/0?
+ context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%
+ 22%3a%227f1979f2-e3e3-40d0-8a77-bcef842abf7e%22%7d\n\nMeeting ID: 340 983 4
+ 49 774 3\nPasscode: Bm9CS7Sa\nDial in by phone\n+91 22 6259 0317\,\,\,\,364
+ 43522# India\, Mumbai\nPhone conference ID: 364 435 22#\n__________________
+ ______________________________________________________________
+STATUS:CONFIRMED
+DTSTART;TZID=Asia/Kolkata:20250617T160000
+DTEND;TZID=Asia/Kolkata:20250617T162500
+RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20251119T000000
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+BEGIN:STANDARD
+TZNAME:IST
+TZOFFSETFROM:+0630
+TZOFFSETTO:+0530
+DTSTART:19420515T000000
+RDATE:19451015T000000
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR
