@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft//Outlook Web//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E00807EA051A908B763581ECDC01000000000000000
+ 0100000000A1FF4CED79B2A49B3D327C2C9781C04
+DTSTAMP:20260527T182406Z
+DTSTART:20260526T090000Z
+DTEND:20260526T092500Z
+RECURRENCE-ID:20260526T090000Z
+SUMMARY:GSoC 2026: Identity and support license expressions
+LOCATION:Microsoft Teams Meeting
+DESCRIPTION:Hello All\,\n&nbsp\;\nLet’s meet and discuss regarding update
+ s and questions on this topic.\n&nbsp\;\nBest Regards\nShaheem Azmal M MD\
+ n\n\n_____________________________________________________________________
+ ___________\n\n\nMicrosoft Teams meeting\n\n\n\nJoin:\nhttps://teams.micro
+ soft.com/meet/375015924219505?p=hbwlwy2E2X9G8gL8Uc\n\n\n\nMeeting ID:\n375
+  015 924 219 505\n\n\n\nPasscode:\nin398WQ2\n\n\n\n\n\n\n\n\nNeed\n help? 
+ |\n\nSystem reference \n\n\n\n\nDial in by phone\n\n\n\n+91 22 6259 0317\,
+ \,\,\,927557526#\nIndia\, Mumbai\n\n\n\nFind\n a local number \n\n\n\nPhon
+ e conference ID:\n927 557 526#\n\n\n\nFor organizers:\nMeeting\n options |
+ \n\nReset dial-in PIN \n\n\n\n____________________________________________
+ ____________________________________\n\n\n&nbsp\;
+X-ALT-DESC;FMTTYPE=text/html:<style>\n<!--\n@font-face\n	{font-family:"Camb
+ ria Math"}\n@font-face\n	{font-family:Aptos}\n@font-face\n	{font-family:"S
+ egoe UI"}\n.cal_f8c4 p.x_MsoNormal\, .cal_f8c4 li.x_MsoNormal\, .cal_f8c4 
+ div.x_MsoNormal\n	{margin:0in\;\n	font-size:12.0pt\;\n	font-family:"Aptos"
+ \,sans-serif}\n.cal_f8c4 a:link\, .cal_f8c4 span.x_MsoHyperlink\n	{color:#
+ 467886\;\n	text-decoration:underline}\n.cal_f8c4 span.x_me-email-text\n	{}
+ \n.cal_f8c4 span.x_me-email-text-secondary\n	{}\n.cal_f8c4 span.x_EmailSty
+ le20\n	{font-family:"Arial"\,sans-serif}\n.cal_f8c4 .x_MsoChpDefault\n	{fo
+ nt-size:10.0pt}\n@page WordSection1\n	{margin:1.0in 1.0in 1.0in 1.0in}\n.c
+ al_f8c4 div.x_WordSection1\n	{}\n-->\n</style>\n<div class="cal_f8c4">\n<d
+ iv lang="EN-US" link="#467886" vlink="#96607D" style="word-wrap:break-word
+ ">\n<div class="x_WordSection1">\n<p class="x_MsoNormal"><span style="font
+ -size:10.0pt\; font-family:&quot\;Arial&quot\;\,sans-serif">Hello All\,</s
+ pan></p>\n<p class="x_MsoNormal"><span style="font-size:10.0pt\; font-fami
+ ly:&quot\;Arial&quot\;\,sans-serif">&nbsp\;</span></p>\n<p class="x_MsoNor
+ mal"><span style="font-size:10.0pt\; font-family:&quot\;Arial&quot\;\,sans
+ -serif">Let’s meet and discuss regarding updates and questions on this t
+ opic.</span></p>\n<p class="x_MsoNormal"><span style="font-size:10.0pt\; f
+ ont-family:&quot\;Arial&quot\;\,sans-serif">&nbsp\;</span></p>\n<p class="
+ x_MsoNormal"><span style="font-size:10.0pt\; font-family:&quot\;Arial&quot
+ \;\,sans-serif">Best Regards</span></p>\n<p class="x_MsoNormal"><span styl
+ e="font-size:10.0pt\; font-family:&quot\;Arial&quot\;\,sans-serif">Shaheem
+  Azmal M MD</span></p>\n<div>\n<div style="margin-bottom:.25in\; overflow:
+ hidden">\n<p class="x_MsoNormal"><span style="font-family:&quot\;Segoe UI&
+ quot\;\,sans-serif\; color:#242424">______________________________________
+ __________________________________________</span><span style="font-family:
+ &quot\;Segoe UI&quot\;\,sans-serif\; color:#242424"></span></p>\n</div>\n<
+ div style="margin-bottom:9.0pt">\n<p class="x_MsoNormal"><span class="x_me
+ -email-text"><b><span style="font-size:15.0pt\; font-family:&quot\;Segoe U
+ I&quot\;\,sans-serif\; color:#242424">Microsoft Teams meeting</span></b></
+ span><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\; color:#
+ 242424">\n</span></p>\n</div>\n<div style="margin-bottom:4.5pt">\n<p class
+ ="x_MsoNormal"><span class="x_me-email-text"><b><span style="font-size:15.
+ 0pt\; font-family:&quot\;Segoe UI&quot\;\,sans-serif\; color:#242424">Join
+ :\n</span></b></span><span style="font-family:&quot\;Segoe UI&quot\;\,sans
+ -serif\; color:#242424"><a href="https://teams.microsoft.com/meet/37501592
+ 4219505?p=hbwlwy2E2X9G8gL8Uc" target="_blank" rel="noopener noreferrer" da
+ ta-auth="NotApplicable" title="Meeting join"><span style="font-size:15.0pt
+ \; color:#5B5FC7">https://teams.microsoft.com/meet/375015924219505?p=hbwlw
+ y2E2X9G8gL8Uc</span></a>\n</span></p>\n</div>\n<div style="margin-bottom:4
+ .5pt">\n<p class="x_MsoNormal"><span class="x_me-email-text-secondary"><sp
+ an style="font-size:10.5pt\; font-family:&quot\;Segoe UI&quot\;\,sans-seri
+ f\; color:#616161">Meeting ID:\n</span></span><span class="x_me-email-text
+ "><span style="font-size:10.5pt\; font-family:&quot\;Segoe UI&quot\;\,sans
+ -serif\; color:#242424">375 015 924 219 505</span></span><span style="font
+ -family:&quot\;Segoe UI&quot\;\,sans-serif\; color:#242424">\n</span></p>\
+ n</div>\n<div style="margin-bottom:24.0pt">\n<p class="x_MsoNormal"><span 
+ class="x_me-email-text-secondary"><span style="font-size:10.5pt\; font-fam
+ ily:&quot\;Segoe UI&quot\;\,sans-serif\; color:#616161">Passcode:\n</span>
+ </span><span class="x_me-email-text"><span style="font-size:10.5pt\; font-
+ family:&quot\;Segoe UI&quot\;\,sans-serif\; color:#242424">in398WQ2</span>
+ </span><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\; color
+ :#242424">\n</span></p>\n</div>\n<div style="margin-bottom:9.0pt">\n<div c
+ lass="x_MsoNormal" align="center" style="text-align:center"><span style="f
+ ont-family:&quot\;Segoe UI&quot\;\,sans-serif\; color:#242424">\n<hr size=
+ "1" width="100%" align="center">\n</span></div>\n</div>\n<div style="margi
+ n-bottom:.25in">\n<p class="x_MsoNormal"><span style="font-family:&quot\;S
+ egoe UI&quot\;\,sans-serif\; color:#242424"><a href="https://aka.ms/JoinTe
+ amsMeeting?omkt=en-US" target="_blank" rel="noopener noreferrer" data-auth
+ ="NotApplicable"><span style="font-size:10.5pt\; color:#5B5FC7">Need\n hel
+ p?</span></a> </span><span style="font-family:&quot\;Segoe UI&quot\;\,sans
+ -serif\; color:#616161">|</span><span style="font-family:&quot\;Segoe UI&q
+ uot\;\,sans-serif\; color:#242424">\n<a href="https://teams.microsoft.com/
+ l/meetup-join/19%3ameeting_NDE4OTk4NzgtNjY4Ni00NTQ4LWE1OWMtNGM4YmZlM2M3OWE
+ 1%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3bcd-9579-4fd4-adda-b42e1495
+ d55a%22%2c%22Oid%22%3a%227f1979f2-e3e3-40d0-8a77-bcef842abf7e%22%7d" targe
+ t="_blank" rel="noopener noreferrer" data-auth="NotApplicable">\n<span sty
+ le="font-size:10.5pt\; color:#5B5FC7">System reference</span></a> </span>\
+ n</p>\n</div>\n<div>\n<div style="margin-bottom:4.5pt">\n<p class="x_MsoNo
+ rmal"><span class="x_me-email-text"><b><span style="font-family:&quot\;Seg
+ oe UI&quot\;\,sans-serif\; color:#242424">Dial in by phone</span></b></spa
+ n><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\; color:#242
+ 424">\n</span></p>\n</div>\n<div style="margin-bottom:4.5pt">\n<p class="x
+ _MsoNormal"><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\; 
+ color:#242424"><a href="tel:+912262590317\,\,\,\,927557526" target="_blank
+ " rel="noopener noreferrer" data-auth="NotApplicable"><span style="font-si
+ ze:10.5pt\; color:#5B5FC7">+91 22 6259 0317\,\,\,\,927557526#</span></a>\n
+ </span><span class="x_me-email-text"><span style="font-size:10.5pt\; font-
+ family:&quot\;Segoe UI&quot\;\,sans-serif\; color:#616161">India\, Mumbai<
+ /span></span><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\;
+  color:#242424">\n</span></p>\n</div>\n<div style="margin-bottom:4.5pt">\n
+ <p class="x_MsoNormal"><span style="font-family:&quot\;Segoe UI&quot\;\,sa
+ ns-serif\; color:#242424"><a href="https://dialin.teams.microsoft.com/7404
+ 2a74-a90b-4ccc-8227-e22b08bb88da?id=927557526" target="_blank" rel="noopen
+ er noreferrer" data-auth="NotApplicable"><span style="font-size:10.5pt\; c
+ olor:#5B5FC7">Find\n a local number</span></a> </span></p>\n</div>\n</div>
+ \n<div style="margin-bottom:.25in">\n<p class="x_MsoNormal"><span class="x
+ _me-email-text-secondary"><span style="font-size:10.5pt\; font-family:&quo
+ t\;Segoe UI&quot\;\,sans-serif\; color:#616161">Phone conference ID:\n</sp
+ an></span><span class="x_me-email-text"><span style="font-size:10.5pt\; fo
+ nt-family:&quot\;Segoe UI&quot\;\,sans-serif\; color:#242424">927 557 526#
+ </span></span><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\
+ ; color:#242424">\n</span></p>\n</div>\n<div>\n<p class="x_MsoNormal"><spa
+ n class="x_me-email-text-secondary"><span style="font-size:10.5pt\; font-f
+ amily:&quot\;Segoe UI&quot\;\,sans-serif\; color:#616161">For organizers:\
+ n</span></span><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif
+ \; color:#242424"><a href="https://teams.microsoft.com/meetingOptions/?org
+ anizerId=7f1979f2-e3e3-40d0-8a77-bcef842abf7e&amp\;tenantId=38ae3bcd-9579-
+ 4fd4-adda-b42e1495d55a&amp\;threadId=19_meeting_NDE4OTk4NzgtNjY4Ni00NTQ4LW
+ E1OWMtNGM4YmZlM2M3OWE1@thread.v2&amp\;messageId=0&amp\;language=en-US" tar
+ get="_blank" rel="noopener noreferrer" data-auth="NotApplicable"><span sty
+ le="font-size:10.5pt\; color:#5B5FC7">Meeting\n options</span></a> </span>
+ <span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\; color:#61616
+ 1">|</span><span style="font-family:&quot\;Segoe UI&quot\;\,sans-serif\; c
+ olor:#242424">\n<a href="https://dialin.teams.microsoft.com/usp/pstnconfer
+ encing" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable
+ ">\n<span style="font-size:10.5pt\; color:#5B5FC7">Reset dial-in PIN</span
+ ></a> </span>\n</p>\n</div>\n<div style="margin-bottom:.25in\; overflow:hi
+ dden">\n<p class="x_MsoNormal"><span style="font-family:&quot\;Segoe UI&qu
+ ot\;\,sans-serif\; color:#242424">________________________________________
+ ________________________________________</span></p>\n</div>\n</div>\n<p cl
+ ass="x_MsoNormal"><span style="font-size:10.0pt\; font-family:&quot\;Arial
+ &quot\;\,sans-serif">&nbsp\;</span></p>\n</div>\n</div>\n</div>\n
+ORGANIZER;CN=Azmal M MD\, Shaheem (FT RPD SSP DAE-IN):mailto:shaheem.azmal@
+ siemens.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Azmal M MD\, Shaheem (FT RPD SSP DAE-IN):m
+ ailto:shaheem.azmal@siemens.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN='ayushmaan.sharma911@gmail.com':mailto:ayu
+ shmaan.sharma911@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Singh\, Kaushlendra Pratap (FT RPD SSP DAE
+ -IN):mailto:kaushlendra-pratap.singh@siemens.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Kumar\, Sushant:mailto:sushant.kumar@sieme
+ ns-healthineers.com
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
