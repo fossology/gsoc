@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+PRODID:-//ownCloud calendar v2.0.0
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+CREATED:20250611T115450Z
+DTSTAMP:20250611T115548Z
+LAST-MODIFIED:20250611T115548Z
+UID:SWDXP1XAIPFQE27CDJH95Q
+SUMMARY:Data Pipeline: GSoC Standup
+CLASS:PUBLIC
+DESCRIPTION:Hey Everyone\,\n\nLets catchup Weekly here for updates on Data 
+ Pipeline Project.\n\nBest\,\nKaushl\n\n____________________________________
+ ____________________________________________\nMicrosoft Teams Need help?\n\
+ nhttps://teams.microsoft.com/l/meetup-join/19%3ameeting_YTY0ZjVmYTItMzg3OS0
+ 0MGZiLThlOTItMGNhNDc4NWYzZDE0%40thread.v2/0?context=%7b%22Tid%22%3a%2238ae3
+ bcd-9579-4fd4-adda-b42e1495d55a%22%2c%22Oid%22%3a%22a897f79c-71f3-4e34-a964
+ -67183e5a6731%22%7d\n\nMeeting ID: 353 750 377 975 1\nPasscode: h9CF7h7Z\nD
+ ial in by phone\n+91 22 6259 0317\,\,\,\,931248634# India\, Mumbai\nFind a 
+ local number\nPhone conference ID: 931 248 634#\n__________________________
+ ______________________________________________________
+STATUS:CONFIRMED
+DTSTART;TZID=Asia/Kolkata:20250603T173000
+DTEND;TZID=Asia/Kolkata:20250603T180000
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20250901T000000
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+BEGIN:STANDARD
+TZNAME:IST
+TZOFFSETFROM:+0630
+TZOFFSETTO:+0530
+DTSTART:19420515T000000
+RDATE:19451015T000000
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR

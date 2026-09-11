@@ -1,0 +1,163 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://akash-HP-Pavilion-Laptop-15-eg2xxx/repo/SPDX2TV_Test19.zip_1720209488.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: fossology-
+Creator: Person: fossy (y)
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+</text>
+Created: 2024-07-05T19:58:08Z
+LicenseListVersion: 3.22
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: Test19.zip
+PackageFileName: Test19.zip
+SPDXID: SPDXRef-upload19
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: bcd3746b2210d8a18610b7af1567a42aaa8b7a8e
+PackageChecksum: SHA1: bf9a0672e64c0557a25bef00bd6d3ba98412c1ae
+PackageChecksum: SHA256: 600541c0dfa6782cd4c11ae5cde4948add0042ba06978ba05f29705c2a97ba5a
+PackageChecksum: MD5: 919a09fa79c69c3d52197c8a7490192a
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("".db2422)
+ - monk ("".db2422)
+ - ojo ("".db2422) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload19
+
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: Test19.zip/Test17
+SPDXID: SPDXRef-item177
+FileChecksum: SHA1: c281d099fc10e31965a824f517e391a8e427bb7d
+FileChecksum: SHA256: c1f3f53e3fa92008121471181f28793f6ba9f5a44cf0ed6e5b0440d6d3ca4d4e
+FileChecksum: MD5: ce954c3f29246cba636cc1961886317d
+LicenseConcluded: (MIT WITH Asterisk-exception)
+
+LicenseInfoInFile: BSD-2-Clause
+
+LicenseInfoInFile: MIT
+
+LicenseInfoInFile: LicenseRef-fossology-BSD
+
+
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: Test19.zip/Test7
+SPDXID: SPDXRef-item176
+FileChecksum: SHA1: 42a84366da049b32a08b7ea2b777a80ead5082ef
+FileChecksum: SHA256: 939725c5a5ef56d792a724915a9937be89c65387fb0b714ed63a30c85e980cf0
+FileChecksum: MD5: 296c30f5a2c917761ce6aac04c0c059e
+LicenseConcluded: (MIT AND (GPL-2.0-only OR BSD-3-Clause))
+
+LicenseInfoInFile: AFL-1.1
+
+LicenseInfoInFile: MIT
+
+LicenseInfoInFile: GPL-2.0-only
+
+LicenseInfoInFile: BSD-3-Clause
+
+LicenseInfoInFile: LicenseRef-fossology-Dual-license
+
+LicenseInfoInFile: LicenseRef-fossology-BSD
+
+
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: Test19.zip/Test18
+SPDXID: SPDXRef-item175
+FileChecksum: SHA1: 180aa02ae54254f8b122d1675a0854515372b1cb
+FileChecksum: SHA256: dfc7a1880190025121db47d8f468d51a5490d46041e72799f535c544709a27ee
+FileChecksum: MD5: 07608519d92f2fa6a053b1c67956eb09
+LicenseConcluded: (MIT AND (GPL-2.0-only OR BSD-2-Clause))
+
+LicenseInfoInFile: BSD-2-Clause
+
+LicenseInfoInFile: MIT
+
+LicenseInfoInFile: GPL-2.0-only
+
+LicenseInfoInFile: LicenseRef-fossology-Dual-license
+
+LicenseInfoInFile: LicenseRef-fossology-BSD
+
+
+FileCopyrightText: NOASSERTION
+
+##File
+
+FileName: Test19.zip/Test16.txt
+SPDXID: SPDXRef-item174
+FileChecksum: SHA1: b0a628c1ac47ee2de6a03dafd18927eee240901b
+FileChecksum: SHA256: 381ba9e8b7ef548bbb36e70f5a7615445f95fcd98c07bc906357a6a939f5c48f
+FileChecksum: MD5: a04ef8df8807f9bf3d01d507cf87dd7c
+LicenseConcluded: LicenseRef-newlc
+
+
+FileCopyrightText: NOASSERTION
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+
+LicenseID: LicenseRef-fossology-BSD
+LicenseName: BSD
+ExtractedText: <text> BSD is referenced without a version number. Please look up BSD in the License Admin to view the different versions. </text>
+
+
+LicenseID: LicenseRef-fossology-Dual-license
+LicenseName: Dual-license
+ExtractedText: <text> Multi-licensing is the practice of distributing software under two or more different sets of terms and conditions. This may mean multiple different software licenses or sets of licenses. Prefixes may be used to indicate the number of licenses used, e.g. dual-licensed for software licensed under two different licenses.
+When software is multi-licensed, recipients can choose which terms under which they want to use or distribute the software. The distributor may or may not apply a fee to either option. The two usual motivations for multi-licensing are license compatibility and market segregation based business models. </text>
+
+  
+LicenseID: LicenseRef-newlc
+LicenseName: LicenseRef-newlc
+ExtractedText: <text> License by OJO. </text>
+
+
+
+
+
+
+
+
+
+
+
+
+
